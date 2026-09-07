@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>OSCE & SOE Rehearsal | Primary FRCA</title>
+<style>
+  :root {
+    --primary: #1B3A6B;
+    --secondary: #0A7E8C;
+    --bg: #F7F8FA;
+    --card: #FFFFFF;
+    --ink: #1a1a1a;
+    --muted: #666;
+    --border: #E2E5EA;
+    --danger: #C0392B;
+    --good: #1B8C3A;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg); color: var(--ink);
+  }
+  header.top {
+    background: var(--primary); color: white; padding: 14px 20px;
+    display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px;
+  }
+  header.top .brand { font-weight: 700; font-size: 1.05rem; }
+  header.top .brand small { display: block; font-weight: 400; font-size: 0.78rem; opacity: 0.85; }
+  header.top a.back { color: white; text-decoration: none; font-size: 0.85rem; opacity: 0.9; }
+  main { max-width: 760px; margin: 0 auto; padding: 20px 16px 60px; }
+
+  #gate { max-width: 420px; margin: 60px auto; text-align: center; }
+  #gate input {
+    width: 100%; padding: 12px 14px; font-size: 1rem; border: 1px solid var(--border);
+    border-radius: 8px; margin: 14px 0 8px;
+  }
+  .btn {
+    background: var(--primary); color: white; border: none; border-radius: 8px;
+    padding: 12px 20px; font-size: 0.95rem; cursor: pointer; font-weight: 600;
+  }
+  .btn:hover { opacity: 0.92; }
+  .btn.secondary { background: white; color: var(--primary); border: 1px solid var(--primary); }
+  .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+  #gate-error { color: var(--danger); font-size: 0.85rem; min-height: 1.2em; }
+
+  .mode-cards { display: grid; gap: 16px; margin-top: 24px; }
+  .mode-card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    padding: 20px; cursor: pointer; transition: box-shadow 0.15s;
+  }
+  .mode-card:hover { box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+  .mode-card h2 { margin: 0 0 6px; font-size: 1.15rem; color: var(--primary); }
+  .mode-card p { margin: 0; color: var(--muted); font-size: 0.9rem; line-height: 1.4; }
+
+  [hidden] { display: none !important; }
+
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; margin-bottom: 16px; }
+  .timer-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+  .timer {
+    font-variant-numeric: tabular-nums; font-size: 1.8rem; font-weight: 700; color: var(--primary);
+  }
+  .timer.warn { color: var(--danger); }
+  .progress-label { color: var(--muted); font-size: 0.85rem; }
+  .category-tag {
+    display: inline-block; background: var(--secondary); color: white; font-size: 0.72rem;
+    padding: 3px 9px; border-radius: 999px; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.03em;
+  }
+  .station-title { font-size: 1.2rem; font-weight: 700; margin: 0 0 10px; }
+  .instructions { line-height: 1.55; margin-bottom: 14px; }
+  .station-img { max-width: 100%; border: 1px solid var(--border); border-radius: 8px; margin-bottom: 14px; }
+  .model-answer-box {
+    background: #F0F5FF; border: 1px solid #CCDCF5; border-radius: 8px; padding: 14px 16px; margin-top: 10px;
+  }
+  .model-answer-box h3 { margin: 0 0 8px; font-size: 0.95rem; color: var(--primary); }
+  .model-answer-box ul { margin: 0; padding-left: 20px; line-height: 1.6; }
+  .mark-scheme { margin-top: 10px; font-size: 0.85rem; color: var(--muted); font-style: italic; }
+  .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 16px; }
+  .score-row { display: flex; gap: 8px; margin-top: 12px; }
+  .score-btn {
+    flex: 1; padding: 10px; border-radius: 8px; border: 1px solid var(--border); background: white;
+    cursor: pointer; font-weight: 600; font-size: 0.9rem;
+  }
+  .score-btn[data-score="2"] { border-color: var(--good); color: var(--good); }
+  .score-btn[data-score="1"] { border-color: #B07800; color: #B07800; }
+  .score-btn[data-score="0"] { border-color: var(--danger); color: var(--danger); }
+  .score-btn.selected { color: white; }
+  .score-btn[data-score="2"].selected { background: var(--good); }
+  .score-btn[data-score="1"].selected { background: #B07800; }
+  .score-btn[data-score="0"].selected { background: var(--danger); }
+  .summary-card { text-align: center; }
+  .summary-score { font-size: 2.2rem; font-weight: 800; color: var(--primary); margin: 6px 0 14px; }
+  .disclaimer { font-size: 0.78rem; color: var(--muted); margin-top: 18px; line-height: 1.5; }
+  .half-label { font-weight: 700; color: var(--secondary); margin-bottom: 6px; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.03em; }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="brand">FRCA Practice Tools<small>OSCE Station &amp; SOE Rehearsal</small></div>
+  <a class="back" href="../index.html">&larr; Back to MCQ simulator</a>
+</header>
+
+<main>
+
+  <section id="gate">
+    <h1>Enter your access code</h1>
+    <p style="color:var(--muted); font-size:0.9rem;">The same code printed inside your Primary FRCA study guide unlocks this tool.</p>
+    <input id="code-input" type="text" placeholder="Access code" autocomplete="off" spellcheck="false" />
+    <div id="gate-error"></div>
+    <button class="btn" id="gate-btn" style="margin-top:10px;">Unlock</button>
+  </section>
+
+  <section id="mode-select" hidden>
+    <h1 style="margin-bottom:4px;">Choose a rehearsal mode</h1>
+    <p style="color:var(--muted); margin-top:0;">Both modes draw from a real pool of practice content built to the real Primary FRCA OSCE and SOE format. This is self-marked rehearsal, not the real exam.</p>
+    <div class="mode-cards">
+      <div class="mode-card" id="pick-osce">
+        <h2>OSCE Circuit Rehearsal</h2>
+        <p>Draws 16 stations from a 60-station pool and runs a real 5-minute-per-station bell timer, matching the real Primary FRCA OSCE format. Covers resuscitation, technical skills, anatomy, history taking, physical examination, communication skills, anaesthetic/monitoring/measuring equipment, hazards and image interpretation.</p>
+      </div>
+      <div class="mode-card" id="pick-soe">
+        <h2>SOE Rehearsal</h2>
+        <p>Draws two 30-minute halves from a 60-question pool: 3 pharmacology + 3 physiology/biochemistry questions, then 3 clinical topics (including a critical incident) + 3 physics/clinical measurement/equipment/safety questions, matching the real 12-question Primary FRCA SOE. Self-score each answer using the real 2/1/0 examiner mark scheme.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="osce-run" hidden>
+    <div class="card">
+      <div class="timer-row">
+        <span class="progress-label" id="osce-progress"></span>
+        <span class="timer" id="osce-timer">5:00</span>
+      </div>
+      <span class="category-tag" id="osce-cat"></span>
+      <h2 class="station-title" id="osce-title"></h2>
+      <div class="instructions" id="osce-instructions"></div>
+      <img id="osce-img" class="station-img" hidden />
+      <div class="model-answer-box" id="osce-answer-box" hidden>
+        <h3>Examiner mark-scheme points</h3>
+        <ul id="osce-answer-list"></ul>
+      </div>
+      <div class="actions">
+        <button class="btn secondary" id="osce-reveal">Show mark scheme</button>
+        <button class="btn" id="osce-next">Next station</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="osce-done" hidden>
+    <div class="card summary-card">
+      <h2>OSCE rehearsal complete</h2>
+      <p>You worked through all 16 stations. Review any weak categories and try another draw for a different mix.</p>
+      <button class="btn" id="osce-restart">Draw another 16 stations</button>
+      <button class="btn secondary" id="osce-home" style="margin-left:8px;">Back to modes</button>
+    </div>
+  </section>
+
+  <section id="soe-run" hidden>
+    <div class="card">
+      <div class="timer-row">
+        <span class="progress-label" id="soe-progress"></span>
+        <span class="timer" id="soe-timer">30:00</span>
+      </div>
+      <div class="half-label" id="soe-half-label"></div>
+      <span class="category-tag" id="soe-cat"></span>
+      <h2 class="station-title" id="soe-question"></h2>
+      <div class="model-answer-box" id="soe-answer-box" hidden>
+        <h3>Model answer key points</h3>
+        <ul id="soe-answer-list"></ul>
+        <div class="mark-scheme" id="soe-mark-note"></div>
+      </div>
+      <div class="score-row" id="soe-score-row" hidden>
+        <button class="score-btn" data-score="2">2 &mdash; Pass</button>
+        <button class="score-btn" data-score="1">1 &mdash; Borderline</button>
+        <button class="score-btn" data-score="0">0 &mdash; Fail</button>
+      </div>
+      <div class="actions">
+        <button class="btn secondary" id="soe-reveal">Show model answer</button>
+        <button class="btn" id="soe-next">Next question</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="soe-done" hidden>
+    <div class="card summary-card">
+      <h2>SOE rehearsal complete</h2>
+      <div class="summary-score" id="soe-final-score"></div>
+      <p>Out of a maximum of 24 marks across both halves (12 questions, 2 marks each), scored by your own self-assessment against the model answer.</p>
+      <button class="btn" id="soe-restart">Draw another 12 questions</button>
+      <button class="btn secondary" id="soe-home" style="margin-left:8px;">Back to modes</button>
+    </div>
+  </section>
+
+  <p class="disclaimer">This tool is a self-marked rehearsal aid built from a practice question and station bank. It does not replicate the real Royal College of Anaesthetists examination environment, examiners, or scoring, and no score here predicts a real result.</p>
+
+</main>
+
+<script>
+const ACCESS_CODE = "FRCA9000";
+const STORAGE_KEY = "frca_practice_unlocked_v1";
+
+const $ = (id) => document.getElementById(id);
+
+function showOnly(id) {
+  ["gate", "mode-select", "osce-run", "osce-done", "soe-run", "soe-done"].forEach(s => {
+    $(s).hidden = (s !== id);
+  });
+}
+
+// ---------- Access gate ----------
+try {
+  if (localStorage.getItem(STORAGE_KEY) === "1") showOnly("mode-select");
+} catch (e) { /* private browsing: fall through to gate */ }
+
+$("gate-btn").addEventListener("click", () => {
+  const val = $("code-input").value.trim().toUpperCase();
+  if (val === ACCESS_CODE) {
+    try { localStorage.setItem(STORAGE_KEY, "1"); } catch (e) {}
+    showOnly("mode-select");
+  } else {
+    $("gate-error").textContent = "That code doesn't match. Check the inside cover of your study guide.";
+  }
+});
+$("code-input").addEventListener("keydown", (e) => { if (e.key === "Enter") $("gate-btn").click(); });
+
+// ---------- Data ----------
+let OSCE = [], SOE = [];
+Promise.all([
+  fetch("osce_stations.json").then(r => r.json()).catch(() => []),
+  fetch("soe_questions.json").then(r => r.json()).catch(() => []),
+]).then(([osce, soe]) => { OSCE = osce; SOE = soe; });
+
+function shuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+// ---------- OSCE mode ----------
+let osceQueue = [], osceIdx = 0, osceTimerId = null, osceSecondsLeft = 300;
+
+function startOsce() {
+  osceQueue = shuffle(OSCE).slice(0, 16);
+  osceIdx = 0;
+  showOnly("osce-run");
+  renderOsceStation();
+}
+
+function renderOsceStation() {
+  clearInterval(osceTimerId);
+  const s = osceQueue[osceIdx];
+  $("osce-progress").textContent = `Station ${osceIdx + 1} of ${osceQueue.length}`;
+  $("osce-cat").textContent = s.category;
+  $("osce-title").textContent = s.title;
+  $("osce-instructions").textContent = s.candidate_instructions;
+  $("osce-answer-box").hidden = true;
+  $("osce-answer-list").innerHTML = "";
+  const img = $("osce-img");
+  if (s.image) { img.src = s.image; img.hidden = false; } else { img.hidden = true; img.src = ""; }
+  (s.model_answer || "").split(";").map(t => t.trim()).filter(Boolean).forEach(point => {
+    const li = document.createElement("li");
+    li.textContent = point.replace(/\.$/, "");
+    $("osce-answer-list").appendChild(li);
+  });
+  osceSecondsLeft = 300;
+  updateOsceTimerDisplay();
+  osceTimerId = setInterval(() => {
+    osceSecondsLeft--;
+    updateOsceTimerDisplay();
+    if (osceSecondsLeft <= 0) {
+      clearInterval(osceTimerId);
+      $("osce-answer-box").hidden = false;
+    }
+  }, 1000);
+}
+
+function updateOsceTimerDisplay() {
+  const m = Math.floor(Math.max(osceSecondsLeft, 0) / 60);
+  const s = Math.max(osceSecondsLeft, 0) % 60;
+  const el = $("osce-timer");
+  el.textContent = `${m}:${String(s).padStart(2, "0")}`;
+  el.classList.toggle("warn", osceSecondsLeft <= 30);
+}
+
+$("pick-osce").addEventListener("click", startOsce);
+$("osce-reveal").addEventListener("click", () => { $("osce-answer-box").hidden = false; });
+$("osce-next").addEventListener("click", () => {
+  osceIdx++;
+  if (osceIdx >= osceQueue.length) {
+    clearInterval(osceTimerId);
+    showOnly("osce-done");
+  } else {
+    renderOsceStation();
+  }
+});
+$("osce-restart").addEventListener("click", startOsce);
+$("osce-home").addEventListener("click", () => showOnly("mode-select"));
+
+// ---------- SOE mode ----------
+let soeQueue = [], soeIdx = 0, soeHalfSecondsLeft = 1800, soeTimerId = null, soeScores = [];
+
+function pickSoeHalf(cats) {
+  const picked = [];
+  cats.forEach(cat => {
+    const pool = shuffle(SOE.filter(q => q.sub_category === cat));
+    picked.push(...pool.slice(0, 3));
+  });
+  return shuffle(picked); // real exam interleaves order within a half
+}
+
+function startSoe() {
+  const half1 = pickSoeHalf(["pharmacology", "physiology_biochemistry"]);
+  const half2 = pickSoeHalf(["clinical_topics", "physics_equipment_safety"]);
+  soeQueue = half1.map(q => ({ ...q, half: 1 })).concat(half2.map(q => ({ ...q, half: 2 })));
+  soeIdx = 0;
+  soeScores = new Array(soeQueue.length).fill(null);
+  showOnly("soe-run");
+  startSoeHalfTimer(1);
+  renderSoeQuestion();
+}
+
+function startSoeHalfTimer(half) {
+  clearInterval(soeTimerId);
+  soeHalfSecondsLeft = 1800;
+  updateSoeTimerDisplay();
+  soeTimerId = setInterval(() => {
+    soeHalfSecondsLeft--;
+    updateSoeTimerDisplay();
+    if (soeHalfSecondsLeft <= 0) clearInterval(soeTimerId);
+  }, 1000);
+}
+
+function updateSoeTimerDisplay() {
+  const m = Math.floor(Math.max(soeHalfSecondsLeft, 0) / 60);
+  const s = Math.max(soeHalfSecondsLeft, 0) % 60;
+  const el = $("soe-timer");
+  el.textContent = `${m}:${String(s).padStart(2, "0")}`;
+  el.classList.toggle("warn", soeHalfSecondsLeft <= 120);
+}
+
+const SOE_LABELS = {
+  pharmacology: "Pharmacology",
+  physiology_biochemistry: "Physiology & Biochemistry",
+  clinical_topics: "Clinical Topics",
+  physics_equipment_safety: "Physics, Equipment & Safety",
+};
+
+function renderSoeQuestion() {
+  const q = soeQueue[soeIdx];
+  const posInHalf = (soeIdx % 6) + 1;
+  $("soe-progress").textContent = `Question ${soeIdx + 1} of ${soeQueue.length}`;
+  $("soe-half-label").textContent = `Half ${q.half} of 2, question ${posInHalf} of 6`;
+  $("soe-cat").textContent = SOE_LABELS[q.sub_category] || q.sub_category;
+  $("soe-question").textContent = q.question;
+  $("soe-answer-box").hidden = true;
+  $("soe-answer-list").innerHTML = "";
+  $("soe-mark-note").textContent = "";
+  $("soe-score-row").hidden = true;
+  document.querySelectorAll(".score-btn").forEach(b => b.classList.remove("selected"));
+  (q.model_answer || "").split(";").map(t => t.trim()).filter(Boolean).forEach(point => {
+    const li = document.createElement("li");
+    li.textContent = point.replace(/\.$/, "");
+    $("soe-answer-list").appendChild(li);
+  });
+  $("soe-mark-note").textContent = q.mark_scheme_note || "";
+}
+
+$("pick-soe").addEventListener("click", startSoe);
+$("soe-reveal").addEventListener("click", () => {
+  $("soe-answer-box").hidden = false;
+  $("soe-score-row").hidden = false;
+});
+document.getElementById("soe-score-row").addEventListener("click", (e) => {
+  const btn = e.target.closest(".score-btn");
+  if (!btn) return;
+  document.querySelectorAll(".score-btn").forEach(b => b.classList.remove("selected"));
+  btn.classList.add("selected");
+  soeScores[soeIdx] = Number(btn.dataset.score);
+});
+$("soe-next").addEventListener("click", () => {
+  const wasHalf = soeQueue[soeIdx].half;
+  soeIdx++;
+  if (soeIdx >= soeQueue.length) {
+    clearInterval(soeTimerId);
+    const total = soeScores.reduce((a, b) => a + (b || 0), 0);
+    $("soe-final-score").textContent = `${total} / 24 marks`;
+    showOnly("soe-done");
+    return;
+  }
+  if (soeQueue[soeIdx].half !== wasHalf) {
+    startSoeHalfTimer(soeQueue[soeIdx].half);
+  }
+  renderSoeQuestion();
+});
+$("soe-restart").addEventListener("click", startSoe);
+$("soe-home").addEventListener("click", () => { clearInterval(soeTimerId); showOnly("mode-select"); });
+</script>
+
+</body>
+</html>

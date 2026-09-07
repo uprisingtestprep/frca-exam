@@ -1,0 +1,3002 @@
+[
+  {
+    "id": 1,
+    "domain": "pharmacology",
+    "front": "Define bioavailability.",
+    "back": "The fraction of an administered dose of unchanged drug that reaches the systemic circulation. Intravenous drugs have a bioavailability of 100%."
+  },
+  {
+    "id": 2,
+    "domain": "pharmacology",
+    "front": "What is the volume of distribution (Vd)?",
+    "back": "A theoretical volume that relates the total amount of drug in the body to the plasma concentration. A high Vd suggests extensive tissue distribution, while a low Vd suggests the drug stays mainly in plasma."
+  },
+  {
+    "id": 3,
+    "domain": "pharmacology",
+    "front": "Why does thiopental have a large volume of distribution despite being highly protein bound?",
+    "back": "Thiopental is highly lipid soluble, allowing rapid redistribution into fat and muscle, which produces a large apparent Vd despite about 80% plasma protein binding."
+  },
+  {
+    "id": 4,
+    "domain": "pharmacology",
+    "front": "How does hypoalbuminaemia affect a highly protein-bound drug such as phenytoin?",
+    "back": "Reduced albumin increases the free (unbound) fraction of drug, raising the pharmacologically active concentration and the risk of toxicity even when total plasma levels appear normal."
+  },
+  {
+    "id": 5,
+    "domain": "pharmacology",
+    "front": "What is a phase I metabolic reaction?",
+    "back": "Oxidation, reduction or hydrolysis, usually via cytochrome P450 enzymes, that introduces or exposes a functional group, often producing an active or toxic metabolite."
+  },
+  {
+    "id": 6,
+    "domain": "pharmacology",
+    "front": "What is a phase II metabolic reaction?",
+    "back": "Conjugation of a drug or its phase I metabolite with a polar group such as glucuronide, sulphate or glycine, producing an inactive, water-soluble compound for renal excretion."
+  },
+  {
+    "id": 7,
+    "domain": "pharmacology",
+    "front": "Define clearance.",
+    "back": "The volume of plasma from which a drug is completely removed per unit time, expressed in mL/min or L/hour, reflecting the combined efficiency of all elimination organs."
+  },
+  {
+    "id": 8,
+    "domain": "pharmacology",
+    "front": "How is elimination half-life related to clearance and volume of distribution?",
+    "back": "Half-life is proportional to Vd and inversely proportional to clearance, expressed as t½ = 0.693 x Vd / clearance."
+  },
+  {
+    "id": 9,
+    "domain": "pharmacology",
+    "front": "Define context-sensitive half-time.",
+    "back": "The time for the plasma concentration of a drug to fall by 50% after stopping an infusion, which depends on the duration of the infusion because of accumulation in peripheral compartments."
+  },
+  {
+    "id": 10,
+    "domain": "pharmacology",
+    "front": "Why does remifentanil have a short, infusion-duration-independent context-sensitive half-time?",
+    "back": "Remifentanil is metabolised by non-specific plasma and tissue esterases rather than hepatic or renal pathways, giving rapid, predictable offset regardless of infusion length."
+  },
+  {
+    "id": 11,
+    "domain": "pharmacology",
+    "front": "What is zero-order kinetics?",
+    "back": "Elimination of a constant amount of drug per unit time, independent of plasma concentration, seen with ethanol, phenytoin at high dose and aspirin at high dose."
+  },
+  {
+    "id": 12,
+    "domain": "pharmacology",
+    "front": "What is first-order kinetics?",
+    "back": "Elimination of a constant proportion of the drug per unit time, so the rate of elimination is directly proportional to plasma concentration. Most anaesthetic drugs follow this pattern."
+  },
+  {
+    "id": 13,
+    "domain": "pharmacology",
+    "front": "What is meant by drug potency?",
+    "back": "The dose of a drug required to produce a defined effect, commonly expressed as the ED50. A more potent drug achieves the same effect at a lower dose."
+  },
+  {
+    "id": 14,
+    "domain": "pharmacology",
+    "front": "What is meant by drug efficacy?",
+    "back": "The maximum effect a drug can produce regardless of dose. A partial agonist has lower efficacy than a full agonist even at maximal receptor occupancy."
+  },
+  {
+    "id": 15,
+    "domain": "pharmacology",
+    "front": "Define the therapeutic index.",
+    "back": "The ratio of the dose causing toxicity (TD50) to the dose producing the desired therapeutic effect (ED50). A high therapeutic index indicates a wider margin of safety."
+  },
+  {
+    "id": 16,
+    "domain": "pharmacology",
+    "front": "What is a competitive antagonist?",
+    "back": "A drug that binds reversibly to the same receptor site as the agonist, shifting the dose-response curve to the right without reducing the maximal effect, since the block can be overcome by increasing agonist concentration."
+  },
+  {
+    "id": 17,
+    "domain": "pharmacology",
+    "front": "What is a non-competitive antagonist?",
+    "back": "A drug that binds to a different site or irreversibly to the receptor, reducing the maximum achievable effect regardless of how much agonist is added."
+  },
+  {
+    "id": 18,
+    "domain": "pharmacology",
+    "front": "What does EC50 represent on a dose-response curve?",
+    "back": "The concentration of a drug that produces 50% of its own maximal effect, used as a measure of potency."
+  },
+  {
+    "id": 19,
+    "domain": "pharmacology",
+    "front": "What are the three compartments of the Marsh and Schnider TCI models for propofol?",
+    "back": "A central compartment representing plasma, a rapidly equilibrating peripheral compartment, and a slowly equilibrating peripheral compartment, linked by inter-compartmental rate constants."
+  },
+  {
+    "id": 20,
+    "domain": "pharmacology",
+    "front": "How does the Schnider model differ from the Marsh model for propofol TCI?",
+    "back": "The Schnider model incorporates age, height, weight and lean body mass into its pharmacokinetic parameters and targets effect-site concentration directly, whereas the Marsh model uses fixed compartment volumes based on weight alone and traditionally targets plasma concentration."
+  },
+  {
+    "id": 21,
+    "domain": "pharmacology",
+    "front": "What is the effect-site concentration in TCI?",
+    "back": "The modelled drug concentration at the biophase (site of action, such as the brain), which lags behind plasma concentration and better predicts clinical effect than plasma concentration alone."
+  },
+  {
+    "id": 22,
+    "domain": "pharmacology",
+    "front": "What is ke0 in TCI modelling?",
+    "back": "The rate constant describing equilibration between plasma and effect-site concentrations; a higher ke0 means faster equilibration and a shorter time to peak effect."
+  },
+  {
+    "id": 23,
+    "domain": "pharmacology",
+    "front": "Why do neonates have altered drug pharmacokinetics compared with adults?",
+    "back": "Neonates have a higher proportion of total body water, immature hepatic enzyme systems, reduced plasma protein binding and a lower glomerular filtration rate, prolonging drug action and altering dosing requirements."
+  },
+  {
+    "id": 24,
+    "domain": "pharmacology",
+    "front": "How does ageing affect drug pharmacokinetics?",
+    "back": "Elderly patients typically have reduced lean body mass, increased fat proportion, decreased hepatic blood flow and enzyme activity, and reduced renal clearance, prolonging drug half-lives and increasing sensitivity."
+  },
+  {
+    "id": 25,
+    "domain": "pharmacology",
+    "front": "How does chronic liver disease alter drug handling?",
+    "back": "Reduced hepatic blood flow, decreased enzyme activity and low albumin production reduce the metabolism and protein binding of many drugs, increasing free drug concentrations and prolonging effect."
+  },
+  {
+    "id": 26,
+    "domain": "pharmacology",
+    "front": "How does renal failure affect neuromuscular blocking drug choice?",
+    "back": "Atracurium and cisatracurium are preferred in renal failure because they are eliminated by Hofmann elimination and ester hydrolysis rather than renal excretion, unlike vecuronium and rocuronium which depend partly on renal clearance."
+  },
+  {
+    "id": 27,
+    "domain": "pharmacology",
+    "front": "How does pregnancy alter maternal pharmacokinetics?",
+    "back": "Increased plasma volume and cardiac output, reduced albumin concentration, increased minute ventilation and increased hepatic and renal clearance combine to lower plasma drug concentrations for a given dose."
+  },
+  {
+    "id": 28,
+    "domain": "pharmacology",
+    "front": "What is the induction dose of propofol in a healthy adult?",
+    "back": "Approximately 1.5 to 2.5 mg/kg intravenously, titrated to effect, with lower doses required in the elderly and higher doses sometimes needed in children."
+  },
+  {
+    "id": 29,
+    "domain": "pharmacology",
+    "front": "What is the mechanism of action of propofol?",
+    "back": "Propofol potentiates GABA-A receptor-mediated chloride influx, increasing inhibitory neurotransmission and producing hypnosis."
+  },
+  {
+    "id": 30,
+    "domain": "pharmacology",
+    "front": "What cardiovascular effect is characteristic of propofol induction?",
+    "back": "A significant fall in systemic vascular resistance and myocardial contractility causing hypotension, with attenuation of the baroreceptor reflex so heart rate often does not compensate."
+  },
+  {
+    "id": 31,
+    "domain": "pharmacology",
+    "front": "What is propofol infusion syndrome?",
+    "back": "A rare but potentially fatal complication of prolonged high-dose propofol infusion characterised by metabolic acidosis, rhabdomyolysis, hyperkalaemia, cardiac failure and renal failure, most associated with doses above 4 mg/kg/hour for more than 48 hours."
+  },
+  {
+    "id": 32,
+    "domain": "pharmacology",
+    "front": "What is the induction dose of thiopental?",
+    "back": "Approximately 3 to 5 mg/kg intravenously, producing loss of consciousness within one arm-brain circulation time (about 20 to 30 seconds)."
+  },
+  {
+    "id": 33,
+    "domain": "pharmacology",
+    "front": "Why is thiopental contraindicated in porphyria?",
+    "back": "Barbiturates induce delta-aminolaevulinic acid synthase, increasing porphyrin precursor synthesis and precipitating an acute porphyric crisis in susceptible patients."
+  },
+  {
+    "id": 34,
+    "domain": "pharmacology",
+    "front": "What is the induction dose and mechanism of ketamine?",
+    "back": "1 to 2 mg/kg intravenously (or 4 to 10 mg/kg intramuscularly), acting as a non-competitive antagonist at the NMDA receptor to produce dissociative anaesthesia with preserved airway reflexes."
+  },
+  {
+    "id": 35,
+    "domain": "pharmacology",
+    "front": "Why is ketamine useful in a haemodynamically unstable or shocked patient?",
+    "back": "Ketamine stimulates the sympathetic nervous system, increasing heart rate, blood pressure and cardiac output, unlike propofol and thiopental which cause cardiovascular depression."
+  },
+  {
+    "id": 36,
+    "domain": "pharmacology",
+    "front": "What is the induction dose of etomidate and its main advantage?",
+    "back": "0.3 mg/kg intravenously; it produces minimal cardiovascular depression, making it useful for induction in patients with poor cardiac reserve."
+  },
+  {
+    "id": 37,
+    "domain": "pharmacology",
+    "front": "What is the major concern with etomidate use, particularly by infusion?",
+    "back": "Etomidate inhibits 11-beta-hydroxylase, suppressing adrenocortical steroid synthesis and causing adrenal insufficiency, which limits its use to single induction doses rather than infusion."
+  },
+  {
+    "id": 38,
+    "domain": "pharmacology",
+    "front": "Define minimum alveolar concentration (MAC).",
+    "back": "The alveolar concentration of an inhalational anaesthetic at one atmosphere that prevents a motor response to a standard surgical stimulus in 50% of subjects."
+  },
+  {
+    "id": 39,
+    "domain": "pharmacology",
+    "front": "How does age affect MAC?",
+    "back": "MAC is highest in infants around six months of age and progressively decreases with increasing age, falling by approximately 6% per decade after early adulthood."
+  },
+  {
+    "id": 40,
+    "domain": "pharmacology",
+    "front": "List three factors that decrease MAC.",
+    "back": "Hypothermia, pregnancy, and concurrent opioid or sedative administration all decrease MAC; acute alcohol intoxication also decreases it."
+  },
+  {
+    "id": 41,
+    "domain": "pharmacology",
+    "front": "What determines the speed of onset of an inhalational agent?",
+    "back": "A low blood-gas partition coefficient allows faster equilibration between alveolar and blood partial pressures, producing a more rapid onset of anaesthesia, as seen with desflurane and sevoflurane compared with isoflurane."
+  },
+  {
+    "id": 42,
+    "domain": "pharmacology",
+    "front": "What is the mechanism of action of suxamethonium?",
+    "back": "A depolarising neuromuscular blocker that binds nicotinic acetylcholine receptors at the neuromuscular junction, causing sustained depolarisation and initial fasciculation followed by flaccid paralysis."
+  },
+  {
+    "id": 43,
+    "domain": "pharmacology",
+    "front": "What is the intubating dose of suxamethonium and its onset time?",
+    "back": "1 to 1.5 mg/kg intravenously, with onset of profound paralysis within 30 to 60 seconds, making it the drug of choice for rapid sequence induction."
+  },
+  {
+    "id": 44,
+    "domain": "pharmacology",
+    "front": "Name three contraindications to suxamethonium.",
+    "back": "Hyperkalaemia, history of malignant hyperthermia, and major burns or neuromuscular disease beyond 24 hours (risk of exaggerated hyperkalaemic response) are all contraindications."
+  },
+  {
+    "id": 45,
+    "domain": "pharmacology",
+    "front": "What causes prolonged block with suxamethonium?",
+    "back": "Reduced or atypical plasma cholinesterase activity, either from genetic variants (such as homozygous atypical alleles) or acquired causes like liver disease and pregnancy, delays hydrolysis and prolongs paralysis."
+  },
+  {
+    "id": 46,
+    "domain": "pharmacology",
+    "front": "What is the intubating dose and onset of rocuronium?",
+    "back": "0.6 mg/kg intravenously gives intubating conditions in about 60 to 90 seconds; a higher dose of 1.2 mg/kg can achieve suxamethonium-like onset for rapid sequence induction when suxamethonium is contraindicated."
+  },
+  {
+    "id": 47,
+    "domain": "pharmacology",
+    "front": "How is atracurium eliminated?",
+    "back": "Predominantly by Hofmann elimination (spontaneous degradation at body temperature and pH) and ester hydrolysis, making it organ-independent and suitable for hepatic or renal impairment."
+  },
+  {
+    "id": 48,
+    "domain": "pharmacology",
+    "front": "What metabolite of atracurium is associated with a theoretical lowering of seizure threshold?",
+    "back": "Laudanosine, produced by Hofmann elimination, can accumulate with prolonged infusion and has been associated with CNS excitation and a theoretical lowering of seizure threshold. Histamine release, in contrast, is caused by atracurium itself, not by laudanosine."
+  },
+  {
+    "id": 49,
+    "domain": "pharmacology",
+    "front": "Why is cisatracurium often preferred over atracurium?",
+    "back": "Cisatracurium is a single stereoisomer of atracurium with greater potency, fewer histamine-related side effects and less laudanosine production, while retaining organ-independent Hofmann elimination."
+  },
+  {
+    "id": 50,
+    "domain": "pharmacology",
+    "front": "What is the mechanism of action of neostigmine for reversal of neuromuscular block?",
+    "back": "Neostigmine inhibits acetylcholinesterase, increasing acetylcholine concentration at the neuromuscular junction to competitively displace residual non-depolarising blocker from nicotinic receptors."
+  },
+  {
+    "id": 51,
+    "domain": "pharmacology",
+    "front": "Why is glycopyrrolate co-administered with neostigmine?",
+    "back": "Neostigmine increases acetylcholine at muscarinic receptors systemically, causing bradycardia, salivation and bronchospasm; glycopyrrolate, an antimuscarinic, prevents these unwanted effects without significantly crossing the blood-brain barrier."
+  },
+  {
+    "id": 52,
+    "domain": "pharmacology",
+    "front": "What is the mechanism of action of sugammadex?",
+    "back": "Sugammadex is a modified gamma-cyclodextrin that encapsulates rocuronium (and to a lesser extent vecuronium) molecules in a tight complex, rapidly reducing free plasma concentration and reversing neuromuscular block."
+  },
+  {
+    "id": 53,
+    "domain": "pharmacology",
+    "front": "What dose of sugammadex is used to reverse deep block for immediate reversal?",
+    "back": "16 mg/kg intravenously is used to reverse profound rocuronium-induced block immediately after intubation, such as in a failed rapid sequence induction."
+  },
+  {
+    "id": 54,
+    "domain": "pharmacology",
+    "front": "What is the maximum safe dose of plain lidocaine and with adrenaline?",
+    "back": "3 mg/kg for plain lidocaine and up to 7 mg/kg when combined with adrenaline, which reduces systemic absorption by causing local vasoconstriction."
+  },
+  {
+    "id": 55,
+    "domain": "pharmacology",
+    "front": "What is the first-line treatment for local anaesthetic systemic toxicity (LAST)?",
+    "back": "Intravenous 20% lipid emulsion, given as an initial bolus of 1.5 mL/kg over one minute followed by an infusion of 15 mL/kg/hour, alongside standard resuscitation and seizure management."
+  },
+  {
+    "id": 56,
+    "domain": "pharmacology",
+    "front": "What is the primary G-protein and second messenger effect of alpha-1 receptor activation?",
+    "back": "Alpha-1 receptors couple to Gq protein, activating phospholipase C to raise intracellular IP3 and diacylglycerol, which increases intracellular calcium and causes smooth muscle contraction, notably vasoconstriction."
+  },
+  {
+    "id": 57,
+    "domain": "pharmacology",
+    "front": "Where are alpha-2 receptors located and what is their main autonomic role?",
+    "back": "Alpha-2 receptors are mainly presynaptic and act via Gi protein to inhibit adenylate cyclase, reducing noradrenaline release through negative feedback; central alpha-2 stimulation also produces sedation and analgesia."
+  },
+  {
+    "id": 58,
+    "domain": "pharmacology",
+    "front": "What second messenger pathway do beta-1 receptors use in the heart?",
+    "back": "Beta-1 receptors couple to Gs protein, activating adenylate cyclase to increase cyclic AMP, which raises intracellular calcium and produces positive chronotropy, inotropy, dromotropy and lusitropy."
+  },
+  {
+    "id": 59,
+    "domain": "pharmacology",
+    "front": "What is the clinical effect of beta-2 receptor stimulation in bronchial smooth muscle?",
+    "back": "Beta-2 stimulation raises cyclic AMP via Gs protein, causing smooth muscle relaxation, which produces bronchodilation, vasodilation in skeletal muscle beds, and uterine relaxation."
+  },
+  {
+    "id": 60,
+    "domain": "pharmacology",
+    "front": "What type of receptor is the muscarinic receptor and where is M3 clinically important?",
+    "back": "Muscarinic receptors are G-protein coupled receptors; M3 receptors are found in bronchial and gut smooth muscle, salivary glands and the bladder, and mediate bronchoconstriction, increased secretions and detrusor contraction."
+  },
+  {
+    "id": 61,
+    "domain": "pharmacology",
+    "front": "What type of receptor is the nicotinic receptor at the neuromuscular junction?",
+    "back": "The neuromuscular nicotinic receptor (Nm) is a ligand-gated ion channel; acetylcholine binding opens a cation channel permeable to sodium and potassium, causing end-plate depolarisation."
+  },
+  {
+    "id": 62,
+    "domain": "pharmacology",
+    "front": "Adrenaline at low infusion doses versus high infusion doses: what receptor shift occurs?",
+    "back": "At low doses (around 0.01 to 0.05 micrograms/kg/min) beta effects predominate causing vasodilation and increased contractility; at higher doses alpha-1 vasoconstriction dominates, raising systemic vascular resistance."
+  },
+  {
+    "id": 63,
+    "domain": "pharmacology",
+    "front": "What is the standard adult intravenous bolus dose of adrenaline for cardiac arrest?",
+    "back": "1 mg (10 mL of 1 in 10,000) intravenously every 3 to 5 minutes during adult cardiac arrest, given after the third shock in a shockable rhythm and as soon as possible in a non-shockable rhythm."
+  },
+  {
+    "id": 64,
+    "domain": "pharmacology",
+    "front": "What are the main receptor actions of noradrenaline used as an infusion?",
+    "back": "Noradrenaline is a potent alpha-1 agonist with modest beta-1 activity, producing marked vasoconstriction and a rise in systemic vascular resistance with relatively little change in heart rate, making it the first-line vasopressor in septic shock."
+  },
+  {
+    "id": 65,
+    "domain": "pharmacology",
+    "front": "What is metaraminol and what is its typical intravenous bolus dose intraoperatively?",
+    "back": "Metaraminol is a predominantly alpha-1 agonist vasopressor (with some indirect noradrenaline release) used to treat intraoperative hypotension, typically given as 0.5 to 1 mg intravenous boluses titrated to effect."
+  },
+  {
+    "id": 66,
+    "domain": "pharmacology",
+    "front": "How does ephedrine raise blood pressure and why does it show tachyphylaxis?",
+    "back": "Ephedrine is an indirect and direct sympathomimetic that stimulates release of noradrenaline from presynaptic vesicles while also directly stimulating alpha and beta receptors; tachyphylaxis occurs because repeated doses deplete presynaptic noradrenaline stores."
+  },
+  {
+    "id": 67,
+    "domain": "pharmacology",
+    "front": "What is the typical intravenous bolus dose of ephedrine and its usual duration of action?",
+    "back": "Ephedrine is given as 3 to 6 mg intravenous boluses, with onset within a minute and a duration of action of around 10 to 60 minutes."
+  },
+  {
+    "id": 68,
+    "domain": "pharmacology",
+    "front": "What is phenylephrine's receptor selectivity and its main haemodynamic effect?",
+    "back": "Phenylephrine is a pure alpha-1 agonist with negligible beta activity, producing vasoconstriction and a rise in blood pressure often accompanied by reflex bradycardia."
+  },
+  {
+    "id": 69,
+    "domain": "pharmacology",
+    "front": "Why is phenylephrine often preferred over ephedrine for hypotension during spinal anaesthesia for caesarean section?",
+    "back": "Phenylephrine causes less fetal acidosis than ephedrine because it does not cross the placenta to the same extent and does not stimulate fetal beta-adrenergic metabolism, so it is now the preferred first-line vasopressor in obstetric spinal hypotension."
+  },
+  {
+    "id": 70,
+    "domain": "pharmacology",
+    "front": "What receptor does vasopressin act on to cause vasoconstriction, and what is its use in septic shock?",
+    "back": "Vasopressin acts on V1 receptors on vascular smooth muscle via a phospholipase C pathway causing vasoconstriction independent of adrenergic receptors; it is used as a second-line agent added to noradrenaline in refractory septic shock, typically at fixed low dose infusion around 0.03 units per minute."
+  },
+  {
+    "id": 71,
+    "domain": "pharmacology",
+    "front": "What is the mechanism of action of dobutamine?",
+    "back": "Dobutamine is a synthetic catecholamine that predominantly stimulates beta-1 receptors, increasing myocardial contractility and cardiac output with relatively little effect on heart rate at low doses, and mild beta-2 mediated vasodilation."
+  },
+  {
+    "id": 72,
+    "domain": "pharmacology",
+    "front": "What class of drug is milrinone and what is its mechanism?",
+    "back": "Milrinone is a phosphodiesterase III inhibitor that prevents breakdown of cyclic AMP in cardiac and vascular smooth muscle, producing an inotropic and vasodilator (inodilator) effect independent of adrenergic receptors."
+  },
+  {
+    "id": 73,
+    "domain": "pharmacology",
+    "front": "Why should milrinone be used cautiously in a patient with poor renal function?",
+    "back": "Milrinone is renally excreted, so its half-life is prolonged in renal impairment, increasing the risk of prolonged hypotension and arrhythmia; dose reduction is required."
+  },
+  {
+    "id": 74,
+    "domain": "pharmacology",
+    "front": "What is the mechanism of action of beta-blockers such as bisoprolol used for perioperative rate control?",
+    "back": "Beta-blockers competitively antagonise beta-1 adrenoceptors, reducing heart rate, contractility and myocardial oxygen demand, and reducing renin release from the juxtaglomerular apparatus."
+  },
+  {
+    "id": 75,
+    "domain": "pharmacology",
+    "front": "How do dihydropyridine calcium channel blockers such as amlodipine lower blood pressure?",
+    "back": "Dihydropyridines block L-type calcium channels predominantly in vascular smooth muscle, reducing calcium influx and causing arteriolar vasodilation with relatively little direct effect on cardiac conduction."
+  },
+  {
+    "id": 76,
+    "domain": "pharmacology",
+    "front": "How does verapamil differ from dihydropyridine calcium channel blockers in its cardiac effects?",
+    "back": "Verapamil has greater affinity for cardiac L-type calcium channels than vascular ones, causing significant negative chronotropy, dromotropy and inotropy, and should not be combined with beta-blockers due to the risk of severe bradycardia and heart block."
+  },
+  {
+    "id": 77,
+    "domain": "pharmacology",
+    "front": "What are the main mechanisms of action of amiodarone?",
+    "back": "Amiodarone is a class III antiarrhythmic that blocks potassium channels to prolong the action potential and refractory period, but also has class I sodium channel, class II beta-blocking and class IV calcium channel blocking properties."
+  },
+  {
+    "id": 78,
+    "domain": "pharmacology",
+    "front": "What is the dose of intravenous amiodarone used in adult shockable cardiac arrest?",
+    "back": "300 mg intravenous amiodarone is given after the third shock in shockable cardiac arrest, with a further 150 mg dose available after the fifth shock if the rhythm remains shockable."
+  },
+  {
+    "id": 79,
+    "domain": "pharmacology",
+    "front": "Give two important adverse effects of long-term amiodarone therapy relevant to anaesthesia.",
+    "back": "Long-term amiodarone use can cause thyroid dysfunction (both hypo- and hyperthyroidism due to its iodine content) and pulmonary fibrosis, both of which are relevant to preoperative assessment."
+  },
+  {
+    "id": 80,
+    "domain": "pharmacology",
+    "front": "What is the mechanism of action of adenosine and its typical use?",
+    "back": "Adenosine stimulates A1 receptors in the atrioventricular node, activating potassium channels and causing transient hyperpolarisation and slowed conduction, briefly blocking the atrioventricular node; it is used to terminate supraventricular tachycardia involving the atrioventricular node."
+  },
+  {
+    "id": 81,
+    "domain": "pharmacology",
+    "front": "What is the standard dosing regimen for intravenous adenosine in adult SVT?",
+    "back": "An initial rapid intravenous bolus of 6 mg followed by a fast saline flush, escalating to 12 mg and then a further 12 mg if the rhythm does not revert, each given through a large proximal cannula."
+  },
+  {
+    "id": 82,
+    "domain": "pharmacology",
+    "front": "Why must patients be warned before giving adenosine, and what condition is it contraindicated in?",
+    "back": "Patients should be warned of a transient sensation of impending doom, flushing and chest tightness; adenosine is contraindicated in asthma because it can precipitate bronchospasm, and in second or third degree heart block without a pacemaker."
+  },
+  {
+    "id": 83,
+    "domain": "pharmacology",
+    "front": "What is the mechanism of action of atropine?",
+    "back": "Atropine is a competitive antagonist at muscarinic acetylcholine receptors, blocking parasympathetic (vagal) tone and thereby increasing heart rate, reducing secretions and causing pupillary dilation."
+  },
+  {
+    "id": 84,
+    "domain": "pharmacology",
+    "front": "What is the typical intravenous dose of atropine used for symptomatic bradycardia?",
+    "back": "500 micrograms intravenously, repeated up to a maximum of 3 mg, in line with Resuscitation Council UK adult bradycardia guidance."
+  },
+  {
+    "id": 85,
+    "domain": "pharmacology",
+    "front": "Why does glycopyrrolate cause less central nervous system disturbance than atropine or hyoscine?",
+    "back": "Glycopyrrolate is a quaternary ammonium compound and does not cross the blood-brain barrier, so unlike atropine and hyoscine it does not cause central anticholinergic effects such as confusion or sedation."
+  },
+  {
+    "id": 86,
+    "domain": "pharmacology",
+    "front": "Why is glycopyrrolate combined with neostigmine for reversal of neuromuscular block?",
+    "back": "Neostigmine increases acetylcholine at both nicotinic and muscarinic receptors, so it is combined with the antimuscarinic glycopyrrolate to prevent muscarinic side effects such as bradycardia, bronchorrhoea and salivation while allowing reversal of neuromuscular block."
+  },
+  {
+    "id": 87,
+    "domain": "pharmacology",
+    "front": "What are the clinical uses of hyoscine (scopolamine) in anaesthetic practice?",
+    "back": "Hyoscine is an antimuscarinic used as an antisialagogue and, via a transdermal patch, for prevention of postoperative nausea and vomiting; it readily crosses the blood-brain barrier and can cause sedation or central anticholinergic syndrome, particularly in the elderly."
+  },
+  {
+    "id": 88,
+    "domain": "pharmacology",
+    "front": "What is the mechanism of action of salbutamol as a bronchodilator?",
+    "back": "Salbutamol is a short-acting selective beta-2 agonist that increases cyclic AMP in bronchial smooth muscle causing relaxation and bronchodilation; nebulised or intravenous salbutamol is also used to treat hyperkalaemia by driving potassium intracellularly."
+  },
+  {
+    "id": 89,
+    "domain": "pharmacology",
+    "front": "What is the mechanism of action of ipratropium bromide?",
+    "back": "Ipratropium bromide is a short-acting muscarinic antagonist that blocks M3 receptors in bronchial smooth muscle, reducing bronchoconstriction; it is often nebulised in combination with salbutamol for acute severe asthma or COPD exacerbations."
+  },
+  {
+    "id": 90,
+    "domain": "pharmacology",
+    "front": "Why is perioperative hydrocortisone supplementation given to patients on long-term steroids?",
+    "back": "Long-term exogenous steroid use suppresses the hypothalamic-pituitary-adrenal axis, so patients cannot mount an adequate endogenous cortisol response to surgical stress; supplemental hydrocortisone (commonly 50 to 100 mg intravenously at induction, with further doses depending on surgical severity) prevents an Addisonian crisis."
+  },
+  {
+    "id": 91,
+    "domain": "pharmacology",
+    "front": "What is the mechanism of action of ondansetron as an antiemetic?",
+    "back": "Ondansetron is a selective 5-HT3 receptor antagonist that blocks serotonin receptors both centrally in the chemoreceptor trigger zone and peripherally on vagal afferents in the gut, reducing nausea and vomiting."
+  },
+  {
+    "id": 92,
+    "domain": "pharmacology",
+    "front": "Give an important cardiac side effect of ondansetron relevant to preoperative assessment.",
+    "back": "Ondansetron can prolong the QT interval, so it should be used cautiously or avoided in patients with congenital long QT syndrome or on other QT-prolonging medications."
+  },
+  {
+    "id": 93,
+    "domain": "pharmacology",
+    "front": "What is the proposed mechanism by which dexamethasone reduces postoperative nausea and vomiting?",
+    "back": "The exact mechanism is not fully established but dexamethasone is thought to reduce prostaglandin synthesis and central serotonin release, and its anti-inflammatory and antiemetic effect is typically given as an 4 to 8 mg intravenous dose at induction."
+  },
+  {
+    "id": 94,
+    "domain": "pharmacology",
+    "front": "What is the mechanism of action of cyclizine as an antiemetic?",
+    "back": "Cyclizine is an antihistamine (H1 receptor antagonist) with anticholinergic properties acting mainly on the vomiting centre and vestibular pathways, making it particularly useful for motion-related and opioid-induced nausea."
+  },
+  {
+    "id": 95,
+    "domain": "pharmacology",
+    "front": "Give a notable cardiovascular side effect of intravenous cyclizine.",
+    "back": "Rapid intravenous cyclizine can cause tachycardia and, particularly in patients with cardiac disease, may precipitate hypotension or exacerbate heart failure due to its anticholinergic and mild negative inotropic effects."
+  },
+  {
+    "id": 96,
+    "domain": "pharmacology",
+    "front": "What is the mechanism of action of droperidol as an antiemetic and its main safety concern?",
+    "back": "Droperidol is a butyrophenone dopamine D2 receptor antagonist acting at the chemoreceptor trigger zone; its main safety concern is dose-dependent QT prolongation, which led to restricted licensed doses (typically 0.625 to 1.25 mg) and ECG monitoring recommendations."
+  },
+  {
+    "id": 97,
+    "domain": "pharmacology",
+    "front": "What is the mechanism of action of unfractionated heparin?",
+    "back": "Unfractionated heparin binds to antithrombin III and potentiates its inhibition of thrombin (factor IIa) and factor Xa, producing an immediate anticoagulant effect that is monitored using the activated partial thromboplastin time (APTT)."
+  },
+  {
+    "id": 98,
+    "domain": "pharmacology",
+    "front": "How does low molecular weight heparin differ in mechanism from unfractionated heparin?",
+    "back": "Low molecular weight heparin preferentially potentiates antithrombin III's inhibition of factor Xa with much less effect on thrombin, giving a more predictable dose response that does not usually require routine monitoring."
+  },
+  {
+    "id": 99,
+    "domain": "pharmacology",
+    "front": "What is the minimum recommended interval between a prophylactic dose of low molecular weight heparin and neuraxial block insertion or removal?",
+    "back": "At least 12 hours after a prophylactic dose of low molecular weight heparin before neuraxial block or catheter removal, and the next dose should be delayed at least 4 hours after the procedure, per Association of Anaesthetists guidance."
+  },
+  {
+    "id": 100,
+    "domain": "pharmacology",
+    "front": "What is the minimum recommended interval between a treatment (therapeutic) dose of low molecular weight heparin and neuraxial block?",
+    "back": "At least 24 hours should elapse after a treatment dose of low molecular weight heparin before neuraxial block insertion or catheter removal."
+  },
+  {
+    "id": 101,
+    "domain": "pharmacology",
+    "front": "What is the mechanism of action of warfarin?",
+    "back": "Warfarin inhibits vitamin K epoxide reductase, preventing the recycling of vitamin K needed to gamma-carboxylate and activate clotting factors II, VII, IX and X, and proteins C and S."
+  },
+  {
+    "id": 102,
+    "domain": "pharmacology",
+    "front": "How is warfarin's anticoagulant effect monitored and reversed in an emergency?",
+    "back": "Warfarin is monitored using the international normalised ratio (INR); emergency reversal for major bleeding uses intravenous vitamin K plus prothrombin complex concentrate for rapid factor replacement."
+  },
+  {
+    "id": 103,
+    "domain": "pharmacology",
+    "front": "What is the mechanism of action of dabigatran and how is its effect reversed?",
+    "back": "Dabigatran is a direct thrombin (factor IIa) inhibitor; its anticoagulant effect can be rapidly reversed using idarucizumab, a monoclonal antibody fragment that binds dabigatran directly."
+  },
+  {
+    "id": 104,
+    "domain": "pharmacology",
+    "front": "What is the mechanism of action of apixaban and rivaroxaban?",
+    "back": "Apixaban and rivaroxaban are direct oral factor Xa inhibitors that block the conversion of prothrombin to thrombin by inhibiting free and clot-bound factor Xa."
+  },
+  {
+    "id": 105,
+    "domain": "pharmacology",
+    "front": "What agent can be used to reverse factor Xa inhibitors before urgent surgery or neuraxial block?",
+    "back": "Andexanet alfa is a recombinant modified factor Xa decoy protein licensed to reverse apixaban and rivaroxaban in life-threatening bleeding; prothrombin complex concentrate is used where andexanet alfa is unavailable."
+  },
+  {
+    "id": 106,
+    "domain": "pharmacology",
+    "front": "What is the recommended interval between the last dose of a direct oral anticoagulant and neuraxial block, in a patient with normal renal function?",
+    "back": "Typically at least 72 hours since the last dose for standard direct oral anticoagulants used at treatment doses in a patient with normal renal function, though the exact interval depends on the specific agent and renal function, per Association of Anaesthetists guidance."
+  },
+  {
+    "id": 107,
+    "domain": "pharmacology",
+    "front": "What is the mechanism of action and typical clinical use of aspirin regarding neuraxial anaesthesia timing?",
+    "back": "Aspirin irreversibly inhibits cyclo-oxygenase-1, blocking thromboxane A2 production and platelet aggregation for the lifespan of the platelet; low-dose aspirin alone is not considered a contraindication to neuraxial block and does not require cessation."
+  },
+  {
+    "id": 108,
+    "domain": "pharmacology",
+    "front": "What is the mechanism of action of clopidogrel and the recommended interval before neuraxial block?",
+    "back": "Clopidogrel irreversibly inhibits the platelet P2Y12 receptor, blocking ADP-mediated platelet aggregation; it should generally be stopped for 7 days before neuraxial block to allow platelet turnover."
+  },
+  {
+    "id": 109,
+    "domain": "pharmacology",
+    "front": "Which vasopressor receptor mechanism explains why noradrenaline causes reflex bradycardia at higher doses?",
+    "back": "Marked alpha-1 mediated vasoconstriction raises systemic vascular resistance and blood pressure, triggering the baroreceptor reflex, which increases vagal tone and can produce a compensatory reflex bradycardia despite noradrenaline's mild direct beta-1 activity."
+  },
+  {
+    "id": 110,
+    "domain": "pharmacology",
+    "front": "Why is dobutamine sometimes preferred over adrenaline in cardiogenic shock with preserved blood pressure?",
+    "back": "Dobutamine increases contractility and cardiac output predominantly through beta-1 stimulation with only mild vasodilatory beta-2 effect, avoiding the marked increase in afterload and myocardial oxygen demand that adrenaline's alpha-mediated vasoconstriction can cause."
+  },
+  {
+    "id": 111,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is tidal volume (TV)?",
+    "back": "The volume of air moved in or out of the lungs during a single normal breath, approximately 500 mL in a healthy adult at rest."
+  },
+  {
+    "id": 112,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Define inspiratory reserve volume (IRV).",
+    "back": "The additional volume of air that can be forcibly inhaled after a normal tidal inspiration, approximately 2500 to 3000 mL."
+  },
+  {
+    "id": 113,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Define expiratory reserve volume (ERV).",
+    "back": "The additional volume of air that can be forcibly exhaled after a normal tidal expiration, approximately 1000 to 1200 mL."
+  },
+  {
+    "id": 114,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is residual volume (RV) and why can it not be measured by spirometry?",
+    "back": "Residual volume is the air remaining in the lungs after maximal forced expiration, approximately 1200 mL. It cannot be measured by spirometry because it is never exhaled, so gas dilution, body plethysmography or nitrogen washout must be used instead."
+  },
+  {
+    "id": 115,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is vital capacity (VC)?",
+    "back": "The maximum volume of air that can be exhaled after a maximal inspiration, equal to IRV plus TV plus ERV, approximately 4500 to 5000 mL."
+  },
+  {
+    "id": 116,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is functional residual capacity (FRC) and what does it consist of?",
+    "back": "FRC is the volume of air remaining in the lungs at the end of a normal tidal expiration, equal to ERV plus RV, approximately 2200 to 2400 mL. It represents the resting lung volume determined by the balance between chest wall outward recoil and lung inward recoil."
+  },
+  {
+    "id": 117,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is total lung capacity (TLC)?",
+    "back": "The total volume of air in the lungs after a maximal inspiration, equal to VC plus RV, approximately 6000 mL."
+  },
+  {
+    "id": 118,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Why does FRC fall under general anaesthesia?",
+    "back": "Loss of muscle tone, particularly diaphragmatic tone, causes cephalad displacement of the diaphragm, and supine positioning reduces chest wall compliance, together reducing FRC by around 20 per cent, which promotes atelectasis and shunting."
+  },
+  {
+    "id": 119,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is closing capacity and why is it clinically important?",
+    "back": "Closing capacity is the lung volume at which small airways in dependent lung zones begin to close during expiration. When closing capacity exceeds FRC, airway closure occurs during normal tidal breathing, causing ventilation-perfusion mismatch, which is common in the elderly, obese and pregnant patients."
+  },
+  {
+    "id": 120,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Describe the shape and physiological significance of the oxyhaemoglobin dissociation curve.",
+    "back": "The curve is sigmoid shaped because of cooperative binding between haemoglobin's four haem subunits. The steep portion allows large amounts of oxygen to be released for a small drop in PaO2 at the tissues, while the flat upper portion means SaO2 stays well preserved despite a fall in PaO2 at altitude or with mild lung disease."
+  },
+  {
+    "id": 121,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What does the P50 of the oxyhaemoglobin dissociation curve represent?",
+    "back": "The partial pressure of oxygen at which haemoglobin is 50 per cent saturated, normally about 3.5 kPa (26.6 mmHg). A higher P50 indicates a right shift and reduced haemoglobin oxygen affinity."
+  },
+  {
+    "id": 122,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "List factors that cause a right shift of the oxyhaemoglobin dissociation curve.",
+    "back": "Increased temperature, increased hydrogen ion concentration (acidosis), increased carbon dioxide (Bohr effect) and increased 2,3-diphosphoglycerate (2,3-DPG) all shift the curve rightward, reducing haemoglobin's affinity for oxygen and favouring offloading at the tissues."
+  },
+  {
+    "id": 123,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "List factors that cause a left shift of the oxyhaemoglobin dissociation curve.",
+    "back": "Decreased temperature, decreased hydrogen ion concentration (alkalosis), decreased carbon dioxide, decreased 2,3-DPG, carbon monoxide and fetal haemoglobin all shift the curve leftward, increasing haemoglobin's affinity for oxygen and impairing offloading at the tissues."
+  },
+  {
+    "id": 124,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the Bohr effect?",
+    "back": "A rise in carbon dioxide tension or hydrogen ion concentration in tissue capillaries reduces haemoglobin's affinity for oxygen, shifting the dissociation curve to the right and promoting oxygen release where it is metabolically needed."
+  },
+  {
+    "id": 125,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the role of 2,3-diphosphoglycerate (2,3-DPG) in oxygen transport?",
+    "back": "2,3-DPG is produced by red blood cells during glycolysis and binds preferentially to deoxygenated haemoglobin, stabilising the low affinity conformation and shifting the curve to the right, which promotes oxygen unloading at the tissues."
+  },
+  {
+    "id": 126,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Why does stored blood have reduced 2,3-DPG and what is the clinical consequence?",
+    "back": "Storage in citrate anticoagulant depletes red cell 2,3-DPG, causing a left shift of the dissociation curve so transfused blood initially has an increased affinity for oxygen and releases it less readily to tissues until 2,3-DPG levels are restored, over roughly 24 hours."
+  },
+  {
+    "id": 127,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Define ventilation-perfusion (V/Q) matching.",
+    "back": "The ratio of alveolar ventilation to pulmonary capillary blood flow within a lung unit. Ideal gas exchange requires ventilation and perfusion to be matched, with a whole-lung V/Q ratio of approximately 0.8."
+  },
+  {
+    "id": 128,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "How does V/Q ratio vary from the apex to the base of the upright lung?",
+    "back": "Both ventilation and perfusion increase from apex to base due to gravity, but perfusion increases proportionally more, so the V/Q ratio is highest (ventilation exceeds perfusion) at the apex and lowest (perfusion exceeds ventilation) at the base."
+  },
+  {
+    "id": 129,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the physiological consequence of a V/Q ratio of zero versus infinity?",
+    "back": "A V/Q ratio of zero represents shunt, where blood perfuses unventilated alveoli and gas exchange cannot occur. A V/Q ratio of infinity represents dead space, where alveoli are ventilated but not perfused, so no gas exchange occurs there either."
+  },
+  {
+    "id": 130,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is hypoxic pulmonary vasoconstriction (HPV)?",
+    "back": "A local reflex in which pulmonary arterioles supplying poorly ventilated alveoli constrict in response to low alveolar oxygen tension, diverting blood flow towards better-ventilated lung units and thereby minimising V/Q mismatch."
+  },
+  {
+    "id": 131,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "How do volatile anaesthetic agents affect hypoxic pulmonary vasoconstriction?",
+    "back": "Volatile anaesthetic agents attenuate hypoxic pulmonary vasoconstriction in a dose-dependent manner, which can worsen V/Q mismatch and reduce arterial oxygenation, particularly relevant during one-lung ventilation."
+  },
+  {
+    "id": 132,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Where are the central chemoreceptors located and what do they respond to?",
+    "back": "Central chemoreceptors lie on the ventral surface of the medulla oblongata and respond to changes in the hydrogen ion concentration of the cerebrospinal fluid, which reflects arterial carbon dioxide tension since carbon dioxide crosses the blood-brain barrier freely."
+  },
+  {
+    "id": 133,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Where are the peripheral chemoreceptors located and what do they detect?",
+    "back": "Peripheral chemoreceptors are located in the carotid bodies at the bifurcation of the common carotid arteries and in the aortic bodies. They detect falls in arterial oxygen tension, and to a lesser extent rises in carbon dioxide tension and hydrogen ion concentration."
+  },
+  {
+    "id": 134,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Which chemoreceptors provide the main drive to ventilation under normal conditions?",
+    "back": "The central chemoreceptors provide the dominant drive to ventilation, accounting for approximately 80 per cent of the response to a rise in arterial carbon dioxide tension, with the peripheral chemoreceptors contributing the remainder."
+  },
+  {
+    "id": 135,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the hypoxic ventilatory response and how is it affected by anaesthesia?",
+    "back": "The hypoxic ventilatory response is the increase in ventilation driven by peripheral chemoreceptors when arterial oxygen tension falls, typically below about 8 kPa. Volatile anaesthetic agents and opioids markedly blunt this response even at subanaesthetic concentrations."
+  },
+  {
+    "id": 136,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Which brainstem centres generate the basic respiratory rhythm?",
+    "back": "The dorsal respiratory group and ventral respiratory group in the medulla generate the basic rhythm of breathing, with the pontine respiratory group (pneumotaxic centre) fine-tuning the rate and depth of breathing."
+  },
+  {
+    "id": 137,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the Hering-Breuer inflation reflex?",
+    "back": "Stretch receptors in the airway smooth muscle, activated by lung inflation, send inhibitory signals via the vagus nerve to terminate inspiration and prevent overinflation of the lungs."
+  },
+  {
+    "id": 138,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Outline the phases of the cardiac cycle in order.",
+    "back": "Atrial systole, isovolumetric ventricular contraction, ventricular ejection, isovolumetric ventricular relaxation, and ventricular filling, which itself has rapid and slow (diastasis) phases before the cycle repeats with the next atrial systole."
+  },
+  {
+    "id": 139,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What causes the first heart sound (S1)?",
+    "back": "Closure of the mitral and tricuspid (atrioventricular) valves at the start of isovolumetric ventricular contraction, marking the beginning of systole."
+  },
+  {
+    "id": 140,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What causes the second heart sound (S2)?",
+    "back": "Closure of the aortic and pulmonary (semilunar) valves at the end of ventricular ejection, marking the beginning of diastole."
+  },
+  {
+    "id": 141,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is isovolumetric ventricular contraction?",
+    "back": "The phase of the cardiac cycle after the atrioventricular valves close but before ventricular pressure exceeds aortic and pulmonary pressures, during which the ventricles contract with no change in volume because all valves are closed."
+  },
+  {
+    "id": 142,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What produces the 'a wave' on the jugular venous pressure waveform?",
+    "back": "The a wave is produced by atrial contraction (atrial systole) immediately before ventricular systole, and it is absent in atrial fibrillation."
+  },
+  {
+    "id": 143,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What produces the 'v wave' on the jugular venous pressure waveform?",
+    "back": "The v wave reflects venous filling of the right atrium against a closed tricuspid valve during ventricular systole, peaking just before the tricuspid valve opens."
+  },
+  {
+    "id": 144,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "State the equation for cardiac output and normal resting value.",
+    "back": "Cardiac output equals stroke volume multiplied by heart rate. In a healthy adult at rest this is approximately 5 litres per minute (stroke volume around 70 mL, heart rate around 70 beats per minute)."
+  },
+  {
+    "id": 145,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What are the three main determinants of stroke volume?",
+    "back": "Preload, afterload and myocardial contractility. Heart rate is not itself a determinant of stroke volume; together with stroke volume it determines cardiac output (CO = SV x HR), although very high heart rates can secondarily reduce stroke volume by shortening diastolic filling time."
+  },
+  {
+    "id": 146,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Define preload and afterload.",
+    "back": "Preload is the degree of myocardial fibre stretch at the end of diastole, closely related to ventricular end-diastolic volume. Afterload is the resistance or tension the ventricle must overcome to eject blood, closely related to systemic (or pulmonary) vascular resistance."
+  },
+  {
+    "id": 147,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "State the Frank-Starling law of the heart.",
+    "back": "Within physiological limits, the force of ventricular contraction is proportional to the initial length of the myocardial fibres, so an increase in venous return and end-diastolic volume produces a corresponding increase in stroke volume."
+  },
+  {
+    "id": 148,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the physiological mechanism behind the Frank-Starling relationship?",
+    "back": "Increased sarcomere stretch improves the overlap and calcium sensitivity of actin and myosin filaments, increasing the number of effective cross-bridges formed and thereby increasing the force of contraction, up to an optimal sarcomere length beyond which force declines."
+  },
+  {
+    "id": 149,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What happens to the Frank-Starling curve in heart failure?",
+    "back": "The curve shifts down and to the right, meaning that for any given preload, stroke volume is reduced compared with the normal heart, reflecting impaired contractility."
+  },
+  {
+    "id": 150,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the sinoatrial (SA) node and why is it the natural pacemaker?",
+    "back": "The SA node is a group of specialised pacemaker cells located in the wall of the right atrium near the opening of the superior vena cava. It has the fastest intrinsic rate of spontaneous depolarisation of all cardiac conduction tissue, so it normally sets the heart rate."
+  },
+  {
+    "id": 151,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Trace the normal cardiac conduction pathway from the SA node to the ventricles.",
+    "back": "Impulses spread from the SA node through the atria to the atrioventricular (AV) node, then down the bundle of His, into the left and right bundle branches, and finally through the Purkinje fibres to the ventricular myocardium."
+  },
+  {
+    "id": 152,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Why does the AV node conduct impulses slowly?",
+    "back": "The AV node has slow-conducting cells and small fibre diameter, which delays the impulse by about 0.1 second, allowing time for atrial contraction to complete ventricular filling before ventricular systole begins."
+  },
+  {
+    "id": 153,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What are the intrinsic firing rates of the SA node, AV node and Purkinje fibres?",
+    "back": "The SA node fires at approximately 60 to 100 beats per minute, the AV node (junctional tissue) at approximately 40 to 60 beats per minute, and the Purkinje fibres (ventricular escape rhythm) at approximately 20 to 40 beats per minute."
+  },
+  {
+    "id": 154,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Describe phase 0 of the cardiac action potential in ventricular myocytes.",
+    "back": "Phase 0 is rapid depolarisation caused by the fast opening of voltage-gated sodium channels, producing a rapid influx of sodium ions and a steep upstroke of the action potential."
+  },
+  {
+    "id": 155,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What underlies the plateau phase (phase 2) of the ventricular action potential?",
+    "back": "Phase 2 is maintained by a balance between slow inward calcium current through L-type calcium channels and outward potassium current, and it corresponds to the myocardial refractory period, which prevents tetanic contraction."
+  },
+  {
+    "id": 156,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "From which arteries does the heart receive its blood supply?",
+    "back": "The heart is supplied by the left and right coronary arteries, which arise from the left and right aortic sinuses (sinuses of Valsalva) just above the aortic valve cusps."
+  },
+  {
+    "id": 157,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "When during the cardiac cycle does left ventricular coronary blood flow mainly occur, and why?",
+    "back": "Left ventricular coronary flow occurs predominantly during diastole, because during systole the high intramyocardial pressure generated by contraction compresses the coronary vessels and largely occludes flow, particularly in the subendocardium."
+  },
+  {
+    "id": 158,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "How does myocardial oxygen extraction compare with other tissues, and what is the implication for increased demand?",
+    "back": "The myocardium extracts approximately 60 to 70 per cent of the oxygen delivered to it at rest, far more than most other tissues. Because extraction is already near-maximal, increased myocardial oxygen demand must be met almost entirely by increasing coronary blood flow rather than by extracting more oxygen."
+  },
+  {
+    "id": 159,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the principal local regulator of coronary blood flow?",
+    "back": "Coronary blood flow is regulated mainly by local metabolic autoregulation, with adenosine released from myocytes during increased metabolic activity acting as a potent coronary vasodilator that matches flow to myocardial oxygen demand."
+  },
+  {
+    "id": 160,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is coronary perfusion pressure and how is it calculated?",
+    "back": "Coronary perfusion pressure is the pressure gradient driving blood flow through the coronary arteries, calculated as aortic diastolic pressure minus left ventricular end-diastolic pressure."
+  },
+  {
+    "id": 161,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the initial compensatory response to acute moderate haemorrhage?",
+    "back": "A fall in arterial pressure unloads the arterial baroreceptors, reducing their inhibitory input to the vasomotor centre, which increases sympathetic outflow, causing tachycardia, increased myocardial contractility and peripheral vasoconstriction to maintain arterial pressure."
+  },
+  {
+    "id": 162,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "How does the body redistribute blood flow during haemorrhage?",
+    "back": "Sympathetically mediated vasoconstriction preferentially reduces blood flow to the skin, skeletal muscle, kidneys and splanchnic circulation, preserving perfusion to the heart and brain, which have limited autoregulatory reserve and depend on maintained flow."
+  },
+  {
+    "id": 163,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Which hormonal systems are activated during haemorrhage to restore blood volume?",
+    "back": "The renin-angiotensin-aldosterone system is activated by reduced renal perfusion, causing vasoconstriction and sodium and water retention. Antidiuretic hormone (vasopressin) release increases from reduced atrial stretch, promoting water reabsorption and vasoconstriction at higher concentrations."
+  },
+  {
+    "id": 164,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is transcapillary refill and how does it contribute to compensation for haemorrhage?",
+    "back": "Reduced capillary hydrostatic pressure following blood loss favours the net movement of interstitial fluid into the vascular space, partially restoring circulating volume over the following hours, though this dilutes plasma proteins and haematocrit."
+  },
+  {
+    "id": 165,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is class III haemorrhage according to the Advanced Trauma Life Support classification?",
+    "back": "Class III haemorrhage represents a blood loss of approximately 30 to 40 per cent of circulating volume (roughly 1500 to 2000 mL in an adult), typically causing marked tachycardia, tachypnoea, falling blood pressure and a decreased conscious level, requiring blood product transfusion."
+  },
+  {
+    "id": 166,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the normal glomerular filtration rate (GFR) in a healthy adult?",
+    "back": "Approximately 100 to 125 mL/min, or about 180 L/day of filtrate produced across both kidneys."
+  },
+  {
+    "id": 167,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "How is GFR calculated using clearance principles?",
+    "back": "GFR equals the clearance of a freely filtered, non-reabsorbed, non-secreted marker such as inulin: clearance = (urine concentration x urine flow rate) divided by plasma concentration."
+  },
+  {
+    "id": 168,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Over what range of mean arterial pressure does renal blood flow autoregulate?",
+    "back": "Renal blood flow and GFR remain relatively constant between a mean arterial pressure of about 80 and 180 mmHg, mainly via the myogenic reflex and tubuloglomerular feedback."
+  },
+  {
+    "id": 169,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is tubuloglomerular feedback?",
+    "back": "The macula densa senses sodium chloride delivery to the distal tubule; increased delivery causes afferent arteriolar constriction, reducing GFR to protect against excessive filtration."
+  },
+  {
+    "id": 170,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What percentage of cardiac output do the kidneys normally receive?",
+    "back": "The kidneys receive approximately 20 to 25% of cardiac output despite representing only about 0.5% of body mass."
+  },
+  {
+    "id": 171,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "How does positive pressure ventilation affect renal perfusion?",
+    "back": "Positive pressure ventilation raises intrathoracic pressure, reduces venous return and cardiac output, and activates the renin-angiotensin-aldosterone system, reducing renal blood flow and urine output."
+  },
+  {
+    "id": 172,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "How does general anaesthesia typically affect renal blood flow and GFR?",
+    "back": "Most volatile and intravenous anaesthetic agents reduce renal blood flow and GFR by lowering mean arterial pressure and cardiac output and by increasing sympathetic tone and antidiuretic hormone release."
+  },
+  {
+    "id": 173,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Where is approximately 65% of filtered sodium and water reabsorbed?",
+    "back": "The proximal convoluted tubule reabsorbs about 65% of filtered sodium and water, largely isotonically alongside glucose and amino acids."
+  },
+  {
+    "id": 174,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the site of action and mechanism of loop diuretics?",
+    "back": "Loop diuretics such as furosemide act on the thick ascending limb of the loop of Henle, inhibiting the Na-K-2Cl cotransporter and reducing the medullary concentration gradient."
+  },
+  {
+    "id": 175,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What hormone acts on the distal tubule and collecting duct to increase sodium reabsorption?",
+    "back": "Aldosterone, released from the adrenal cortex in response to angiotensin II or hyperkalaemia, increases sodium reabsorption and potassium and hydrogen ion secretion."
+  },
+  {
+    "id": 176,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the Henderson-Hasselbalch equation for the bicarbonate buffer system?",
+    "back": "pH = 6.1 + log10([HCO3-] / (0.03 x PaCO2)), relating blood pH to the ratio of bicarbonate to dissolved carbon dioxide."
+  },
+  {
+    "id": 177,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "How is the anion gap calculated and what is its normal range?",
+    "back": "Anion gap = [Na+] minus ([Cl-] + [HCO3-]), normally 8 to 16 mmol/L; it represents unmeasured anions such as albumin, phosphate and sulfate."
+  },
+  {
+    "id": 178,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Give two causes of a high anion gap metabolic acidosis.",
+    "back": "Diabetic ketoacidosis and lactic acidosis are classic causes; other causes include renal failure, salicylate poisoning, and methanol or ethylene glycol ingestion."
+  },
+  {
+    "id": 179,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Give a cause of a normal anion gap (hyperchloraemic) metabolic acidosis.",
+    "back": "Diarrhoea causes loss of bicarbonate-rich fluid, and renal tubular acidosis and large-volume 0.9% saline administration are other common causes."
+  },
+  {
+    "id": 180,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "How does the body compensate for a primary metabolic acidosis?",
+    "back": "Respiratory compensation occurs through hyperventilation, lowering PaCO2; Winter's formula predicts expected PaCO2 as (1.5 x [HCO3-]) + 8, plus or minus 2."
+  },
+  {
+    "id": 181,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "How does the body compensate for a primary respiratory acidosis?",
+    "back": "The kidneys retain bicarbonate over hours to days (metabolic compensation), raising serum bicarbonate to partially normalise pH; acute compensation is minimal, chronic compensation is more complete."
+  },
+  {
+    "id": 182,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is base excess and what does a negative value indicate?",
+    "back": "Base excess is the amount of acid or base needed to titrate one litre of blood to pH 7.40 at a PaCO2 of 5.3 kPa; a negative base excess (base deficit) indicates a metabolic acidosis."
+  },
+  {
+    "id": 183,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What are common causes of a respiratory alkalosis?",
+    "back": "Hyperventilation from anxiety, pain, pregnancy, hypoxaemia, mechanical overventilation, or central causes such as raised intracranial pressure or salicylate toxicity."
+  },
+  {
+    "id": 184,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What are common causes of a metabolic alkalosis?",
+    "back": "Vomiting or nasogastric losses of hydrochloric acid, loop or thiazide diuretic use, and excess mineralocorticoid activity such as in Conn's syndrome."
+  },
+  {
+    "id": 185,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the normal serum sodium range and what defines hyponatraemia?",
+    "back": "Normal serum sodium is 135 to 145 mmol/L; hyponatraemia is defined as a serum sodium below 135 mmol/L."
+  },
+  {
+    "id": 186,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the risk of correcting chronic hyponatraemia too quickly?",
+    "back": "Rapid correction risks osmotic demyelination syndrome (central pontine myelinolysis); correction should not exceed 8 to 10 mmol/L in 24 hours."
+  },
+  {
+    "id": 187,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What ECG changes are associated with hyperkalaemia?",
+    "back": "Progressive changes include tented T waves, flattened P waves, widened QRS complexes, and ultimately a sine-wave pattern preceding ventricular fibrillation or asystole."
+  },
+  {
+    "id": 188,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the first-line emergency treatment for severe hyperkalaemia with ECG changes?",
+    "back": "Intravenous calcium gluconate or calcium chloride to stabilise the cardiac membrane, followed by insulin with dextrose to shift potassium intracellularly."
+  },
+  {
+    "id": 189,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the normal serum potassium range?",
+    "back": "Normal serum potassium is 3.5 to 5.0 mmol/L."
+  },
+  {
+    "id": 190,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What are the clinical features of severe hypokalaemia?",
+    "back": "Muscle weakness, cardiac arrhythmias, ECG changes including U waves and ST depression, and increased sensitivity to non-depolarising neuromuscular blockers."
+  },
+  {
+    "id": 191,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the normal corrected serum calcium range?",
+    "back": "Normal corrected total calcium is 2.20 to 2.60 mmol/L; ionised calcium is normally 1.10 to 1.30 mmol/L."
+  },
+  {
+    "id": 192,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What ECG change is classically associated with hypercalcaemia?",
+    "back": "A shortened QT interval; severe hypercalcaemia can also cause arrhythmias and, with digoxin, increased toxicity risk."
+  },
+  {
+    "id": 193,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What are the clinical features of hypocalcaemia?",
+    "back": "Perioral tingling, tetany, Chvostek's and Trousseau's signs, prolonged QT interval, and in severe cases laryngospasm or seizures."
+  },
+  {
+    "id": 194,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the normal serum magnesium range?",
+    "back": "Normal serum magnesium is 0.70 to 1.00 mmol/L."
+  },
+  {
+    "id": 195,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What are the clinical effects of severe hypermagnesaemia?",
+    "back": "Loss of deep tendon reflexes, hypotension, muscle weakness, respiratory depression, and at very high levels cardiac arrest; it potentiates neuromuscular blockade."
+  },
+  {
+    "id": 196,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What proportion of cardiac output does the liver receive and from which sources?",
+    "back": "The liver receives about 25% of cardiac output, roughly 75% from the portal vein and 25% from the hepatic artery, though the hepatic artery supplies about half the liver's oxygen delivery."
+  },
+  {
+    "id": 197,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the hepatic arterial buffer response?",
+    "back": "A fall in portal venous flow causes compensatory hepatic arterial vasodilation, mediated by washout of adenosine, to help maintain total hepatic blood flow."
+  },
+  {
+    "id": 198,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is meant by first-pass metabolism?",
+    "back": "The extensive hepatic metabolism of an orally absorbed drug before it reaches the systemic circulation, which can markedly reduce bioavailability of drugs such as morphine and propranolol."
+  },
+  {
+    "id": 199,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Name two synthetic functions of the liver relevant to anaesthesia.",
+    "back": "Synthesis of clotting factors (except factor VIII and von Willebrand factor) and synthesis of albumin and pseudocholinesterase (plasma cholinesterase)."
+  },
+  {
+    "id": 200,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What reactions characterise phase I hepatic drug metabolism?",
+    "back": "Oxidation, reduction and hydrolysis, chiefly via the cytochrome P450 enzyme system, which typically increases drug polarity and may produce active or inactive metabolites."
+  },
+  {
+    "id": 201,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What reactions characterise phase II hepatic drug metabolism?",
+    "back": "Conjugation reactions such as glucuronidation, sulfation and acetylation, which attach a polar group to increase water solubility and promote renal or biliary excretion."
+  },
+  {
+    "id": 202,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "How does inhalational anaesthesia affect hepatic blood flow?",
+    "back": "Volatile agents generally reduce portal venous flow and total hepatic blood flow in a dose-dependent manner, though halothane reduces it more than modern agents such as sevoflurane and isoflurane."
+  },
+  {
+    "id": 203,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What are the three phases of the surgical stress response?",
+    "back": "The ebb phase (early hypometabolic phase with reduced cardiac output), the flow phase (hypermetabolic, catabolic phase), and the recovery (anabolic) phase."
+  },
+  {
+    "id": 204,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Which hormones are characteristically increased during the surgical stress response?",
+    "back": "Cortisol, catecholamines, glucagon, growth hormone and antidiuretic hormone are increased, while insulin secretion and action are relatively reduced."
+  },
+  {
+    "id": 205,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What metabolic changes occur during the catabolic (flow) phase of the stress response?",
+    "back": "Increased gluconeogenesis and glycogenolysis causing hyperglycaemia, increased proteolysis with negative nitrogen balance, and increased lipolysis."
+  },
+  {
+    "id": 206,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "How can regional or neuraxial anaesthesia modify the surgical stress response?",
+    "back": "Regional and neuraxial techniques blunt the afferent neural pathway of the stress response, reducing cortisol and catecholamine surges, particularly for lower limb and pelvic surgery."
+  },
+  {
+    "id": 207,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What are the clinical features of thyroid storm?",
+    "back": "Severe hyperthermia, tachycardia or arrhythmias, agitation or altered consciousness, and cardiovascular collapse; it is a life-threatening exacerbation of thyrotoxicosis, often precipitated by surgery or infection."
+  },
+  {
+    "id": 208,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the initial management of thyroid storm?",
+    "back": "Supportive cooling and fluid resuscitation, beta blockade (typically propranolol), antithyroid drugs such as propylthiouracil or carbimazole, and hydrocortisone to reduce peripheral T4 to T3 conversion and cover relative adrenal insufficiency."
+  },
+  {
+    "id": 209,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What are the clinical features of an Addisonian (adrenal) crisis?",
+    "back": "Profound hypotension refractory to fluids and vasopressors, hypoglycaemia, hyponatraemia, hyperkalaemia, abdominal pain and vomiting."
+  },
+  {
+    "id": 210,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the emergency treatment of an Addisonian crisis?",
+    "back": "Immediate intravenous hydrocortisone, intravenous fluid resuscitation with saline and dextrose for hypoglycaemia, and correction of electrolyte abnormalities."
+  },
+  {
+    "id": 211,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Why is perioperative steroid cover required in patients on long-term corticosteroids?",
+    "back": "Chronic steroid use suppresses the hypothalamic-pituitary-adrenal axis, impairing the normal cortisol surge needed to meet surgical stress, risking an Addisonian-type crisis without supplementation."
+  },
+  {
+    "id": 212,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is a common regimen for perioperative steroid cover in major surgery?",
+    "back": "The patient's usual steroid dose plus intravenous hydrocortisone at induction, with further doses depending on the magnitude of surgery, following current national guidance."
+  },
+  {
+    "id": 213,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the physiological basis of refeeding syndrome?",
+    "back": "Reintroducing carbohydrate after prolonged starvation stimulates insulin release, driving potassium, magnesium and phosphate intracellularly, causing severe extracellular deficiency of these ions."
+  },
+  {
+    "id": 214,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Which electrolyte abnormality is most characteristic of refeeding syndrome?",
+    "back": "Severe hypophosphataemia, which can cause muscle weakness, respiratory failure, cardiac dysfunction and rhabdomyolysis."
+  },
+  {
+    "id": 215,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Which patients are at high risk of refeeding syndrome?",
+    "back": "Patients with prolonged starvation, chronic alcoholism, anorexia nervosa, malignancy, or little nutritional intake for more than ten days before refeeding."
+  },
+  {
+    "id": 216,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "How does prolonged starvation change the body's primary metabolic fuel source?",
+    "back": "After initial glycogen depletion, the body shifts to gluconeogenesis and then predominantly to fat metabolism, producing ketone bodies as an alternative fuel for the brain."
+  },
+  {
+    "id": 217,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "How should refeeding be managed to reduce the risk of refeeding syndrome?",
+    "back": "Introduce nutrition slowly starting at a low caloric intake, correct electrolytes before and during feeding, and monitor and replace potassium, magnesium and phosphate closely, alongside thiamine supplementation."
+  },
+  {
+    "id": 218,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the countercurrent multiplier mechanism in the kidney?",
+    "back": "The loop of Henle establishes a progressively hyperosmolar medullary interstitium through active sodium chloride transport, enabling the collecting duct to concentrate urine under antidiuretic hormone influence."
+  },
+  {
+    "id": 219,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the role of erythropoietin in renal physiology?",
+    "back": "Erythropoietin is produced by peritubular fibroblasts in the renal cortex in response to hypoxia and stimulates red blood cell production in the bone marrow."
+  },
+  {
+    "id": 220,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "How is lactate normally cleared and why does impaired clearance matter?",
+    "back": "Lactate is cleared predominantly by hepatic metabolism, with a smaller renal contribution; impaired liver function or shock states reduce clearance and worsen a high anion gap metabolic acidosis."
+  },
+  {
+    "id": 221,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is normal cerebral blood flow in the average adult?",
+    "back": "Approximately 50 mL/100g/minute, representing about 15% of resting cardiac output despite the brain being only 2% of body weight."
+  },
+  {
+    "id": 222,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Over what mean arterial pressure range does cerebral autoregulation normally operate?",
+    "back": "Between approximately 60 and 150 mmHg, over which range cerebral blood flow remains relatively constant through myogenic adjustment of arteriolar tone."
+  },
+  {
+    "id": 223,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What happens to cerebral autoregulation in chronic hypertension?",
+    "back": "The autoregulatory curve shifts to the right, so higher pressures are needed to maintain flow and previously normal pressures may cause cerebral hypoperfusion."
+  },
+  {
+    "id": 224,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "How does PaCO2 affect cerebral blood flow?",
+    "back": "Cerebral blood flow changes by roughly 1 to 2 mL/100g/minute per mmHg change in PaCO2 between about 20 and 80 mmHg, with hypercapnia causing vasodilatation and hypocapnia causing vasoconstriction."
+  },
+  {
+    "id": 225,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "State the Monro-Kellie doctrine.",
+    "back": "The skull is a rigid, non-expansile container holding brain, blood and cerebrospinal fluid in fixed total volume, so an increase in one component must be compensated by a decrease in another or intracranial pressure will rise."
+  },
+  {
+    "id": 226,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the normal range for intracranial pressure in a supine adult?",
+    "back": "Approximately 7 to 15 mmHg; sustained values above 20 mmHg are considered pathological and warrant treatment."
+  },
+  {
+    "id": 227,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "How is cerebral perfusion pressure calculated?",
+    "back": "Cerebral perfusion pressure equals mean arterial pressure minus intracranial pressure (or central venous pressure if higher)."
+  },
+  {
+    "id": 228,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Which two compensatory mechanisms initially buffer a rising intracranial volume?",
+    "back": "Displacement of cerebrospinal fluid into the spinal theca and compression of the low-pressure venous system, both of which are exhausted before intracranial pressure rises steeply."
+  },
+  {
+    "id": 229,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What defines the resting membrane potential of a typical nerve cell?",
+    "back": "Approximately negative 70 mV, maintained mainly by the outward potassium concentration gradient and the activity of the sodium-potassium ATPase pump."
+  },
+  {
+    "id": 230,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What triggers the upstroke of an action potential in a nerve fibre?",
+    "back": "Depolarisation past threshold opens voltage-gated sodium channels, causing a rapid influx of sodium ions and reversal of membrane polarity."
+  },
+  {
+    "id": 231,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Why does conduction velocity increase with axon diameter?",
+    "back": "A larger diameter reduces internal axial resistance to current flow, allowing local circuit currents to depolarise adjacent membrane more rapidly."
+  },
+  {
+    "id": 232,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is saltatory conduction?",
+    "back": "In myelinated fibres, the action potential jumps from one node of Ranvier to the next because myelin insulates the internode, greatly increasing conduction speed."
+  },
+  {
+    "id": 233,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "According to Erlanger and Gasser classification, which fibre type is most sensitive to local anaesthetic block?",
+    "back": "Small myelinated B fibres (preganglionic autonomic) and small C fibres are generally blocked before larger A fibres, though clinical practice shows overlap rather than a strict sequence."
+  },
+  {
+    "id": 234,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the neurotransmitter released at the neuromuscular junction?",
+    "back": "Acetylcholine, released from vesicles in the motor nerve terminal following calcium influx triggered by nerve terminal depolarisation."
+  },
+  {
+    "id": 235,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Which receptor does acetylcholine act on at the postjunctional membrane of skeletal muscle?",
+    "back": "The nicotinic acetylcholine receptor, a ligand-gated ion channel whose opening allows sodium influx and potassium efflux, generating an end-plate potential."
+  },
+  {
+    "id": 236,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "How do non-depolarising neuromuscular blockers work?",
+    "back": "They competitively antagonise acetylcholine at the nicotinic receptor without activating it, preventing generation of an end-plate potential and producing flaccid paralysis."
+  },
+  {
+    "id": 237,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Why does suxamethonium cause fasciculations before paralysis?",
+    "back": "As a depolarising agent it initially opens the nicotinic receptor channel like acetylcholine, causing widespread muscle fibre depolarisation and fasciculation before persistent depolarisation blocks further transmission."
+  },
+  {
+    "id": 238,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Which dermatome corresponds to the thumb?",
+    "back": "C6, a key landmark for assessing the level of an upper limb block or high neuraxial block."
+  },
+  {
+    "id": 239,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Which dermatome corresponds to the nipple line?",
+    "back": "T4, commonly used as the target sensory level for regional anaesthesia for caesarean section."
+  },
+  {
+    "id": 240,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Which dermatome corresponds to the umbilicus?",
+    "back": "T10, a useful landmark confirming adequate block height for procedures such as lower abdominal surgery or labour analgesia."
+  },
+  {
+    "id": 241,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Which dermatome corresponds to the inguinal or groin region?",
+    "back": "L1, marking the lower thoracic to upper lumbar transition tested when assessing spinal or epidural block spread."
+  },
+  {
+    "id": 242,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Which dermatome corresponds to the lateral border of the foot and little toe?",
+    "back": "S1, useful for confirming sacral spread of a spinal or epidural block, which can be the last region to become blocked."
+  },
+  {
+    "id": 243,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Which dermatome supplies the little finger?",
+    "back": "C8, adjacent to but distinct from the C6 thumb and C7 middle finger landmarks used to map the upper limb dermatomal sequence."
+  },
+  {
+    "id": 244,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Which spinal roots contribute to the brachial plexus?",
+    "back": "The anterior rami of C5, C6, C7, C8 and T1, sometimes with small contributions from C4 or T2."
+  },
+  {
+    "id": 245,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "State the order of structures in the brachial plexus from proximal to distal.",
+    "back": "Roots, trunks, divisions, cords, then terminal branches, commonly remembered by the mnemonic Real Teenagers Drink Cold Beer."
+  },
+  {
+    "id": 246,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "How many trunks form the brachial plexus and from which roots?",
+    "back": "Three trunks: the upper trunk from C5 and C6, the middle trunk from C7 alone, and the lower trunk from C8 and T1."
+  },
+  {
+    "id": 247,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "How are the three cords of the brachial plexus named and formed?",
+    "back": "The posterior cord forms from the posterior divisions of all three trunks, the lateral cord from the anterior divisions of the upper and middle trunks, and the medial cord from the anterior division of the lower trunk alone."
+  },
+  {
+    "id": 248,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Which cords give rise to the median nerve?",
+    "back": "The median nerve arises from a lateral root off the lateral cord and a medial root off the medial cord, which join anterior to the axillary artery."
+  },
+  {
+    "id": 249,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "From which cord does the radial nerve arise?",
+    "back": "The posterior cord, which continues as the radial nerve after giving off the axillary nerve."
+  },
+  {
+    "id": 250,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "From which cord does the ulnar nerve arise?",
+    "back": "The medial cord, as one of its two terminal branches alongside the medial contribution to the median nerve."
+  },
+  {
+    "id": 251,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Which nerve is the sole terminal branch of the lateral cord?",
+    "back": "The musculocutaneous nerve, which supplies the flexor muscles of the anterior arm and continues as the lateral cutaneous nerve of the forearm."
+  },
+  {
+    "id": 252,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Which nerve arises from the posterior cord alongside the radial nerve?",
+    "back": "The axillary nerve, which supplies deltoid and teres minor and gives cutaneous sensation over the regimental badge area of the shoulder."
+  },
+  {
+    "id": 253,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "At which level of the brachial plexus does an interscalene block act?",
+    "back": "At the level of the roots or upper trunks between the scalenus anterior and scalenus medius muscles, providing good shoulder and proximal arm anaesthesia but often sparing the C8 to T1 territory."
+  },
+  {
+    "id": 254,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "At which level of the brachial plexus does a supraclavicular block act?",
+    "back": "At the level of the trunks or divisions as they pass over the first rib close to the subclavian artery, giving dense blockade of the whole arm."
+  },
+  {
+    "id": 255,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "At which level of the brachial plexus does an infraclavicular block act?",
+    "back": "At the level of the cords, deep to pectoralis minor, providing reliable coverage for forearm and hand surgery."
+  },
+  {
+    "id": 256,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "At which level of the brachial plexus does an axillary block act?",
+    "back": "At the level of the terminal branches around the axillary artery, blocking the median, ulnar, radial and musculocutaneous nerves individually and typically sparing the intercostobrachial nerve."
+  },
+  {
+    "id": 257,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Which laryngeal cartilage is the largest and forms the laryngeal prominence?",
+    "back": "The thyroid cartilage, a shield-shaped structure whose anterior fusion forms the laryngeal prominence, more pronounced in males."
+  },
+  {
+    "id": 258,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Which laryngeal cartilage is the only complete ring in the airway?",
+    "back": "The cricoid cartilage, which forms a complete signet-ring shape and lies below the thyroid cartilage at the level of C6."
+  },
+  {
+    "id": 259,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the function of the paired arytenoid cartilages?",
+    "back": "They sit on the posterior cricoid lamina and rotate and glide to alter vocal cord tension and position, controlling phonation and glottic opening."
+  },
+  {
+    "id": 260,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the epiglottis and where does it attach?",
+    "back": "A leaf-shaped elastic cartilage attached to the inner surface of the thyroid cartilage that folds over the laryngeal inlet during swallowing to protect the airway."
+  },
+  {
+    "id": 261,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Where is the cricothyroid membrane located and why is it clinically important?",
+    "back": "It spans between the lower border of the thyroid cartilage and the upper border of the cricoid cartilage in the midline, and is the standard site for emergency front-of-neck airway access."
+  },
+  {
+    "id": 262,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Which nerve provides sensory innervation to the airway above the vocal cords?",
+    "back": "The internal branch of the superior laryngeal nerve, a branch of the vagus, supplies mucosal sensation from the epiglottis down to the level of the vocal cords."
+  },
+  {
+    "id": 263,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Which nerve provides sensory innervation to the airway below the vocal cords?",
+    "back": "The recurrent laryngeal nerve, another branch of the vagus, supplies sensation to the subglottic mucosa and trachea and also motor supply to all intrinsic laryngeal muscles except cricothyroid."
+  },
+  {
+    "id": 264,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Which nerve is anaesthetised to block sensation over the base of tongue and vallecula for awake fibreoptic intubation?",
+    "back": "The glossopharyngeal nerve, typically blocked at the palatoglossal fold or by topicalisation, providing sensation to the posterior third of the tongue and oropharynx."
+  },
+  {
+    "id": 265,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "How is a superior laryngeal nerve block typically performed for awake intubation?",
+    "back": "Local anaesthetic is injected just below the greater cornu of the hyoid bone, where the nerve pierces the thyrohyoid membrane, anaesthetising the supraglottic mucosa."
+  },
+  {
+    "id": 266,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What structure lies immediately superficial to the dura mater in the epidural space?",
+    "back": "The ligamentum flavum, a dense elastic ligament connecting adjacent vertebral laminae, whose characteristic increased resistance is felt during loss-of-resistance technique before entering the epidural space."
+  },
+  {
+    "id": 267,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the composition of the ligamentum flavum and why does it matter clinically?",
+    "back": "It is composed largely of elastic fibres rather than collagen, giving it a distinct dense, springy feel on needle advancement that helps identify the loss-of-resistance point of the epidural space."
+  },
+  {
+    "id": 268,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "At what vertebral level does the adult spinal cord typically terminate as the conus medullaris?",
+    "back": "Approximately the L1 to L2 vertebral level in adults, though it may end as high as T12 or as low as L3."
+  },
+  {
+    "id": 269,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Why is a lumbar puncture or spinal anaesthetic usually performed at L3 to L4 or L4 to L5?",
+    "back": "Below the conus medullaris the space contains only the cauda equina, so a needle inserted at these lower interspaces avoids direct spinal cord injury."
+  },
+  {
+    "id": 270,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What landmark is commonly used to identify the L4 spinous process or L3 to L4 interspace?",
+    "back": "Tuffier's line, an imaginary line joining the highest points of the iliac crests, which typically crosses the L4 spinous process or the L3 to L4 interspace."
+  },
+  {
+    "id": 271,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Where does the dural sac usually terminate in adults?",
+    "back": "At approximately the S2 vertebral level, marking the lower limit of the subarachnoid space and a boundary relevant to caudal epidural technique."
+  },
+  {
+    "id": 272,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Which anatomical landmarks guide ultrasound-guided internal jugular vein cannulation?",
+    "back": "The vein lies lateral to the carotid artery within the carotid sheath, typically deep to the triangle formed by the sternal and clavicular heads of sternocleidomastoid and the clavicle."
+  },
+  {
+    "id": 273,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the main anatomical risk associated with subclavian vein cannulation?",
+    "back": "The subclavian artery and the apex of the lung lie close behind the vein, so an inaccurate approach carries risk of arterial puncture or pneumothorax."
+  },
+  {
+    "id": 274,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Where does the femoral vein lie in relation to the femoral artery at the inguinal ligament?",
+    "back": "Medial to the femoral artery, itself medial to the femoral nerve, remembered by the mnemonic NAVEL from lateral to medial: Nerve, Artery, Vein, Empty space, Lymphatics."
+  },
+  {
+    "id": 275,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Why is the right internal jugular vein generally preferred over the left for central venous catheterisation?",
+    "back": "It provides a straighter, more direct path to the superior vena cava and right atrium, and avoids proximity to the thoracic duct which lies on the left side of the neck."
+  },
+  {
+    "id": 276,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "State Boyle's Law.",
+    "back": "At constant temperature, the volume of a fixed mass of gas is inversely proportional to its pressure. This is expressed as PV = k, or P1V1 = P2V2."
+  },
+  {
+    "id": 277,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "State Charles's Law.",
+    "back": "At constant pressure, the volume of a fixed mass of gas is directly proportional to its absolute temperature. This is expressed as V/T = k."
+  },
+  {
+    "id": 278,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "State Gay-Lussac's Law (the third gas law).",
+    "back": "At constant volume, the pressure of a fixed mass of gas is directly proportional to its absolute temperature. This is expressed as P/T = k."
+  },
+  {
+    "id": 279,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Give the universal (ideal) gas law equation.",
+    "back": "PV = nRT, where P is pressure, V is volume, n is the number of moles, R is the universal gas constant and T is absolute temperature in kelvin."
+  },
+  {
+    "id": 280,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is the value of the universal gas constant R?",
+    "back": "R equals 8.314 joules per mole per kelvin (J/mol/K)."
+  },
+  {
+    "id": 281,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Define critical temperature of a gas.",
+    "back": "The critical temperature is the temperature above which a gas cannot be liquefied, no matter how much pressure is applied."
+  },
+  {
+    "id": 282,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Define critical pressure of a gas.",
+    "back": "The critical pressure is the pressure required to liquefy a gas when it is exactly at its critical temperature."
+  },
+  {
+    "id": 283,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is the critical temperature of oxygen?",
+    "back": "The critical temperature of oxygen is minus 118 degrees Celsius, so oxygen cannot exist as a liquid at normal ambient temperature and is stored as a compressed gas."
+  },
+  {
+    "id": 284,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is the critical temperature of nitrous oxide?",
+    "back": "The critical temperature of nitrous oxide is 36.5 degrees Celsius, which is close to normal room temperature, so it is stored as a liquid with vapour above it in a cylinder."
+  },
+  {
+    "id": 285,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Why does a nitrous oxide cylinder pressure gauge stay constant as the cylinder empties, until nearly empty?",
+    "back": "While liquid nitrous oxide remains in the cylinder, the pressure reflects the saturated vapour pressure above the liquid and stays constant. Only once all the liquid has evaporated does the pressure begin to fall as the remaining gas is used."
+  },
+  {
+    "id": 286,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "How can you estimate the amount of nitrous oxide remaining in a cylinder?",
+    "back": "Because pressure does not fall until the liquid is exhausted, the contents must be estimated by weighing the cylinder and subtracting the known tare (empty) weight."
+  },
+  {
+    "id": 287,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is Entonox?",
+    "back": "Entonox is a premixed cylinder gas containing 50% nitrous oxide and 50% oxygen by volume, used for analgesia."
+  },
+  {
+    "id": 288,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is the pseudocritical temperature of Entonox and why does it matter?",
+    "back": "The pseudocritical temperature of Entonox is minus 7 degrees Celsius. Below this temperature the gases can separate (lamination), so oxygen-poor gas may be delivered from the bottom of the cylinder, risking a hypoxic mixture."
+  },
+  {
+    "id": 289,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "How should a cold Entonox cylinder be managed before use?",
+    "back": "It should be warmed to above minus 7 degrees Celsius and inverted or agitated several times to remix any separated liquid nitrous oxide with the oxygen before use."
+  },
+  {
+    "id": 290,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is the colour coding of a UK oxygen cylinder?",
+    "back": "The oxygen cylinder is white throughout (body and shoulder) under the current UK/EU standard; this replaced the older black body/white shoulder scheme."
+  },
+  {
+    "id": 291,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is the colour coding of a UK nitrous oxide cylinder?",
+    "back": "The nitrous oxide cylinder has a white body with a French blue shoulder under the current standard."
+  },
+  {
+    "id": 292,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is the colour coding of an Entonox cylinder?",
+    "back": "The Entonox cylinder has a white body with a blue and white quartered shoulder."
+  },
+  {
+    "id": 293,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is the SI unit of pressure?",
+    "back": "The pascal (Pa), defined as one newton per square metre. In clinical practice, kilopascals (kPa) are the standard unit for arterial blood gas values."
+  },
+  {
+    "id": 294,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Convert 1 kilopascal (kPa) to mmHg.",
+    "back": "1 kPa is approximately equal to 7.5 mmHg."
+  },
+  {
+    "id": 295,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Convert 1 atmosphere to kPa.",
+    "back": "1 atmosphere is approximately 101.3 kPa."
+  },
+  {
+    "id": 296,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Convert 1 atmosphere to mmHg.",
+    "back": "1 atmosphere is approximately 760 mmHg."
+  },
+  {
+    "id": 297,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Convert 1 bar to kPa.",
+    "back": "1 bar is equal to 100 kPa, and approximately equal to 1 atmosphere."
+  },
+  {
+    "id": 298,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Convert 1 kPa to cmH2O.",
+    "back": "1 kPa is approximately equal to 10.2 cmH2O."
+  },
+  {
+    "id": 299,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Why is central venous pressure often measured in cmH2O rather than mmHg?",
+    "back": "cmH2O gives finer resolution for the low pressures found in the venous system, since 1 mmHg is roughly 1.36 cmH2O, giving more usable numbers at that scale."
+  },
+  {
+    "id": 300,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is the typical filling pressure of a full UK oxygen cylinder?",
+    "back": "A full oxygen cylinder is typically pressurised to around 137 bar (approximately 13,700 kPa) at 15 degrees Celsius."
+  },
+  {
+    "id": 301,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Distinguish laminar flow from turbulent flow.",
+    "back": "Laminar flow is smooth, with fluid moving in parallel layers at a velocity profile that is fastest in the centre. Turbulent flow is chaotic and disorganised, with eddies and cross-currents, and occurs at higher flow rates or velocities."
+  },
+  {
+    "id": 302,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "State the Hagen-Poiseuille equation for laminar flow through a tube.",
+    "back": "Flow equals (pi multiplied by pressure difference multiplied by radius to the fourth power) divided by (8 multiplied by viscosity multiplied by length). Flow is therefore proportional to the fourth power of the radius."
+  },
+  {
+    "id": 303,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What happens to laminar flow through a tube if the radius is halved, all else being equal?",
+    "back": "Flow falls to one-sixteenth of its original value, since flow is proportional to the radius raised to the fourth power."
+  },
+  {
+    "id": 304,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "In laminar flow, what determines the driving pressure needed for a given flow?",
+    "back": "Driving pressure is proportional to flow and to viscosity, and inversely proportional to the fourth power of the radius, as described by the Hagen-Poiseuille equation."
+  },
+  {
+    "id": 305,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "In turbulent flow, what determines the driving pressure needed for a given flow?",
+    "back": "In turbulent flow, driving pressure is proportional to the square of the flow rate and to the density of the fluid, rather than to viscosity as in laminar flow."
+  },
+  {
+    "id": 306,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Define the Reynolds number.",
+    "back": "The Reynolds number is a dimensionless value that predicts whether flow will be laminar or turbulent, calculated from velocity, density, tube diameter and viscosity of the fluid."
+  },
+  {
+    "id": 307,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What Reynolds number threshold suggests a transition from laminar to turbulent flow?",
+    "back": "A Reynolds number below approximately 2000 predicts laminar flow, and above approximately 4000 predicts turbulent flow; values in between are an unpredictable transitional zone."
+  },
+  {
+    "id": 308,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Which factors increase the likelihood of turbulent rather than laminar flow?",
+    "back": "High flow velocity, large tube diameter, low fluid viscosity, high fluid density, and any sharp change in tube diameter or direction all favour turbulent flow."
+  },
+  {
+    "id": 309,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Why does gas flow through a narrow tracheal tube or airway obstruction tend to become turbulent?",
+    "back": "A sudden reduction in diameter increases flow velocity through the narrowed segment, which raises the Reynolds number and promotes turbulent flow."
+  },
+  {
+    "id": 310,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Why is heliox sometimes used in severe upper airway obstruction?",
+    "back": "Helium has a much lower density than nitrogen, and since turbulent flow depends on density, a helium-oxygen mixture reduces turbulence and can improve gas flow past an obstruction."
+  },
+  {
+    "id": 311,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "How does a variable-orifice rotameter flowmeter work?",
+    "back": "Gas flows upward through a tapered glass tube, lifting a bobbin or float until the annular gap around it is wide enough that gas escaping around it balances the gravitational pull on the float, with the float position indicating flow."
+  },
+  {
+    "id": 312,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Why does flow past the bobbin change character as it rises up a rotameter tube?",
+    "back": "At the bottom of the tube the annular gap is narrow and flow is laminar, dependent on gas viscosity. Higher up, the wider gap produces turbulent flow, dependent on gas density."
+  },
+  {
+    "id": 313,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Why must each rotameter tube and bobbin be calibrated for a specific gas?",
+    "back": "Because flow through the tube depends on the viscosity and density of the particular gas, a tube calibrated for oxygen would give an inaccurate reading if used with a different gas such as nitrous oxide."
+  },
+  {
+    "id": 314,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Why are rotameter bobbins read at different points depending on their shape?",
+    "back": "A ball-shaped float is read at its widest, horizontal diameter (the equator), whereas a bobbin with a skirt is read at the top edge of the skirt."
+  },
+  {
+    "id": 315,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Why are rotameter tubes mounted vertically and slightly conical?",
+    "back": "The tube must be vertical so gravity acts consistently on the float, and the taper widens the annular gap progressively with height, allowing the tube to display a wide range of flows on one scale."
+  },
+  {
+    "id": 316,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is the splitting ratio in a plenum vaporiser?",
+    "back": "The splitting ratio is the ratio of fresh gas flow diverted through the vaporising chamber (where it becomes saturated with vapour) to the fresh gas flow that bypasses the chamber, which together determine the final delivered concentration."
+  },
+  {
+    "id": 317,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What property of a volatile agent determines the splitting ratio needed for a given vaporiser output?",
+    "back": "The saturated vapour pressure of the agent at a given temperature determines the splitting ratio, since an agent with a higher vapour pressure needs a smaller fraction of gas diverted through the vaporising chamber to achieve the same output concentration."
+  },
+  {
+    "id": 318,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Why do plenum vaporisers need temperature compensation?",
+    "back": "Vaporisation is an endothermic process, so the vaporising chamber cools as liquid agent evaporates, which would reduce its vapour pressure and output concentration unless compensated for."
+  },
+  {
+    "id": 319,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "How does a bimetallic strip provide temperature compensation in a vaporiser?",
+    "back": "A bimetallic strip, made of two metals with different thermal expansion coefficients, bends as temperature falls and narrows the bypass channel, diverting a greater proportion of fresh gas through the vaporising chamber to compensate for the falling saturated vapour pressure and keep output concentration stable."
+  },
+  {
+    "id": 320,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Why must a plenum vaporiser be agent-specific?",
+    "back": "Because each volatile agent has a different saturated vapour pressure and required splitting ratio at any given temperature, a vaporiser calibrated for one agent will deliver an inaccurate concentration if filled with a different agent."
+  },
+  {
+    "id": 321,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Define macroshock.",
+    "back": "Macroshock is an electric shock caused by current passing through intact skin, typically requiring more than about 1 milliamp to be perceived and larger currents to cause harm such as ventricular fibrillation."
+  },
+  {
+    "id": 322,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Define microshock.",
+    "back": "Microshock is a small current, as little as 50 to 100 microamps, applied directly to or near the heart (for example via a central venous catheter or pacing wire), which bypasses the skin's resistance and can cause ventricular fibrillation."
+  },
+  {
+    "id": 323,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Why is the threshold for microshock so much lower than for macroshock?",
+    "back": "Skin provides significant electrical resistance that normally limits current reaching the heart, but a direct intracardiac pathway bypasses this protection, so a much smaller current delivered directly to the myocardium can trigger fibrillation."
+  },
+  {
+    "id": 324,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is the purpose of earthing (grounding) electrical equipment?",
+    "back": "Earthing provides a low-resistance path to the ground for any fault current, so that in the event of an insulation failure, current flows safely to earth rather than through a person touching the equipment."
+  },
+  {
+    "id": 325,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is an isolated (floating) power supply and why is it used in operating theatres?",
+    "back": "An isolated power supply has no direct connection to earth, so that if a single fault causes one live conductor to contact the earthed casing, no large fault current flows and the circuit can keep functioning safely until the fault is found."
+  },
+  {
+    "id": 326,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Describe Type B equipment under the IEC medical electrical equipment classification.",
+    "back": "Type B equipment provides protection against electric shock with an earthed enclosure and permissible leakage current, but its applied parts are not suitable for direct connection to the heart."
+  },
+  {
+    "id": 327,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Describe Type BF equipment.",
+    "back": "Type BF equipment has an isolated (floating) applied part, giving a higher degree of protection than Type B, but it is still not intended for direct cardiac connection."
+  },
+  {
+    "id": 328,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Describe Type CF equipment.",
+    "back": "Type CF equipment provides the highest level of protection, with an isolated applied part and very low permissible leakage current, making it suitable for direct connection to the heart, such as ECG leads or invasive pressure lines."
+  },
+  {
+    "id": 329,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Distinguish monopolar from bipolar diathermy.",
+    "back": "In monopolar diathermy, current passes from a small active electrode through the patient's body to a large return (neutral) electrode elsewhere on the skin. In bipolar diathermy, current passes only between the two tips of forceps, through a small volume of tissue, with no separate return electrode needed."
+  },
+  {
+    "id": 330,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Why must the return electrode in monopolar diathermy have a large surface area and good contact?",
+    "back": "A large, well-applied contact area spreads the current density over a wide skin surface so it does not generate enough heat to cause a burn, whereas poor contact concentrates current and risks a diathermy burn at that site."
+  },
+  {
+    "id": 331,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What colour is an oxygen cylinder in the UK?",
+    "back": "White shoulders and body under the current ISO 32 standard, which replaced the older black body/white shoulder colour scheme."
+  },
+  {
+    "id": 332,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What colour is a nitrous oxide cylinder?",
+    "back": "White body with a French blue shoulder under the current standard (the body changed from blue to white; only the shoulder colour is retained)."
+  },
+  {
+    "id": 333,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What colour is an air cylinder for medical use?",
+    "back": "Black and white quartered shoulders with a white body under the current ISO 32 standard."
+  },
+  {
+    "id": 334,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What colour is an Entonox cylinder?",
+    "back": "Blue and white quartered shoulders with a white body, since Entonox is a 50:50 mix of oxygen and nitrous oxide."
+  },
+  {
+    "id": 335,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What colour is a carbon dioxide cylinder?",
+    "back": "Grey shoulders with a white body, used mainly for laparoscopic insufflation rather than anaesthetic delivery."
+  },
+  {
+    "id": 336,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is the purpose of the pin-index safety system?",
+    "back": "It uses a unique arrangement of two pins on the cylinder yoke matching holes on the cylinder valve for each gas, preventing the wrong cylinder being fitted to a yoke."
+  },
+  {
+    "id": 337,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is the Schrader valve system used for?",
+    "back": "It is a non-interchangeable, colour-coded socket and probe system connecting pipeline gas hoses to wall outlets, preventing accidental cross-connection of gases."
+  },
+  {
+    "id": 338,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What pipeline pressure does UK hospital medical gas supply typically deliver?",
+    "back": "Approximately 4 bar (400 kPa), which is regulated down further within the anaesthetic machine before reaching the flowmeters."
+  },
+  {
+    "id": 339,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is the function of a pressure regulator on an anaesthetic machine?",
+    "back": "It reduces the high and variable pressure of a cylinder to a constant, safe working pressure suitable for the flowmeters and downstream circuitry."
+  },
+  {
+    "id": 340,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Why do modern anaesthetic machine flowmeters use electronic flow sensors rather than rotameters in many designs?",
+    "back": "Electronic flow sensors give more accurate low-flow measurement, are unaffected by static electricity or tube position, and interface directly with the machine's gas mixing and alarm systems."
+  },
+  {
+    "id": 341,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is a rotameter and how does it measure gas flow?",
+    "back": "A rotameter is a tapered glass tube containing a bobbin that rises as gas flow increases, the annular gap around the bobbin widening so flow reading is proportional to bobbin position."
+  },
+  {
+    "id": 342,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Why must oxygen always be added downstream of other gases in a rotameter bank?",
+    "back": "Placing oxygen last, nearest the common gas outlet, minimises the risk of a hypoxic mixture being delivered if a leak occurs upstream in the bank."
+  },
+  {
+    "id": 343,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is the common gas outlet?",
+    "back": "The single point on the anaesthetic machine where the mixed fresh gas flow leaves the machine to enter the breathing system."
+  },
+  {
+    "id": 344,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What safety feature prevents delivery of a hypoxic gas mixture from modern anaesthetic machines?",
+    "back": "An anti-hypoxic device mechanically links nitrous oxide and oxygen flow controls so the fresh gas oxygen concentration cannot fall below approximately 21 to 25 percent."
+  },
+  {
+    "id": 345,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What triggers the oxygen failure warning device on an anaesthetic machine?",
+    "back": "A fall in oxygen supply pressure below a threshold (around 200 kPa) activates an audible alarm and, in most machines, automatically cuts off nitrous oxide flow."
+  },
+  {
+    "id": 346,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is the Bourdon gauge used for on an anaesthetic machine?",
+    "back": "It measures cylinder or pipeline gas pressure using a coiled tube that straightens slightly as pressure rises, moving a needle across a calibrated dial."
+  },
+  {
+    "id": 347,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Classify the Mapleson A breathing system's efficiency for spontaneous versus controlled ventilation.",
+    "back": "Mapleson A is the most efficient system for spontaneous ventilation but is inefficient for controlled ventilation, requiring high fresh gas flows to prevent rebreathing."
+  },
+  {
+    "id": 348,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Which Mapleson system is the Bain circuit and what is its configuration?",
+    "back": "The Bain circuit is a coaxial version of the Mapleson D system, with fresh gas delivered through an inner tube running inside the corrugated expiratory limb."
+  },
+  {
+    "id": 349,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Which Mapleson system is most efficient for controlled ventilation and why?",
+    "back": "Mapleson D (and the Bain modification) is most efficient for controlled ventilation because fresh gas flow flushes dead space gas away from the patient during expiration."
+  },
+  {
+    "id": 350,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What are the key components of the Mapleson E system?",
+    "back": "The Ayre's T-piece has no reservoir bag or valves, consisting simply of fresh gas delivery, a T-connector at the patient, and an expiratory limb, historically used in paediatric anaesthesia."
+  },
+  {
+    "id": 351,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What distinguishes the Mapleson F system from the Mapleson E?",
+    "back": "Mapleson F (the Jackson-Rees modification) adds an open-ended reservoir bag to the end of the expiratory limb of the T-piece, allowing manual ventilation."
+  },
+  {
+    "id": 352,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "In the Mapleson A system, where is the adjustable pressure-limiting valve positioned?",
+    "back": "The APL valve sits at the patient end of the system, near the facemask connection, which is why it is efficient for spontaneous ventilation."
+  },
+  {
+    "id": 353,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What fresh gas flow is generally required to prevent rebreathing with a Mapleson D system during spontaneous ventilation?",
+    "back": "Approximately 2 to 3 times minute volume is typically required, making Mapleson D relatively inefficient for spontaneous ventilation."
+  },
+  {
+    "id": 354,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is the main advantage of a circle breathing system over Mapleson systems?",
+    "back": "The circle system allows very low fresh gas flows through carbon dioxide absorption and gas recirculation, reducing volatile agent and fresh gas costs and preserving heat and humidity."
+  },
+  {
+    "id": 355,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What are the essential components of a circle breathing system?",
+    "back": "Inspiratory and expiratory unidirectional valves, a carbon dioxide absorber, a reservoir bag, an adjustable pressure-limiting valve, and fresh gas inflow, all arranged in a circular pathway."
+  },
+  {
+    "id": 356,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is the main active ingredient in soda lime and what does it react with?",
+    "back": "Soda lime is mainly calcium hydroxide with a smaller amount of sodium hydroxide as a catalyst, and it reacts chemically with carbon dioxide to remove it from exhaled gas."
+  },
+  {
+    "id": 357,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Write the overall chemical reaction of carbon dioxide absorption by soda lime.",
+    "back": "Carbon dioxide plus water forms carbonic acid, which reacts with the hydroxides to form calcium carbonate and sodium carbonate, releasing heat and water as by-products."
+  },
+  {
+    "id": 358,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Why is soda lime absorption described as an exothermic reaction, and why does this matter clinically?",
+    "back": "It releases heat as carbon dioxide is neutralised, which helps warm inspired gas but can also mean a hot canister signals active, effective absorption is occurring."
+  },
+  {
+    "id": 359,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What pH indicator dye is commonly added to soda lime and what colour change indicates exhaustion?",
+    "back": "Ethyl violet is commonly used, changing from white to violet or purple as the soda lime becomes exhausted and more acidic, signalling the granules need replacing."
+  },
+  {
+    "id": 360,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Why has compound A production with sevoflurane and desiccated soda lime become less clinically emphasised with modern absorbents?",
+    "back": "Newer absorbents containing little or no strong alkali (such as calcium hydroxide lime without sodium or potassium hydroxide) produce far less compound A and avoid degradation reactions seen with dried older absorbents."
+  },
+  {
+    "id": 361,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is the typical granule size range used for soda lime and why does this matter?",
+    "back": "Granules are usually 4 to 8 mesh size, balancing a large surface area for efficient carbon dioxide absorption against an acceptable resistance to gas flow."
+  },
+  {
+    "id": 362,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is the correct cuff pressure range for a tracheal tube cuff?",
+    "back": "Cuff pressure should be maintained between 20 and 30 cmH2O, high enough to seal the airway but low enough to avoid tracheal mucosal ischaemia."
+  },
+  {
+    "id": 363,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What complication results from persistently excessive tracheal tube cuff pressure?",
+    "back": "Mucosal capillary perfusion pressure is exceeded, causing ischaemia that can progress to tracheal ulceration, stenosis, or tracheo-oesophageal fistula."
+  },
+  {
+    "id": 364,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is the main advantage of videolaryngoscopy over direct laryngoscopy?",
+    "back": "Videolaryngoscopy provides an indirect camera view of the glottis, improving glottic visualisation without requiring alignment of oral, pharyngeal and laryngeal axes, which is particularly useful in difficult airways."
+  },
+  {
+    "id": 365,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is the Macintosh laryngoscope blade designed to do?",
+    "back": "It is a curved blade whose tip sits in the vallecula, indirectly lifting the epiglottis forward via the hyoepiglottic ligament to expose the glottis."
+  },
+  {
+    "id": 366,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "How does a supraglottic airway device differ from a tracheal tube in its position?",
+    "back": "A supraglottic airway sits above the glottis, forming a seal around or above the laryngeal inlet, rather than passing through the vocal cords into the trachea."
+  },
+  {
+    "id": 367,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is a key advantage of a second-generation supraglottic airway device such as the LMA ProSeal?",
+    "back": "It incorporates a separate drain tube allowing gastric tube passage and providing some protection against aspiration of regurgitated gastric contents."
+  },
+  {
+    "id": 368,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is the Cormack and Lehane grading system used for?",
+    "back": "It grades the laryngoscopic view obtained at direct laryngoscopy from Grade 1 (full glottis visible) to Grade 4 (no laryngeal structures visible), predicting intubation difficulty."
+  },
+  {
+    "id": 369,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What monitoring must be applied before induction of anaesthesia according to AAGBI minimum monitoring standards?",
+    "back": "Pulse oximetry, non-invasive blood pressure, and electrocardiography must all be established and functioning before induction of any general or regional anaesthetic."
+  },
+  {
+    "id": 370,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What monitor is mandatory to confirm correct tracheal tube placement, per AAGBI standards?",
+    "back": "Capnography (end-tidal carbon dioxide monitoring) is mandatory to confirm tracheal intubation and must be used continuously throughout every general anaesthetic."
+  },
+  {
+    "id": 371,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What additional monitors does the AAGBI recommend whenever a breathing system or ventilator is used?",
+    "back": "An oxygen analyser with a low-concentration alarm, an airway pressure monitor with disconnection/high-pressure alarms, and a vapour analyser when volatile agents are used."
+  },
+  {
+    "id": 372,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Who is required to be present throughout every general anaesthetic under AAGBI guidance?",
+    "back": "A trained anaesthetist must be continuously present throughout the conduct of every general anaesthetic and until the patient has recovered satisfactorily."
+  },
+  {
+    "id": 373,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What additional monitoring should be considered for patients under sedation or regional anaesthesia per AAGBI standards?",
+    "back": "The same minimum standards (pulse oximetry, non-invasive blood pressure, ECG as indicated) apply, with capnography strongly recommended whenever sedation carries a risk of airway compromise."
+  },
+  {
+    "id": 374,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "State the Beer-Lambert law as applied to pulse oximetry.",
+    "back": "It relates the absorption of light passing through a substance to the concentration of the absorbing substance and the path length, allowing calculation of hemoglobin oxygen saturation from light absorption at two wavelengths."
+  },
+  {
+    "id": 375,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Which two wavelengths of light are typically used in pulse oximetry, and why?",
+    "back": "Red light (approximately 660 nm) and infrared light (approximately 940 nm) are used because oxyhaemoglobin and deoxyhaemoglobin absorb these wavelengths differently, allowing their ratio to be calculated."
+  },
+  {
+    "id": 376,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "How does pulse oximetry distinguish arterial blood signal from venous and tissue absorption?",
+    "back": "It isolates the pulsatile (AC) component of light absorption, which arises from arterial pulsation, from the constant (DC) component caused by venous blood, tissue and bone."
+  },
+  {
+    "id": 377,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Why does carbon monoxide poisoning cause falsely high pulse oximetry readings?",
+    "back": "Carboxyhaemoglobin absorbs light at a similar wavelength to oxyhaemoglobin, so the pulse oximeter interprets it as oxygenated haemoglobin, overestimating true oxygen saturation."
+  },
+  {
+    "id": 378,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What effect does methaemoglobinaemia have on pulse oximetry readings?",
+    "back": "Methaemoglobin absorbs light at both wavelengths similarly, driving the reading towards approximately 85 percent regardless of true oxygen saturation."
+  },
+  {
+    "id": 379,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Name three common sources of error in pulse oximetry besides abnormal haemoglobins.",
+    "back": "Poor peripheral perfusion, motion artefact, nail varnish or skin pigmentation, ambient light interference, and dysrhythmias affecting the pulsatile signal can all cause inaccurate readings."
+  },
+  {
+    "id": 380,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Why can pulse oximetry fail to detect hypoventilation in a patient receiving supplemental oxygen?",
+    "back": "Supplemental oxygen maintains saturation despite rising carbon dioxide and reduced ventilation, since oxygen reserve delays desaturation, masking early hypoventilation."
+  },
+  {
+    "id": 381,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Describe the four phases of a normal capnography waveform.",
+    "back": "Phase I is the inspiratory baseline (dead space gas, no carbon dioxide), Phase II is a rapid upstroke as alveolar gas mixes in, Phase III is the alveolar plateau, and Phase IV (downstroke) marks the start of inspiration."
+  },
+  {
+    "id": 382,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What capnography finding suggests oesophageal intubation?",
+    "back": "A flat trace with absent or minimal, rapidly decaying carbon dioxide readings across a few breaths indicates the tube is not in the trachea."
+  },
+  {
+    "id": 383,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What capnography pattern indicates rebreathing of carbon dioxide?",
+    "back": "A raised baseline that fails to return to zero during inspiration indicates rebreathing, often from exhausted soda lime or a faulty unidirectional valve in a circle system."
+  },
+  {
+    "id": 384,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What does a capnography trace with a slowly rising, sloped upstroke and plateau (a 'shark fin' pattern) suggest?",
+    "back": "It suggests bronchospasm or obstructive airway disease, caused by uneven, delayed emptying of alveoli with differing time constants."
+  },
+  {
+    "id": 385,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What waveform features characterise a normal arterial blood pressure trace, and what does a normal central venous pressure trace show?",
+    "back": "The arterial trace shows a rapid systolic upstroke, a dicrotic notch marking aortic valve closure, and a diastolic runoff, while a normal CVP trace shows a, c and v waves corresponding to atrial contraction, tricuspid valve bulging, and atrial filling respectively."
+  },
+  {
+    "id": 386,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is categorical data?",
+    "back": "Data that places observations into named groups with no inherent numerical value, such as blood group or sex. Categorical data can be further divided into nominal (no order) and ordinal (ordered) types."
+  },
+  {
+    "id": 387,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is nominal data?",
+    "back": "A type of categorical data in which categories have no natural order, for example eye colour or blood group."
+  },
+  {
+    "id": 388,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is ordinal data?",
+    "back": "Categorical data with a meaningful order but unequal or unknown intervals between categories, such as pain score or ASA grade. Median and mode are appropriate summary measures, not the mean."
+  },
+  {
+    "id": 389,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is continuous data?",
+    "back": "Numerical data that can take any value within a range, such as height, weight or blood pressure. It may be further classified as interval (no true zero, for example temperature in degrees Celsius) or ratio (true zero, for example weight in kilograms)."
+  },
+  {
+    "id": 390,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is discrete data?",
+    "back": "Numerical data that can only take fixed, countable values, such as the number of children or number of previous operations. It cannot take fractional values between the counted units."
+  },
+  {
+    "id": 391,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Define parametric data.",
+    "back": "Data that follows a known distribution, usually the normal distribution, allowing the use of tests that assume this distribution such as the t-test and ANOVA. Parametric tests are generally more powerful when their assumptions are met."
+  },
+  {
+    "id": 392,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Define non-parametric data.",
+    "back": "Data that does not follow a known distribution, is ordinal, or has a small sample size, requiring distribution-free statistical tests such as the Mann-Whitney U test. Non-parametric tests make fewer assumptions but are generally less powerful."
+  },
+  {
+    "id": 393,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "How can normality of a data set be assessed?",
+    "back": "By plotting a histogram or Q-Q plot to inspect the shape visually, or by formal tests such as the Shapiro-Wilk or Kolmogorov-Smirnov test. A sample size that is sufficiently large also supports the use of parametric assumptions via the central limit theorem."
+  },
+  {
+    "id": 394,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Define the mean.",
+    "back": "The arithmetic average of a data set, calculated by summing all values and dividing by the number of observations. It is sensitive to outliers and is the appropriate measure of central tendency for normally distributed data."
+  },
+  {
+    "id": 395,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Define the median.",
+    "back": "The middle value of a data set when all values are arranged in ascending order. It is not affected by outliers and is the appropriate measure of central tendency for skewed or ordinal data."
+  },
+  {
+    "id": 396,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Define the mode.",
+    "back": "The most frequently occurring value in a data set. A data set may have one mode (unimodal), two modes (bimodal) or more, and it is the only valid measure of central tendency for nominal data."
+  },
+  {
+    "id": 397,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is the range?",
+    "back": "The difference between the highest and lowest values in a data set. It is easy to calculate but is heavily influenced by outliers since it uses only the two extreme values."
+  },
+  {
+    "id": 398,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is the interquartile range?",
+    "back": "The difference between the 75th percentile (upper quartile) and the 25th percentile (lower quartile) of a data set, describing the spread of the middle 50% of values. It is less affected by outliers than the full range."
+  },
+  {
+    "id": 399,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Define standard deviation.",
+    "back": "A measure of the spread of individual data points around the mean, calculated as the square root of the variance. It is only meaningfully interpreted for normally distributed data."
+  },
+  {
+    "id": 400,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Define variance.",
+    "back": "The average of the squared differences between each data point and the mean, representing the spread of the data. Standard deviation is derived by taking the square root of the variance to return to the original units."
+  },
+  {
+    "id": 401,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is the standard error of the mean (SEM)?",
+    "back": "A measure of how precisely the sample mean estimates the true population mean, calculated as the standard deviation divided by the square root of the sample size. Unlike standard deviation, SEM decreases as sample size increases."
+  },
+  {
+    "id": 402,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "How does increasing sample size affect the standard error of the mean?",
+    "back": "The standard error of the mean falls as sample size increases, because it is inversely proportional to the square root of the sample size. This reflects greater precision in estimating the true population mean, not less variability in individual data points."
+  },
+  {
+    "id": 403,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is a confidence interval?",
+    "back": "A range of values, calculated from sample data, within which the true population parameter is expected to lie with a stated level of confidence, most commonly 95%. A 95% confidence interval means that if the study were repeated many times, 95% of the calculated intervals would contain the true population value."
+  },
+  {
+    "id": 404,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "How is a 95% confidence interval for the mean calculated?",
+    "back": "It is calculated as the sample mean plus or minus approximately 1.96 multiplied by the standard error of the mean. A narrower confidence interval indicates a more precise estimate of the true population value."
+  },
+  {
+    "id": 405,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What does it mean if a confidence interval for a difference between two treatments crosses zero?",
+    "back": "It indicates that there is no statistically significant difference between the two treatments, since a difference of zero (no effect) is a plausible value. This is analogous to a non-significant p-value."
+  },
+  {
+    "id": 406,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Describe the shape of the normal distribution.",
+    "back": "A symmetrical, bell-shaped curve in which the mean, median and mode are all equal and located at the centre. It is defined entirely by its mean and standard deviation."
+  },
+  {
+    "id": 407,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What proportion of data lies within 1, 2 and 3 standard deviations of the mean in a normal distribution?",
+    "back": "Approximately 68% of data lies within 1 standard deviation of the mean, 95% within 2 standard deviations, and 99.7% within 3 standard deviations. This is known as the empirical or 68-95-99.7 rule."
+  },
+  {
+    "id": 408,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is a skewed distribution?",
+    "back": "A distribution in which data are asymmetrically spread, with a longer tail on one side. In a positively (right) skewed distribution the mean is greater than the median, while in a negatively (left) skewed distribution the mean is less than the median."
+  },
+  {
+    "id": 409,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "State the central limit theorem.",
+    "back": "As sample size increases, the distribution of sample means approaches a normal distribution regardless of the shape of the underlying population distribution. This justifies the use of parametric tests on sufficiently large samples even when the original data are not normally distributed."
+  },
+  {
+    "id": 410,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Define the null hypothesis.",
+    "back": "A statement assuming there is no true difference or association between the groups or variables being studied. Statistical tests are designed to assess the evidence against this hypothesis."
+  },
+  {
+    "id": 411,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Define the alternative hypothesis.",
+    "back": "A statement proposing that there is a true difference or association between the groups or variables being studied. It is accepted only if the null hypothesis is rejected on the basis of the statistical test result."
+  },
+  {
+    "id": 412,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is a p-value?",
+    "back": "The probability of obtaining a result as extreme as, or more extreme than, the one observed, if the null hypothesis were true. A p-value below the chosen significance threshold, usually 0.05, leads to rejection of the null hypothesis."
+  },
+  {
+    "id": 413,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Define a Type I error.",
+    "back": "The incorrect rejection of a true null hypothesis, concluding that a difference exists when it does not. The probability of a Type I error is denoted alpha and is conventionally set at 0.05."
+  },
+  {
+    "id": 414,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Define a Type II error.",
+    "back": "The incorrect failure to reject a false null hypothesis, concluding that no difference exists when one truly does. The probability of a Type II error is denoted beta and is commonly set at 0.2 (20%)."
+  },
+  {
+    "id": 415,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Define statistical power.",
+    "back": "The probability that a study will correctly detect a true difference or effect when one genuinely exists, calculated as 1 minus beta. A power of 80% is a commonly accepted minimum for clinical trials."
+  },
+  {
+    "id": 416,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Name three factors that increase the statistical power of a study.",
+    "back": "Increasing the sample size, increasing the size of the true effect being measured, and reducing variability within the data all increase statistical power. Using a less stringent significance level also increases power but raises the risk of a Type I error."
+  },
+  {
+    "id": 417,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is a one-tailed statistical test?",
+    "back": "A test that assesses whether a result is significantly different from the null hypothesis in one specified direction only, for example whether a drug reduces blood pressure. It should only be used when a difference in the opposite direction is genuinely implausible or clinically irrelevant."
+  },
+  {
+    "id": 418,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is a two-tailed statistical test?",
+    "back": "A test that assesses whether a result is significantly different from the null hypothesis in either direction, without specifying which. It is the more conservative and generally preferred approach in clinical research."
+  },
+  {
+    "id": 419,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Which statistical test compares the means of two independent groups of normally distributed data?",
+    "back": "The unpaired (independent samples) Student's t-test. It requires the data in each group to be continuous, approximately normally distributed and to have similar variances."
+  },
+  {
+    "id": 420,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Which statistical test compares two sets of normally distributed measurements taken from the same subjects?",
+    "back": "The paired Student's t-test, which analyses the differences between paired observations, such as blood pressure before and after an intervention in the same patients. It is more powerful than an unpaired test when data are genuinely paired."
+  },
+  {
+    "id": 421,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Which test compares two independent groups of non-parametric or ordinal data?",
+    "back": "The Mann-Whitney U test, a non-parametric equivalent of the unpaired t-test. It compares the ranks of values between the two groups rather than the raw data itself."
+  },
+  {
+    "id": 422,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Which test compares two related sets of non-parametric or ordinal data?",
+    "back": "The Wilcoxon signed-rank test, a non-parametric equivalent of the paired t-test. It is used when the same subjects are measured twice under different conditions and the data are not normally distributed."
+  },
+  {
+    "id": 423,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Which test is used to compare categorical data between two or more independent groups?",
+    "back": "The chi-squared test, which compares observed frequencies against those expected under the null hypothesis. Fisher's exact test should be used instead when expected cell frequencies are small, typically less than 5."
+  },
+  {
+    "id": 424,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Which test compares the means of three or more independent groups of normally distributed data?",
+    "back": "One-way analysis of variance (ANOVA), which tests whether at least one group mean differs significantly from the others. A significant result requires post-hoc testing to identify exactly which groups differ."
+  },
+  {
+    "id": 425,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Which test is the non-parametric equivalent of one-way ANOVA?",
+    "back": "The Kruskal-Wallis test, used to compare three or more independent groups of non-parametric or ordinal data. It compares the ranks of values across all groups rather than the raw values."
+  },
+  {
+    "id": 426,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Which statistical test measures the strength and direction of a linear association between two continuous variables?",
+    "back": "Pearson's correlation coefficient, denoted r, ranging from -1 (perfect negative correlation) to +1 (perfect positive correlation), with 0 indicating no linear correlation. Spearman's rank correlation is used instead for non-parametric or ordinal data."
+  },
+  {
+    "id": 427,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Define sensitivity of a diagnostic test.",
+    "back": "The proportion of patients who truly have the disease who are correctly identified as positive by the test, calculated as true positives divided by (true positives plus false negatives). A highly sensitive test is useful for ruling out disease when negative."
+  },
+  {
+    "id": 428,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Define specificity of a diagnostic test.",
+    "back": "The proportion of patients who truly do not have the disease who are correctly identified as negative by the test, calculated as true negatives divided by (true negatives plus false positives). A highly specific test is useful for ruling in disease when positive."
+  },
+  {
+    "id": 429,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Define positive predictive value (PPV).",
+    "back": "The proportion of patients with a positive test result who truly have the disease, calculated as true positives divided by (true positives plus false positives). Unlike sensitivity and specificity, PPV varies with the prevalence of disease in the population tested."
+  },
+  {
+    "id": 430,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Define negative predictive value (NPV).",
+    "back": "The proportion of patients with a negative test result who truly do not have the disease, calculated as true negatives divided by (true negatives plus false negatives). Like PPV, NPV changes with disease prevalence."
+  },
+  {
+    "id": 431,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "How does disease prevalence affect positive predictive value?",
+    "back": "As disease prevalence falls, the positive predictive value of a test falls even if sensitivity and specificity remain unchanged, because a greater proportion of positive results become false positives. This is why screening tests in low-prevalence populations generate many false positives."
+  },
+  {
+    "id": 432,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "How does disease prevalence affect negative predictive value?",
+    "back": "As disease prevalence rises, the negative predictive value of a test falls even if sensitivity and specificity remain unchanged, because a greater proportion of negative results become false negatives. Sensitivity and specificity themselves are properties of the test and do not change with prevalence."
+  },
+  {
+    "id": 433,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is a receiver operating characteristic (ROC) curve used for?",
+    "back": "It plots sensitivity against 1 minus specificity across a range of diagnostic thresholds, allowing comparison of test performance and selection of the optimal cut-off value. The area under the curve reflects overall test accuracy, with 1.0 representing a perfect test and 0.5 representing no better than chance."
+  },
+  {
+    "id": 434,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Describe the design of a randomised controlled trial (RCT).",
+    "back": "Participants are randomly allocated to receive either the intervention or a comparator (placebo or standard treatment), and outcomes are compared prospectively between groups. Randomisation minimises confounding and selection bias, making the RCT the gold-standard design for testing causation."
+  },
+  {
+    "id": 435,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Describe a cohort study.",
+    "back": "A group of individuals with a shared exposure characteristic is followed forward in time (prospectively) or identified retrospectively to compare the incidence of an outcome against an unexposed group. It can estimate relative risk directly but is more prone to confounding than an RCT."
+  },
+  {
+    "id": 436,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Describe a case-control study.",
+    "back": "Patients who already have a particular outcome (cases) are compared retrospectively with those who do not (controls) to identify differences in past exposures. It is well suited to studying rare diseases but can only estimate an odds ratio, not relative risk directly, and is prone to recall bias."
+  },
+  {
+    "id": 437,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Define selection bias.",
+    "back": "A systematic error arising when the individuals included in a study are not representative of the population intended to be studied, distorting the true association between exposure and outcome. It can occur through non-random sampling or differential loss to follow-up."
+  },
+  {
+    "id": 438,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Define recall bias.",
+    "back": "A form of information bias in which participants with a particular outcome, such as a disease, remember and report past exposures differently or more thoroughly than those without the outcome. It is a particular problem in retrospective study designs such as case-control studies."
+  },
+  {
+    "id": 439,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "Define confounding.",
+    "back": "A situation in which the observed association between an exposure and an outcome is distorted by a third factor that is independently related to both the exposure and the outcome. Randomisation in an RCT is the most effective method of controlling for both known and unknown confounders."
+  },
+  {
+    "id": 440,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What are the stages of the clinical audit cycle?",
+    "back": "Setting a standard, measuring current practice against that standard, implementing change to address any shortfall, and then re-auditing to confirm the change produced the intended improvement, closing the loop."
+  },
+  {
+    "id": 441,
+    "domain": "pharmacology",
+    "front": "Which cytochrome enzyme metabolises fentanyl, and what interaction risk follows?",
+    "back": "Fentanyl is metabolised by CYP3A4. Co-administration with potent CYP3A4 inhibitors such as clarithromycin, ritonavir or itraconazole can markedly reduce clearance and prolong opioid effect."
+  },
+  {
+    "id": 442,
+    "domain": "pharmacology",
+    "front": "Why does erythromycin prolong the action of midazolam?",
+    "back": "Erythromycin inhibits hepatic CYP3A4, the enzyme responsible for midazolam oxidation, reducing its clearance and producing exaggerated or prolonged sedation."
+  },
+  {
+    "id": 443,
+    "domain": "pharmacology",
+    "front": "What is the mechanism of the interaction between suxamethonium and anticholinesterases such as neostigmine?",
+    "back": "Neostigmine inhibits plasma cholinesterase as well as acetylcholinesterase, so it slows suxamethonium hydrolysis and can prolong the block rather than reverse it."
+  },
+  {
+    "id": 444,
+    "domain": "pharmacology",
+    "front": "What type of pharmacokinetic model is the Marsh model for propofol TCI, and how does it scale its parameters?",
+    "back": "The Marsh model is a fixed-parameter, weight-based three-compartment model for propofol TCI; volumes and clearances scale linearly with total body weight and do not adjust for age, so it can overshoot in the elderly."
+  },
+  {
+    "id": 445,
+    "domain": "pharmacology",
+    "front": "How does the Schnider model differ from the Marsh model for propofol TCI?",
+    "back": "The Schnider model incorporates age, height, weight and lean body mass into its pharmacokinetic parameters and targets effect-site rather than plasma concentration, giving more accurate dosing in elderly or obese patients."
+  },
+  {
+    "id": 446,
+    "domain": "pharmacology",
+    "front": "What population does the Paedfusor model apply to for propofol TCI?",
+    "back": "The Paedfusor model is validated for children aged 1 to 16 years weighing 5 to 61 kg, using a modified three-compartment structure with weight-based parameters distinct from Marsh."
+  },
+  {
+    "id": 447,
+    "domain": "pharmacology",
+    "front": "What is the Minto model used for in TIVA?",
+    "back": "The Minto model is the pharmacokinetic-pharmacodynamic model for remifentanil TCI, incorporating age and lean body mass to predict plasma and effect-site concentrations."
+  },
+  {
+    "id": 448,
+    "domain": "pharmacology",
+    "front": "Why is lean body mass rather than total body weight used in some TCI models?",
+    "back": "In obese patients, using total body weight in models like Schnider or Minto can cause substantial overdosing because fat contributes little to the central volume of distribution, so lean body mass gives a more accurate effect-site target."
+  },
+  {
+    "id": 449,
+    "domain": "pharmacology",
+    "front": "What propofol plasma target typically achieves loss of consciousness using the Marsh model?",
+    "back": "A plasma target of around 4 to 6 micrograms per millilitre typically produces loss of consciousness with the Marsh model, though clinical titration against response is essential."
+  },
+  {
+    "id": 450,
+    "domain": "pharmacology",
+    "front": "How should morphine dosing be adjusted in significant renal impairment?",
+    "back": "Morphine's active metabolite morphine-6-glucuronide accumulates in renal failure and can cause prolonged sedation and respiratory depression, so the dose should be reduced and the interval extended, or an alternative such as fentanyl used."
+  },
+  {
+    "id": 451,
+    "domain": "pharmacology",
+    "front": "Why is fentanyl often preferred over morphine in patients with renal failure?",
+    "back": "Fentanyl has no active renally-excreted metabolites, unlike morphine, so its pharmacokinetics are less affected by reduced renal clearance."
+  },
+  {
+    "id": 452,
+    "domain": "pharmacology",
+    "front": "How does hepatic cirrhosis affect rocuronium dosing?",
+    "back": "Rocuronium is largely eliminated by hepatic and biliary excretion, so cirrhosis increases its volume of distribution and prolongs duration of action, requiring reduced dosing or careful neuromuscular monitoring."
+  },
+  {
+    "id": 453,
+    "domain": "pharmacology",
+    "front": "Which neuromuscular blocking drug is preferred in significant hepatic and renal failure, and why?",
+    "back": "Atracurium (or cisatracurium) is preferred because it undergoes Hofmann elimination and ester hydrolysis, processes independent of hepatic or renal function."
+  },
+  {
+    "id": 454,
+    "domain": "pharmacology",
+    "front": "How should induction doses of propofol be adjusted in elderly patients?",
+    "back": "Propofol induction dose should be reduced by around 20 to 50% in the elderly because of reduced central volume of distribution, decreased clearance and increased brain sensitivity."
+  },
+  {
+    "id": 455,
+    "domain": "pharmacology",
+    "front": "Why do neonates require higher weight-adjusted doses of some neuromuscular blockers despite immature neuromuscular junctions?",
+    "back": "Neonates have a larger extracellular fluid volume and hence a larger volume of distribution per kilogram, which can offset their junctional immaturity and altered sensitivity, so dosing must be individualised rather than simply scaled down."
+  },
+  {
+    "id": 456,
+    "domain": "pharmacology",
+    "front": "Which local anaesthetic and maximum dose is commonly used for spinal anaesthesia in obstetrics, and why is total dose reduced in pregnancy?",
+    "back": "Hyperbaric bupivacaine is commonly used; pregnant women require lower doses because epidural venous engorgement reduces cerebrospinal fluid volume and progesterone increases neural sensitivity to local anaesthetic."
+  },
+  {
+    "id": 457,
+    "domain": "pharmacology",
+    "front": "Why is suxamethonium dose per kilogram sometimes increased in pregnancy despite reduced plasma cholinesterase activity?",
+    "back": "Pregnancy increases volume of distribution, so despite lower plasma cholinesterase activity a standard or slightly higher weight-based dose is still used to ensure adequate rapid sequence intubation conditions."
+  },
+  {
+    "id": 458,
+    "domain": "pharmacology",
+    "front": "What is the mechanism of action of ondansetron as an antiemetic?",
+    "back": "Ondansetron is a selective 5-HT3 receptor antagonist, blocking serotonin receptors both peripherally on vagal afferents in the gut and centrally in the chemoreceptor trigger zone."
+  },
+  {
+    "id": 459,
+    "domain": "pharmacology",
+    "front": "What is the mechanism of action of cyclizine as an antiemetic?",
+    "back": "Cyclizine is an antihistamine (H1 receptor antagonist) with additional antimuscarinic activity, acting mainly on the vomiting centre and vestibular pathways."
+  },
+  {
+    "id": 460,
+    "domain": "pharmacology",
+    "front": "What receptor does dexamethasone act on to reduce postoperative nausea and vomiting?",
+    "back": "The precise antiemetic mechanism of dexamethasone is not fully defined, but it is thought to act via glucocorticoid receptors reducing prostaglandin and central serotonin release, alongside anti-inflammatory effects."
+  },
+  {
+    "id": 461,
+    "domain": "pharmacology",
+    "front": "What is the mechanism of action of droperidol as an antiemetic, and its key safety concern?",
+    "back": "Droperidol is a dopamine D2 receptor antagonist acting on the chemoreceptor trigger zone; its key concern is dose-dependent QT interval prolongation and risk of torsades de pointes."
+  },
+  {
+    "id": 462,
+    "domain": "pharmacology",
+    "front": "What is the mechanism of action of aprepitant in preventing postoperative nausea and vomiting?",
+    "back": "Aprepitant is a neurokinin-1 (NK1) receptor antagonist that blocks substance P binding in the chemoreceptor trigger zone and vomiting centre."
+  },
+  {
+    "id": 463,
+    "domain": "pharmacology",
+    "front": "How long before a neuraxial block should prophylactic-dose low molecular weight heparin be stopped?",
+    "back": "Prophylactic-dose LMWH should be stopped at least 12 hours before neuraxial block or catheter removal, and treatment-dose LMWH at least 24 hours before."
+  },
+  {
+    "id": 464,
+    "domain": "pharmacology",
+    "front": "How long after a neuraxial block or catheter removal can prophylactic LMWH be restarted?",
+    "back": "Prophylactic LMWH can typically be restarted at least 4 hours after neuraxial block or catheter removal, provided there is no evidence of bleeding."
+  },
+  {
+    "id": 465,
+    "domain": "pharmacology",
+    "front": "What INR threshold is generally considered safe for neuraxial block in a patient on warfarin?",
+    "back": "An INR of 1.4 or less is generally regarded as an acceptable threshold for safe neuraxial block, with warfarin usually stopped around 5 days beforehand."
+  },
+  {
+    "id": 466,
+    "domain": "pharmacology",
+    "front": "How long before neuraxial block should apixaban or rivaroxaban be stopped for a normal renal function patient?",
+    "back": "Apixaban and rivaroxaban should generally be stopped at least 3 days (72 hours) before neuraxial block in patients with normal renal function, reflecting AAGBI/regional anaesthesia guidance."
+  },
+  {
+    "id": 467,
+    "domain": "pharmacology",
+    "front": "How long after neuraxial catheter removal should a therapeutic dose DOAC be restarted?",
+    "back": "A therapeutic dose DOAC should generally not be restarted until at least 24 hours after catheter removal, longer than the roughly 6 hour interval used for restarting a prophylactic dose, reflecting the higher bleeding risk of a full anticoagulant dose so soon after instrumentation."
+  },
+  {
+    "id": 468,
+    "domain": "pharmacology",
+    "front": "How long before neuraxial block should clopidogrel be stopped?",
+    "back": "Clopidogrel should be stopped for at least 7 days before neuraxial block because of its irreversible antiplatelet effect on platelet P2Y12 receptors."
+  },
+  {
+    "id": 469,
+    "domain": "pharmacology",
+    "front": "Does aspirin monotherapy need to be stopped before neuraxial block?",
+    "back": "No, aspirin monotherapy at standard antiplatelet doses is not considered a contraindication to neuraxial block and does not need to be stopped."
+  },
+  {
+    "id": 470,
+    "domain": "pharmacology",
+    "front": "What is the mechanism by which sugammadex reverses rocuronium, and why is it ineffective against benzylisoquinolinium blockers?",
+    "back": "Sugammadex is a modified gamma-cyclodextrin that encapsulates rocuronium (and vecuronium) molecules in a tight host-guest complex, preventing them from acting at the neuromuscular junction; it does not effectively encapsulate benzylisoquinoliniums such as atracurium because their shape does not fit the cyclodextrin cavity."
+  },
+  {
+    "id": 471,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What dermatome level corresponds to the nipple line?",
+    "back": "The nipple line corresponds to dermatome T4. This landmark is commonly used to assess the upper level of a spinal or epidural block for caesarean section."
+  },
+  {
+    "id": 472,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What dermatome level corresponds to the xiphisternum?",
+    "back": "The xiphisternum corresponds to dermatome T6. Blockade to this level is often the target for upper abdominal surgery under neuraxial anaesthesia."
+  },
+  {
+    "id": 473,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What dermatome level corresponds to the umbilicus?",
+    "back": "The umbilicus corresponds to dermatome T10. This level is a common target block height for lower abdominal procedures and labour analgesia."
+  },
+  {
+    "id": 474,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Which branch of the brachial plexus supplies the deltoid and teres minor muscles?",
+    "back": "The axillary nerve, arising from the posterior cord, supplies the deltoid and teres minor muscles and provides sensation over the regimental badge area of the upper lateral arm."
+  },
+  {
+    "id": 475,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Which brachial plexus branch is responsible for elbow flexion via biceps brachii?",
+    "back": "The musculocutaneous nerve, arising from the lateral cord, supplies biceps brachii and brachialis, providing the main power for elbow flexion, and continues as the lateral cutaneous nerve of the forearm."
+  },
+  {
+    "id": 476,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Which nerve of the brachial plexus is most commonly injured by prolonged pressure on the medial epicondyle of the humerus?",
+    "back": "The ulnar nerve, arising from the medial cord, runs behind the medial epicondyle and is vulnerable to compression injury during prolonged arm positioning under anaesthesia."
+  },
+  {
+    "id": 477,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the P50 of haemoglobin and what does it represent?",
+    "back": "P50 is the partial pressure of oxygen at which haemoglobin is 50% saturated, normally about 3.5 kPa (26.6 mmHg). A lower P50 indicates a left-shifted curve with increased oxygen affinity."
+  },
+  {
+    "id": 478,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Name three factors that shift the oxyhaemoglobin dissociation curve to the right.",
+    "back": "A rise in temperature, a rise in 2,3-diphosphoglycerate, and a fall in pH (increased hydrogen ion concentration, the Bohr effect) all shift the curve to the right, reducing haemoglobin oxygen affinity."
+  },
+  {
+    "id": 479,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What are the normal ranges for intracranial pressure and cerebral perfusion pressure?",
+    "back": "Normal intracranial pressure is 7 to 15 mmHg in a supine adult, and normal cerebral perfusion pressure is 60 to 80 mmHg, calculated as mean arterial pressure minus intracranial pressure."
+  },
+  {
+    "id": 480,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Over what range of cerebral perfusion pressure is cerebral blood flow autoregulated?",
+    "back": "Cerebral blood flow is autoregulated between a cerebral perfusion pressure of approximately 60 and 150 mmHg, remaining relatively constant across this range through myogenic adjustment of vascular tone."
+  },
+  {
+    "id": 481,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What are the normal reference ranges for arterial pH, PaCO2 and PaO2 on an arterial blood gas?",
+    "back": "Normal arterial pH is 7.35 to 7.45, PaCO2 is 4.6 to 6.0 kPa, and PaO2 is 10.6 to 13.3 kPa when breathing room air at sea level."
+  },
+  {
+    "id": 482,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the normal range for standard base excess on an arterial blood gas?",
+    "back": "The normal range for standard base excess is minus 2 to plus 2 mmol per litre. A value more negative than minus 2 indicates a metabolic acidosis and more positive than plus 2 indicates a metabolic alkalosis."
+  },
+  {
+    "id": 483,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the normal anion gap and how is it calculated?",
+    "back": "The anion gap is calculated as (sodium plus potassium) minus (chloride plus bicarbonate), with a normal range of approximately 12 to 20 mmol/L when potassium is included, higher than the 8 to 16 mmol/L range used when potassium is excluded from the calculation."
+  },
+  {
+    "id": 484,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Which spinal cord level marks the normal termination of the adult spinal cord (conus medullaris)?",
+    "back": "The adult spinal cord normally terminates at the level of the L1/L2 vertebral interspace, which is why lumbar puncture and spinal anaesthesia are performed below this level to avoid direct cord injury."
+  },
+  {
+    "id": 485,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "At what vertebral level does the trachea bifurcate into the two main bronchi?",
+    "back": "The trachea bifurcates at the carina, at the level of the sternal angle anteriorly, corresponding to the T4/T5 vertebral level posteriorly."
+  },
+  {
+    "id": 486,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the normal adult functional residual capacity and which two lung volumes make it up?",
+    "back": "Functional residual capacity is normally about 2.5 to 3.0 litres in an adult and is made up of the expiratory reserve volume plus the residual volume."
+  },
+  {
+    "id": 487,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What proportion of total body oxygen consumption does the brain normally account for at rest?",
+    "back": "The brain accounts for approximately 20% of total body oxygen consumption at rest despite representing only about 2% of total body weight."
+  },
+  {
+    "id": 488,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the normal glomerular filtration rate in a healthy adult?",
+    "back": "Normal glomerular filtration rate in a healthy adult is approximately 100 to 120 mL per minute per 1.73 square metres of body surface area."
+  },
+  {
+    "id": 489,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "What is the normal osmolar gap and what does a raised gap suggest?",
+    "back": "The normal osmolar gap, the difference between measured and calculated plasma osmolality, is less than 10 mOsm per kg. A raised gap suggests the presence of an unmeasured osmotically active substance such as ethanol, methanol or ethylene glycol."
+  },
+  {
+    "id": 490,
+    "domain": "physiology_anatomy_and_biochemistry",
+    "front": "Which coagulation factors are vitamin K dependent?",
+    "back": "Factors II, VII, IX and X, along with proteins C and S, are vitamin K dependent and are synthesised in the liver by gamma-carboxylation."
+  },
+  {
+    "id": 491,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is the critical temperature of nitrous oxide?",
+    "back": "The critical temperature of nitrous oxide is 36.5 degrees Celsius, the temperature above which it cannot exist as a liquid regardless of the pressure applied."
+  },
+  {
+    "id": 492,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What colour and size are standard UK oxygen cylinders, and what is a full size E cylinder pressure?",
+    "back": "UK oxygen cylinders are white (shoulder and body under the current standard), and a full size E cylinder is filled to approximately 137 bar, holding about 680 litres of gas."
+  },
+  {
+    "id": 493,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What colour is a UK Entonox cylinder and what does it contain?",
+    "back": "Entonox cylinders have a white body with a blue and white quartered shoulder, containing a 50:50 mixture by volume of oxygen and nitrous oxide."
+  },
+  {
+    "id": 494,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What colour is a UK medical air cylinder?",
+    "back": "UK medical air cylinders have a white body with black and white quartered shoulders under the current ISO 32 standard."
+  },
+  {
+    "id": 495,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "At what Reynolds number does gas flow typically transition from laminar to turbulent?",
+    "back": "Flow typically becomes turbulent above a Reynolds number of approximately 4000; below approximately 2000 it remains laminar, with an unpredictable transitional zone in between."
+  },
+  {
+    "id": 496,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is the normal end-tidal carbon dioxide value on capnography?",
+    "back": "Normal end-tidal carbon dioxide is approximately 4.6 to 6.0 kPa (35 to 45 mmHg), closely reflecting arterial PaCO2 in a patient with normal ventilation-perfusion matching."
+  },
+  {
+    "id": 497,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What p-value is conventionally used as the threshold for statistical significance, and what does it mean?",
+    "back": "A p-value of less than 0.05 is the conventional threshold for statistical significance, meaning there is less than a 5% probability that the observed result occurred by chance alone if the null hypothesis were true."
+  },
+  {
+    "id": 498,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What does a type II statistical error represent?",
+    "back": "A type II error is the failure to reject a null hypothesis that is actually false, in effect a false negative result, and its probability is denoted beta. Statistical power is calculated as 1 minus beta."
+  },
+  {
+    "id": 499,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "During the pre-use anaesthetic machine check, what pressure is used for the leak test on a circle breathing system?",
+    "back": "The breathing system is pressurised to approximately 30 cmH2O with the adjustable pressure limiting valve closed and the patient end occluded, and the pressure should be held for at least 10 seconds without falling to confirm no leak."
+  },
+  {
+    "id": 500,
+    "domain": "physics_clinical_measurement_and_data_interpretation",
+    "front": "What is the purpose of the oxygen failure warning device (Ritchie whistle) on an anaesthetic machine?",
+    "back": "The oxygen failure warning device sounds an audible alarm and cuts off the supply of other gases when the oxygen supply pressure falls below approximately 200 kPa, preventing delivery of a hypoxic gas mixture."
+  }
+]

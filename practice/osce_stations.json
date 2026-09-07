@@ -1,0 +1,901 @@
+[
+  {
+    "id": 1,
+    "category": "resuscitation",
+    "title": "Adult Basic Life Support Assessment",
+    "candidate_instructions": "You are the first responder to find an adult manikin collapsed on the ward floor. Demonstrate your assessment and management of this patient according to current Resuscitation Council UK guidelines. You have a bag-valve-mask and pocket mask available on the trolley beside you.",
+    "model_answer": "Checks for danger before approaching and ensures the environment is safe; assesses responsiveness by shaking the shoulders and shouting loudly; opens the airway using head tilt and chin lift; looks, listens and feels for normal breathing for no more than ten seconds; shouts for help and calls the resuscitation team or 2222 immediately once cardiac arrest is confirmed; starts chest compressions at a rate of 100 to 120 per minute to a depth of five to six centimetres, allowing full recoil; delivers thirty compressions to two rescue breaths using the bag-valve-mask with high-flow oxygen; attaches the defibrillator or asks an assistant to do so as soon as it arrives and follows the voice prompts without interrupting compressions for longer than necessary."
+  },
+  {
+    "id": 2,
+    "category": "resuscitation",
+    "title": "Anaphylaxis Management in Theatre",
+    "candidate_instructions": "You are the anaesthetist for a routine laparoscopic cholecystectomy. Five minutes after induction the patient develops a widespread urticarial rash, becomes hypotensive to 60/30 mmHg and difficult to ventilate. Talk the examiner through your immediate management.",
+    "model_answer": "Recognises the presentation as suspected anaphylaxis and calls for help and the anaphylaxis box immediately; stops administration of the likely triggering agent, for example the neuromuscular blocking drug or antibiotic given at induction; maintains the airway and gives 100% oxygen, converting to manual ventilation if needed; lies the patient flat and raises the legs if compatible with the surgical position; gives intramuscular adrenaline 500 micrograms into the anterolateral thigh and repeats every five minutes according to response, or gives titrated intravenous adrenaline boluses if experienced in its use with invasive monitoring; gives a rapid intravenous fluid bolus of crystalloid to treat hypotension; states that hydrocortisone and chlorphenamine are no longer routinely recommended per the current AAGBI or RCoA guidance but that this should follow local protocol; sends serial mast cell tryptase samples at the time of the reaction, one hour later and at twenty-four hours; ensures the reaction is reported to the national allergy database and the patient referred for follow-up allergy testing."
+  },
+  {
+    "id": 3,
+    "category": "technical skills",
+    "title": "Rapid Sequence Induction Technique",
+    "candidate_instructions": "You are asked to demonstrate the technique of rapid sequence induction on a manikin for a patient with a full stomach requiring emergency laparotomy. Talk through your preparation and the steps you would perform.",
+    "model_answer": "Confirms full preparation including a checked anaesthetic machine, working suction under the pillow, a range of laryngoscope blades and a bougie immediately available; pre-oxygenates the patient for three minutes or to an end-tidal oxygen fraction above 90%, with the patient positioned head-up or in the ramped position; ensures a trained assistant is present to apply cricoid pressure; gives a predetermined dose of induction agent, commonly propofol or ketamine depending on haemodynamic status, followed immediately by a rapid-onset neuromuscular blocking drug such as suxamethonium 1 to 1.5 mg/kg or rocuronium 1.2 mg/kg; avoids manual ventilation between induction and intubation unless desaturation occurs, in which case gentle ventilation with cricoid pressure maintained is acceptable; intubates the trachea and confirms placement with capnography before cricoid pressure is released on the anaesthetist's instruction; secures the tube and confirms bilateral air entry."
+  },
+  {
+    "id": 4,
+    "category": "technical skills",
+    "title": "Insertion of a Laryngeal Mask Airway",
+    "candidate_instructions": "Demonstrate on the airway manikin how you would insert a size 4 classic laryngeal mask airway in an anaesthetised, spontaneously breathing adult patient, describing each step as you perform it.",
+    "model_answer": "Checks the cuff for leaks and fully deflates it against a flat surface before insertion; lubricates the posterior surface of the mask with water-soluble gel; confirms an adequate depth of anaesthesia before attempting insertion, checking for jaw relaxation; positions the patient's head in the sniffing position with neck flexed and head extended; holds the device like a pen with the index finger at the junction of the cuff and tube; inserts the tip against the hard palate and advances it along the palatopharyngeal curve until resistance is felt; inflates the cuff with the recommended volume of air without overinflating, watching for slight outward movement of the tube; confirms correct placement by observing chest movement, auscultating breath sounds and checking a normal capnograph trace; secures the device with tape once satisfied with position."
+  },
+  {
+    "id": 5,
+    "category": "technical skills",
+    "title": "Setting Up an Arterial Line Transducer",
+    "candidate_instructions": "You have just inserted a radial arterial cannula for invasive blood pressure monitoring during a major laparotomy. Demonstrate how you would set up and calibrate the transducer system and confirm you have an accurate trace.",
+    "model_answer": "Flushes the pressure tubing and transducer set with heparinised or plain saline from the pressurised bag, ensuring no air bubbles remain in the system; connects the tubing to the arterial cannula using a non-Luer or clearly labelled connector to avoid wrong-route error; positions the transducer at the level of the phlebostatic axis, approximately the mid-axillary line at the level of the right atrium; opens the transducer to air and zeroes the monitor according to the manufacturer's instructions; performs a fast-flush square wave test to check the system is correctly damped, looking for one or two oscillations before returning to baseline; confirms the displayed waveform and numerical values correlate with a non-invasive blood pressure reading taken simultaneously; sets appropriate alarm limits for systolic, diastolic and mean arterial pressure."
+  },
+  {
+    "id": 6,
+    "category": "anatomy",
+    "title": "Surface Anatomy of the Brachial Plexus",
+    "candidate_instructions": "You are asked to identify the anatomy relevant to performing an interscalene brachial plexus block. Describe the anatomical course of the brachial plexus and the structures at risk during this block, using the diagram provided.",
+    "model_answer": "Describes the brachial plexus as arising from the anterior rami of C5 to T1; identifies that the roots emerge between the anterior and middle scalene muscles at the level of the interscalene groove; states the roots combine to form the upper, middle and lower trunks, seen at the interscalene approach as a stack of hypoechoic circles lateral to the sternocleidomastoid; notes the trunks divide into anterior and posterior divisions behind the clavicle before reforming as cords named for their relationship to the axillary artery in the axilla; identifies the phrenic nerve running on the anterior surface of anterior scalene as a structure at risk of blockade causing hemidiaphragmatic paresis; notes the vertebral artery lies deep and medial and risks intra-arterial injection if the needle passes too deep; identifies the risk of pneumothorax as low at this level compared with the supraclavicular approach.",
+    "image_type": "anatomy",
+    "image_params": {
+      "diagram": "brachial_plexus",
+      "highlight": [
+        "C5",
+        "Upper",
+        "Lateral"
+      ]
+    },
+    "image": "osce_images/osce_6.png"
+  },
+  {
+    "id": 7,
+    "category": "anatomy",
+    "title": "Dermatomes and Spinal Level Assessment",
+    "candidate_instructions": "You have just performed a spinal anaesthetic for a patient undergoing an elective caesarean section. Using the reference level marked on the diagram provided (the nipple line), identify the other dermatomal levels relevant to this surgery and describe how you would assess block height.",
+    "model_answer": "Explains that block height is assessed using either loss of cold sensation with an alcohol swab or loss of sharp sensation with a blunted needle, comparing each side and working from an unblocked area towards the block; identifies T4 as the dermatome level at the nipple, the target block height for caesarean section; identifies T10 as the level at the umbilicus; identifies T6 as the level at the xiphisternum; states that a block to at least T4 to T6 is required to cover visceral peritoneal stimulation during uterine exteriorisation; notes that sacral segments S2 to S4 must also be assessed to confirm adequate perineal and bladder coverage; documents the block height clearly in the anaesthetic record before allowing surgery to proceed; recognises that a block below T4 may result in inadequate analgesia and visceral pain requiring conversion to general anaesthesia.",
+    "image_type": "anatomy",
+    "image_params": {
+      "diagram": "dermatome_map",
+      "highlight_levels": [
+        "T4"
+      ]
+    },
+    "image": "osce_images/osce_7.png"
+  },
+  {
+    "id": 8,
+    "category": "anatomy",
+    "title": "Anatomy of the Larynx for Difficult Airway Management",
+    "candidate_instructions": "Using the sagittal diagram provided, describe the anatomy of the larynx relevant to performing an emergency front-of-neck airway, and identify the surface landmarks you would use.",
+    "model_answer": "Identifies the thyroid cartilage as the largest laryngeal cartilage, palpable as the laryngeal prominence anteriorly; identifies the cricoid cartilage as the only complete cartilaginous ring in the airway, lying inferior to the thyroid cartilage; identifies the cricothyroid membrane as the space between these two cartilages, the target for emergency front-of-neck access; states the cricothyroid membrane lies approximately two to three centimetres below the laryngeal prominence and is roughly one centimetre in vertical height; describes the laryngeal handshake technique of palpating from the hyoid bone downward to confirm midline landmarks, particularly useful in patients with reduced neck anatomy definition; notes the vocal cords lie at the level of the thyroid cartilage and must be avoided during needle or scalpel cricothyroidotomy; identifies the isthmus of the thyroid gland as usually lying below the cricoid cartilage over the second to fourth tracheal rings, at risk during a low approach.",
+    "image_type": "anatomy",
+    "image_params": {
+      "diagram": "larynx_airway",
+      "view": "sagittal"
+    },
+    "image": "osce_images/osce_8.png"
+  },
+  {
+    "id": 9,
+    "category": "anatomy",
+    "title": "Cardiac Conduction System and ECG Correlation",
+    "candidate_instructions": "Using the diagram of the cardiac conduction system provided, describe the normal pathway of electrical conduction through the heart and explain how a defect at the level shown would present on the ECG.",
+    "model_answer": "Describes the sinoatrial node in the right atrium near the superior vena cava as the normal pacemaker of the heart; traces conduction through the atria via internodal pathways to the atrioventricular node, which imposes a physiological delay allowing atrial contraction to complete before ventricular activation; describes conduction continuing through the bundle of His, which divides into the right and left bundle branches within the interventricular septum; describes the left bundle branch further dividing into anterior and posterior fascicles; describes final conduction through the Purkinje fibres causing coordinated ventricular depolarisation; correlates the sinoatrial node with the P wave, the atrioventricular delay with the PR interval, and ventricular depolarisation with the QRS complex; explains that complete heart block at the atrioventricular node level shown produces AV dissociation with P waves and QRS complexes occurring independently at their own rates.",
+    "image_type": "anatomy",
+    "image_params": {
+      "diagram": "cardiac_conduction",
+      "block_at": "AV node"
+    },
+    "image": "osce_images/osce_9.png"
+  },
+  {
+    "id": 10,
+    "category": "history taking",
+    "title": "Preoperative Assessment of a Patient with Ischaemic Heart Disease",
+    "candidate_instructions": "This patient is due to undergo an elective total hip replacement in six weeks. He has a history of a myocardial infarction two years ago. Take a focused preoperative history to assess his cardiovascular risk and fitness for surgery.",
+    "model_answer": "Establishes the date, nature and management of the previous myocardial infarction, including whether it was treated with thrombolysis, angioplasty or coronary artery bypass grafting; asks specifically about any coronary stents and their type, drug-eluting or bare metal, and the date of insertion to assess bleeding and thrombosis risk with antiplatelet therapy; assesses current exercise tolerance in terms of metabolic equivalents, asking about ability to climb stairs or walk on the flat without symptoms; asks about ongoing symptoms of angina, breathlessness, orthopnoea or paroxysmal nocturnal dyspnoea suggesting heart failure; takes a full drug history including aspirin, clopidogrel, ticagrelor, beta blockers, statins and anticoagulants, and discusses a perioperative plan for these; asks about other cardiovascular risk factors including diabetes, hypertension, smoking and family history; asks whether the patient has had any recent cardiology follow-up, echocardiogram or exercise testing; explains that further investigation or cardiology input may be required depending on findings before proceeding to surgery."
+  },
+  {
+    "id": 11,
+    "category": "history taking",
+    "title": "History of a Difficult Airway",
+    "candidate_instructions": "This patient is attending the preoperative assessment clinic before elective surgery and mentions that a previous anaesthetic was complicated. Take a history to establish the nature of any previous airway difficulty and its implications for today's anaesthetic.",
+    "model_answer": "Asks what specifically happened during the previous anaesthetic, in the patient's own words, before leading with specific questions; asks whether the patient was told they had a difficult intubation, difficult mask ventilation, or both; asks whether an awake fibreoptic intubation was performed, or whether the case was cancelled or surgery abandoned; asks whether the patient recalls being given a letter, MedicAlert bracelet or being told to inform future anaesthetists; asks about any anatomical factors that might contribute, including reduced mouth opening, neck movement, previous head and neck surgery or radiotherapy, or obstructive sleep apnoea; asks about any documentation available today, or offers to obtain old anaesthetic charts; explains to the patient the importance of this information for planning today's anaesthetic technique, which may include advanced airway equipment or an awake technique; documents findings clearly and communicates the plan to the wider theatre team before induction."
+  },
+  {
+    "id": 12,
+    "category": "history taking",
+    "title": "History from a Patient with Suspected Malignant Hyperthermia Risk",
+    "candidate_instructions": "This patient's father died unexpectedly during a general anaesthetic many years ago. Take a history to assess whether this patient may be at risk of malignant hyperthermia and explain how this would influence your anaesthetic plan.",
+    "model_answer": "Asks for as much detail as the patient knows about the father's anaesthetic, including whether it was described as a fever, muscle rigidity, or a cardiac arrest during or shortly after surgery; asks whether the family has ever been referred for genetic testing or contacted the Malignant Hyperthermia Investigation Unit; asks about any personal previous anaesthetics and whether the patient experienced any problems, including unexplained fever or dark urine after surgery; asks about any known muscle disorders in the patient or family, since some myopathies are associated with malignant hyperthermia susceptibility; explains to the patient that a definitive diagnosis requires a muscle biopsy and contracture testing, which is not usually done before a single elective procedure; explains that in the absence of confirmed testing the safest approach is to treat the patient as potentially susceptible; states this anaesthetic would be conducted as a trigger-free technique avoiding volatile agents and suxamethonium, using a machine prepared according to local protocol with activated charcoal filters or thorough flushing, and total intravenous anaesthesia; ensures dantrolene is available in theatre and the malignant hyperthermia emergency protocol is accessible."
+  },
+  {
+    "id": 13,
+    "category": "physical examination",
+    "title": "Airway Examination for Anaesthetic Assessment",
+    "candidate_instructions": "Perform a focused airway examination on this patient prior to elective surgery, describing each step and finding to the examiner as you go.",
+    "model_answer": "Inspects the face and neck generally for obvious abnormalities, scars, or masses; assesses mouth opening and measures inter-incisor gap, noting that less than three centimetres suggests potential difficulty; performs the Mallampati assessment with the patient sitting upright, mouth open and tongue protruded without phonation, and grades the view from I to IV; assesses dentition, noting any prominent incisors, loose teeth or dental prostheses; assesses thyromental distance, the distance from the thyroid notch to the tip of the mandible with the neck extended, noting less than six to six and a half centimetres is a risk factor; assesses neck movement, asking the patient to flex and extend the neck fully and noting any restriction; assesses mandibular protrusion, asking the patient to bring the lower incisors in front of the upper incisors; considers additional risk factors including body mass index, neck circumference and any history of obstructive sleep apnoea; summarises the combined findings to give an overall impression of anticipated airway difficulty."
+  },
+  {
+    "id": 14,
+    "category": "physical examination",
+    "title": "Cardiovascular Examination Preoperatively",
+    "candidate_instructions": "Perform a focused cardiovascular examination on this patient who is due to undergo major abdominal surgery, describing your findings to the examiner.",
+    "model_answer": "Introduces self, confirms patient identity and gains consent before beginning; inspects the patient generally for breathlessness at rest, cyanosis, or signs of oedema; examines the hands for peripheral stigmata including clubbing, splinter haemorrhages, and assesses radial pulse rate, rhythm and character; measures blood pressure and comments on pulse pressure; examines the jugular venous pressure with the patient reclined at forty-five degrees; palpates the precordium for the apex beat position and any heaves or thrills; auscultates all four valve areas systematically, identifying any murmurs and their timing, character and radiation; auscultates the lung bases for evidence of crepitations suggesting pulmonary oedema; examines the ankles and sacrum for pitting oedema; summarises findings and states what further investigation, such as an echocardiogram, would be indicated by any abnormal findings."
+  },
+  {
+    "id": 15,
+    "category": "physical examination",
+    "title": "Respiratory Examination in a Patient with Suspected COPD",
+    "candidate_instructions": "This patient is due for elective surgery and has a long smoking history with exertional breathlessness. Perform a focused respiratory examination and describe your findings and their relevance to anaesthetic planning.",
+    "model_answer": "Inspects the patient's general condition, counting respiratory rate and noting use of accessory muscles, pursed-lip breathing, or a barrel-shaped chest suggesting hyperinflation; inspects for nicotine staining and asks to confirm smoking history and any recent respiratory symptoms; palpates chest expansion for symmetry; percusses the chest noting any hyperresonance consistent with hyperinflation or dullness suggesting effusion or consolidation; auscultates the lung fields systematically for breath sounds, noting any wheeze, reduced air entry, or crepitations; assesses oxygen saturation on air and comments on any use of home oxygen or nebulisers; examines for signs of cor pulmonale including raised jugular venous pressure and peripheral oedema; correlates findings with the need for further investigation such as spirometry or arterial blood gas analysis; explains the relevance of these findings to perioperative risk, including increased risk of postoperative pulmonary complications, and discusses the value of preoperative smoking cessation and chest physiotherapy."
+  },
+  {
+    "id": 16,
+    "category": "communication skills",
+    "title": "Consent for an awake fibreoptic intubation",
+    "candidate_instructions": "You are the anaesthetist seeing a patient with a known difficult airway on the pre-operative ward round. Explain to the patient that you plan to perform an awake fibreoptic intubation before their operation and obtain their informed consent. You have five minutes.",
+    "model_answer": "Introduces self, confirms patient identity and checks understanding of the planned surgery; explains in plain language why an awake technique is being chosen, referencing the difficult airway history without using jargon; describes the sequence of events, including sedation, local anaesthetic spray to the airway and nasal or oral passage of the scope while the patient remains breathing spontaneously; explains that the patient will be able to hear and cooperate throughout and that anaesthesia is only induced once the tube is confirmed correctly placed; covers the main risks including discomfort, coughing, airway trauma, failure requiring an alternative plan, and the small risk of aspiration; checks understanding using teach-back and invites questions; offers an interpreter or written information if needed and confirms a plan B if the technique fails; obtains explicit verbal consent and documents this."
+  },
+  {
+    "id": 17,
+    "category": "anaesthetic equipment",
+    "title": "Checking the anaesthetic machine",
+    "candidate_instructions": "You have been asked to perform a pre-use check of the anaesthetic machine shown at this station before the start of an operating list. Talk the examiner through your checks as you would perform them, following the AAGBI checklist.",
+    "model_answer": "Confirms machine service label is in date and self-test has been completed and passed; checks the electrical supply and back-up battery status; checks the pipeline gas supplies are connected with correct colour coding and adequate pressure, then checks the reserve cylinders and their contents; performs a leak test of the breathing system and confirms the pressure holds; checks the vaporisers are correctly seated, filled to an appropriate level, and that only one can be selected at a time; tests the oxygen flush and the oxygen failure alarm; confirms the scavenging system is connected and functioning; checks the ventilator settings, alarm limits and that the self-inflating bag and airway equipment are immediately available; confirms suction is working and to adequate pressure.",
+    "image_type": "exhibit",
+    "image_params": {
+      "title": "Anaesthetic Machine Pre-Use Checklist",
+      "sections": [
+        {
+          "heading": "Supplies",
+          "text": "Pipeline pressures: O2 400 kPa, Air 400 kPa, N2O not fitted. Cylinder reserve: O2 full (137 bar)."
+        },
+        {
+          "heading": "Breathing System",
+          "text": "Circle system attached. Leak test at 30 cmH2O: pressure held for 10 seconds, no leak detected."
+        },
+        {
+          "heading": "Vaporiser",
+          "text": "Sevoflurane vaporiser seated and locked, level at 60 percent, filler cap closed."
+        },
+        {
+          "heading": "Alarms",
+          "text": "Oxygen failure alarm tested and audible. High and low pressure alarm limits set."
+        }
+      ]
+    },
+    "image": "osce_images/osce_17.png"
+  },
+  {
+    "id": 18,
+    "category": "monitoring equipment",
+    "title": "Interpreting the capnograph trace",
+    "candidate_instructions": "The trace shown at this station was recorded from a ventilated patient in theatre. Describe the trace to the examiner, identify the abnormality present, and explain the likely cause and your immediate management.",
+    "model_answer": "Describes the normal capnograph phases before identifying the abnormality present on this trace; recognises a rising baseline that fails to return to zero, consistent with rebreathing of carbon dioxide; lists likely causes including an exhausted or bypassed soda lime canister, an incompetent expiratory valve, or an excessive apparatus dead space; states immediate actions of increasing fresh gas flow, checking and if necessary changing the soda lime, and checking the breathing system valves; confirms the patient's oxygenation and ventilation are otherwise adequate before proceeding; states that the trace should be rechecked after intervention to confirm resolution; mentions that a persistently raised baseline can cause hypercapnia and tachycardia if untreated.",
+    "image_type": "chart",
+    "image_params": {
+      "title": "Capnograph Trace, Ventilated Patient",
+      "x_label": "Time (seconds)",
+      "y_label": "End-tidal CO2 (kPa)",
+      "series": [
+        {
+          "label": "EtCO2",
+          "x": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "y": [
+            1.5,
+            5.8,
+            5.9,
+            5.9,
+            1.5,
+            5.9,
+            6.0,
+            6.0,
+            1.6
+          ],
+          "color": "#1B3A6B"
+        }
+      ]
+    },
+    "image": "osce_images/osce_18.png"
+  },
+  {
+    "id": 19,
+    "category": "communication skills",
+    "title": "Breaking bad news after intra-operative awareness",
+    "candidate_instructions": "A patient has told the recovery nurse that they were aware of events during their operation under general anaesthesia. You are the anaesthetist who provided the anaesthetic. Speak to the patient in recovery to explore this and explain what will happen next.",
+    "model_answer": "Introduces self, sits at the patient's level, and creates a private and unhurried environment; acknowledges the patient's report is being taken seriously and thanks them for telling staff; uses open questions to explore what the patient recalls, including any pain, paralysis, or distress; expresses genuine empathy and apologises for the distressing experience without being defensive; explains that a formal assessment tool will be used to document the episode and that this will be reported through the critical incident and awareness reporting systems; explains follow-up will be arranged, including a follow-up appointment and psychological support if needed; explains what may have contributed if known, without speculating unnecessarily; checks the patient's understanding, answers questions honestly, and offers a written summary of the conversation."
+  },
+  {
+    "id": 20,
+    "category": "anaesthetic equipment",
+    "title": "Identifying breathing system components",
+    "candidate_instructions": "Examine the equipment displayed at this station and answer the examiner's questions about the breathing system and its safe use, including how you would confirm it is functioning correctly before use on a patient.",
+    "model_answer": "Correctly identifies the circuit as a circle breathing system and names its components including the fresh gas inlet, inspiratory and expiratory unidirectional valves, carbon dioxide absorber, reservoir bag and adjustable pressure limiting valve; explains the purpose of the unidirectional valves in preventing rebreathing; describes how to check the absorber is not exhausted by observing the colour change indicator; performs and describes a pressure leak test before use; explains the advantages of a circle system including conservation of heat and moisture and reduced fresh gas flow requirements; identifies correct connection points and confirms no loose or cracked connections; states that malfunction of a valve can cause rebreathing or barotrauma and explains how this would be detected on the capnograph and airway pressure monitor.",
+    "image_type": "exhibit",
+    "image_params": {
+      "title": "Circle Breathing System, Labelled Components",
+      "sections": [
+        {
+          "heading": "Fresh Gas Inlet",
+          "text": "Connects the fresh gas flow from the common gas outlet into the circle."
+        },
+        {
+          "heading": "Unidirectional Valves",
+          "text": "Inspiratory and expiratory valves ensure one-way gas flow around the circle."
+        },
+        {
+          "heading": "CO2 Absorber",
+          "text": "Soda lime canister, colour indicator changes from white to violet when exhausted."
+        },
+        {
+          "heading": "APL Valve",
+          "text": "Adjustable pressure limiting valve, controls circuit pressure during spontaneous ventilation."
+        }
+      ]
+    },
+    "image": "osce_images/osce_20.png"
+  },
+  {
+    "id": 21,
+    "category": "monitoring equipment",
+    "title": "Pulse oximetry, principles and limitations",
+    "candidate_instructions": "The examiner will ask you to explain how the pulse oximeter displayed at this station works and to discuss situations in which its reading may be inaccurate or misleading.",
+    "model_answer": "Explains the principle of differential absorption of two wavelengths of light, red and infrared, by oxygenated and deoxygenated haemoglobin; describes how the plethysmographic pulsatile signal is used to isolate the arterial component of absorption; states the device calculates a ratio and derives oxygen saturation from a stored calibration curve; lists causes of an inaccurate reading including poor peripheral perfusion, patient movement, ambient light interference, and nail varnish; explains that abnormal haemoglobins such as carboxyhaemoglobin and methaemoglobin cause falsely high or unreliable readings; states that the device cannot distinguish between different types of haemoglobin without co-oximetry; explains that a normal saturation does not exclude hypoventilation or hypercapnia; mentions the importance of correlating the reading with the clinical picture and other monitoring."
+  },
+  {
+    "id": 22,
+    "category": "communication skills",
+    "title": "Discussing a do not attempt resuscitation decision",
+    "candidate_instructions": "You are seeing an elderly patient with significant comorbidities before an emergency laparotomy. Discuss the possibility of a do not attempt cardiopulmonary resuscitation decision with the patient in a sensitive and balanced manner.",
+    "model_answer": "Establishes rapport and checks the patient's current understanding of their illness and the planned operation; explains the purpose of the conversation clearly, avoiding euphemism while remaining compassionate; explores the patient's values, priorities and what quality of life means to them; explains realistically what cardiopulmonary resuscitation involves and its likely success and burden in this specific clinical context; is honest that a decision not to attempt resuscitation would not affect any other aspect of their care or treatment; avoids being coercive and makes clear the final clinical responsibility while respecting patient wishes and involving them as a partner in the decision; offers to involve family or an advocate if the patient wishes; checks understanding using teach-back and documents the outcome and the reasoning discussed."
+  },
+  {
+    "id": 23,
+    "category": "anaesthetic equipment",
+    "title": "Laryngeal mask airway insertion technique",
+    "candidate_instructions": "The examiner will ask you to describe the equipment displayed at this station and to talk through the correct technique for insertion of a laryngeal mask airway, including checks performed before use.",
+    "model_answer": "Correctly identifies the supraglottic airway device and checks it for damage, deflates the cuff fully and lubricates the posterior surface before use; confirms an adequate depth of anaesthesia before attempting insertion; describes positioning the patient's head in the sniffing position and inserting the device along the hard palate using the index finger to guide it into the hypopharynx; describes inflating the cuff with the recommended volume of air without overinflation and observing for a slight outward movement of the device; confirms correct placement by observing chest movement, auscultation, a normal capnograph trace and absence of a significant leak; states the device is a supraglottic airway and does not protect against aspiration in the same way as a cuffed tracheal tube; lists contraindications including risk of aspiration, morbid obesity and low pulmonary compliance."
+  },
+  {
+    "id": 24,
+    "category": "monitoring equipment",
+    "title": "Interpreting an arterial line waveform",
+    "candidate_instructions": "The trace shown at this station is from an arterial line in a patient in theatre. Describe the waveform, comment on what it tells you about the patient's cardiovascular state, and describe how you would check the system is functioning correctly.",
+    "model_answer": "Describes the components of the normal arterial waveform including the systolic upstroke, dicrotic notch and diastolic run-off; comments that the trace shown has a low amplitude and swing consistent with hypotension or hypovolaemia, or notes a damped trace if present; states that the dicrotic notch position gives an indication of vascular tone and its disappearance suggests low systemic vascular resistance; describes performing a fast flush test to check the dynamic response of the system, looking for an appropriate number of oscillations before returning to baseline; identifies causes of a damped trace including air bubbles, kinking, clot at the cannula tip or a loose connection; explains that the arterial line also allows continuous blood pressure monitoring and repeated arterial blood gas sampling; states the transducer must be levelled at the phlebostatic axis and zeroed to atmosphere before use.",
+    "image_type": "chart",
+    "image_params": {
+      "title": "Arterial Line Waveform, Radial Artery",
+      "x_label": "Time (seconds)",
+      "y_label": "Pressure (mmHg)",
+      "series": [
+        {
+          "label": "Arterial pressure",
+          "x": [
+            0,
+            0.2,
+            0.4,
+            0.6,
+            0.8,
+            1.0,
+            1.2,
+            1.4,
+            1.6,
+            1.8,
+            2.0
+          ],
+          "y": [
+            65,
+            105,
+            95,
+            85,
+            70,
+            65,
+            100,
+            92,
+            84,
+            69,
+            65
+          ],
+          "color": "#1B3A6B"
+        }
+      ]
+    },
+    "image": "osce_images/osce_24.png"
+  },
+  {
+    "id": 25,
+    "category": "communication skills",
+    "title": "Dealing with a needlestick injury",
+    "candidate_instructions": "You have just sustained a needlestick injury after taking blood from a patient with an unknown blood-borne virus status. Speak to the patient to explain what has happened and to request their consent for blood-borne virus testing.",
+    "model_answer": "Remains calm and professional and explains clearly and honestly to the patient that a needlestick injury has occurred; avoids alarming language while being transparent about why the conversation is necessary; explains that occupational health will need a small blood sample from the patient to test for blood-borne viruses including HIV and hepatitis B and C; explains this is standard practice to protect the health worker and allow appropriate post-exposure prophylaxis if needed; obtains explicit informed consent for the test and explains the patient can decline; explains confidentiality of the results and how they will be communicated; reassures the patient this does not reflect on them personally and does not imply any judgement; documents the incident and confirms the candidate has also reported the injury through the correct occupational health pathway."
+  },
+  {
+    "id": 26,
+    "category": "anaesthetic equipment",
+    "title": "Difficult airway trolley contents",
+    "candidate_instructions": "You are the anaesthetist called to help with an unanticipated difficult intubation. Examine the difficult airway trolley displayed at this station and describe its contents and how you would use them according to a structured difficult airway algorithm.",
+    "model_answer": "Identifies a selection of laryngoscope blades including videolaryngoscope, a range of tracheal tube sizes, bougies and stylets; identifies supraglottic airway devices of different sizes as a rescue option; identifies a cricothyroidotomy set for emergency front of neck access; identifies a fibreoptic scope for awake or asleep techniques; states the trolley should be immediately available wherever general anaesthesia is given and checked regularly; explains that use of the equipment should follow a recognised structured algorithm such as the Difficult Airway Society guidelines, moving through plans in sequence with a clear trigger to escalate; emphasises the importance of calling for help early and declaring a difficult airway emergency clearly to the team; states oxygenation is prioritised throughout rather than persisting with repeated intubation attempts."
+  },
+  {
+    "id": 27,
+    "category": "monitoring equipment",
+    "title": "Neuromuscular monitoring with a train-of-four",
+    "candidate_instructions": "Examine the peripheral nerve stimulator shown at this station and explain to the examiner how you would use it to monitor neuromuscular blockade and assess readiness for reversal.",
+    "model_answer": "Identifies the device as a peripheral nerve stimulator used to monitor the depth of neuromuscular blockade; describes placing the electrodes over the ulnar nerve at the wrist and observing thumb adduction, or an alternative site such as the facial nerve; explains the train-of-four pattern of four supramaximal stimuli and counting the number of twitches present; states that the number of twitches correlates with the degree of blockade, with all four twitches present indicating a lesser degree of block; explains train-of-four fade and its relevance to residual paralysis; states that a train-of-four ratio of at least 0.9, ideally measured objectively with quantitative monitoring, is required before extubation to reduce the risk of residual neuromuscular blockade; explains that qualitative assessment by feel is unreliable for detecting fade above a ratio of 0.4; links the finding to the decision about whether and when to give a reversal agent such as neostigmine or sugammadex."
+  },
+  {
+    "id": 28,
+    "category": "communication skills",
+    "title": "Managing a difficult colleague in theatre",
+    "candidate_instructions": "A senior surgical colleague is being repeatedly dismissive and raising their voice at a junior member of the theatre team during a case. Address this situation with the surgeon in a professional manner while maintaining patient safety.",
+    "model_answer": "Chooses an appropriate moment to intervene without escalating the tension further or compromising the immediate safety of the patient; addresses the surgeon calmly and privately where possible, using a non-confrontational and factual tone; describes the specific behaviour observed rather than making a personal judgement; explains the effect the behaviour is having on team communication and patient safety; listens to the surgeon's perspective and any pressures they may be under; seeks a constructive way forward for the remainder of the case, focusing on the shared goal of the patient's welfare; offers to discuss the incident further after the list in a more formal setting if appropriate; considers whether the incident needs to be escalated or reported through local governance processes; checks on the wellbeing of the junior team member afterwards."
+  },
+  {
+    "id": 29,
+    "category": "anaesthetic equipment",
+    "title": "Vaporiser safety features",
+    "candidate_instructions": "The examiner will ask you to examine the vaporiser displayed at this station and describe its safety features and the checks you would perform before use.",
+    "model_answer": "Identifies the vaporiser as agent specific, using a keyed filling system to prevent accidental filling with the wrong volatile agent; describes the interlock mechanism on the back bar that prevents more than one vaporiser being switched on at the same time; explains the temperature and flow compensation mechanisms that keep the output concentration constant despite changes in fresh gas flow and ambient temperature; checks the vaporiser is upright, correctly seated and locked onto the back bar with no leaks at the connections; checks the agent level is adequate and the filler cap is closed and not leaking; states the vaporiser must be positioned outside the circle in a plenum arrangement, downstream of the fresh gas flow and upstream of the common gas outlet; explains that tipping a vaporiser can cause liquid agent to enter the bypass channel and produce a dangerously high output concentration."
+  },
+  {
+    "id": 30,
+    "category": "monitoring equipment",
+    "title": "Interpreting the ECG trace intra-operatively",
+    "candidate_instructions": "The ECG trace shown at this station was recorded from a patient part way through a general anaesthetic. Describe the trace, state the abnormality present, and outline your immediate assessment and management.",
+    "model_answer": "Describes the trace systematically, commenting on rate, rhythm and the presence or absence of P waves; identifies the abnormality as ST segment depression in the lead shown, consistent with myocardial ischaemia; states immediate actions of checking the patient's blood pressure, oxygen saturation and depth of anaesthesia, since hypotension, hypoxia and light anaesthesia can all provoke ischaemic changes; states that surgical stimulation should be checked and analgesia optimised if appropriate; describes increasing the inspired oxygen concentration and correcting any haemodynamic abnormality found; states that a twelve lead ECG should be obtained if the intra-operative picture persists and cardiology input sought postoperatively; mentions that continuous ST segment monitoring should be used if the patient is known to have ischaemic heart disease; documents the event, the timing and the actions taken clearly in the anaesthetic record.",
+    "image_type": "chart",
+    "image_params": {
+      "title": "ECG Lead II Trace, Intra-operative",
+      "x_label": "Time (seconds)",
+      "y_label": "Amplitude (mV)",
+      "series": [
+        {
+          "label": "Lead II",
+          "x": [
+            0,
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9,
+            1.0
+          ],
+          "y": [
+            0,
+            0.1,
+            1.2,
+            -0.3,
+            -0.4,
+            -0.4,
+            -0.3,
+            0.05,
+            0.9,
+            -0.35,
+            0
+          ],
+          "color": "#1B3A6B"
+        }
+      ]
+    },
+    "image": "osce_images/osce_30.png"
+  },
+  {
+    "id": 31,
+    "category": "measuring equipment",
+    "title": "Pulse Oximetry: Principles and Pitfalls",
+    "candidate_instructions": "You are shown a pulse oximeter probe and display, with a printed plethysmographic waveform trace. Explain the principle by which the device measures oxygen saturation, describe the waveform shown, and discuss two clinical situations in which the reading may be unreliable.",
+    "model_answer": "States the device uses differential absorption of red (660 nm) and infrared (940 nm) light by oxyhaemoglobin and deoxyhaemoglobin, measured across a pulsatile vascular bed; explains the ratio of absorbances (R value) is calibrated empirically against a look-up table derived from healthy volunteers; correctly identifies the plethysmographic trace as showing the pulsatile arterial waveform with a systolic upstroke and dicrotic notch; states that only the pulsatile (AC) component reflects arterial blood, with the non-pulsatile (DC) component subtracted; names at least two causes of inaccuracy such as poor peripheral perfusion, motion artefact, nail varnish, carboxyhaemoglobin causing a falsely high reading, methaemoglobinaemia driving the reading towards 85%, or severe anaemia; recognises that pulse oximetry gives no information about ventilation or carbon dioxide clearance; mentions a normal response time lag of around 30 to 60 seconds",
+    "image_type": "chart",
+    "image_params": {
+      "title": "Plethysmographic Waveform, Finger Probe",
+      "x_label": "Time (s)",
+      "y_label": "Signal Amplitude",
+      "series": [
+        {
+          "label": "Pulse waveform",
+          "x": [
+            0,
+            0.1,
+            0.2,
+            0.3,
+            0.4,
+            0.5,
+            0.6,
+            0.7,
+            0.8,
+            0.9,
+            1.0,
+            1.1,
+            1.2,
+            1.3,
+            1.4,
+            1.5,
+            1.6,
+            1.7,
+            1.8,
+            1.9,
+            2.0
+          ],
+          "y": [
+            20,
+            22,
+            60,
+            95,
+            80,
+            55,
+            62,
+            48,
+            35,
+            24,
+            20,
+            22,
+            60,
+            95,
+            80,
+            55,
+            62,
+            48,
+            35,
+            24,
+            20
+          ],
+          "color": "#1B3A6B"
+        }
+      ]
+    },
+    "image": "osce_images/osce_31.png"
+  },
+  {
+    "id": 32,
+    "category": "measuring equipment",
+    "title": "Capnography: Waveform Interpretation",
+    "candidate_instructions": "A capnograph trace is displayed from a ventilated patient in theatre. Describe the four phases of a normal capnogram, identify the abnormality shown in this trace, and give a list of possible causes.",
+    "model_answer": "Describes phase I as the dead space gas with no carbon dioxide, phase II as the rapid upstroke as alveolar gas mixes with dead space gas, phase III as the alveolar plateau, and phase 0 as the inspiratory downstroke; correctly identifies the trace shown as an upsloping alveolar plateau rather than a flat plateau; lists causes of an upsloping phase III such as chronic obstructive pulmonary disease, bronchospasm, or a partially kinked or obstructed expiratory limb causing uneven alveolar emptying; distinguishes this from a sudden loss of the trace to zero, which suggests oesophageal intubation, disconnection, or cardiac arrest; distinguishes it from a gradually falling end-tidal value, which suggests a fall in cardiac output or pulmonary embolism; states that capnography is the gold standard for confirming correct tracheal tube placement per Difficult Airway Society and Association of Anaesthetists guidance",
+    "image_type": "chart",
+    "image_params": {
+      "title": "Capnogram, Intraoperative Trace",
+      "x_label": "Time (s)",
+      "y_label": "End-Tidal CO2 (kPa)",
+      "series": [
+        {
+          "label": "CO2 trace",
+          "x": [
+            0,
+            0.5,
+            1,
+            1.5,
+            2,
+            2.5,
+            3,
+            3.5,
+            4,
+            4.5,
+            5
+          ],
+          "y": [
+            0,
+            0,
+            3.2,
+            4.6,
+            5.4,
+            5.9,
+            0.3,
+            0,
+            3.2,
+            4.6,
+            5.4
+          ],
+          "color": "#1B3A6B"
+        }
+      ]
+    },
+    "image": "osce_images/osce_32.png"
+  },
+  {
+    "id": 33,
+    "category": "measuring equipment",
+    "title": "Invasive Arterial Pressure Monitoring",
+    "candidate_instructions": "You are shown an arterial line transducer set up with a display panel. Describe how the system converts an arterial pressure waveform into a digital reading, explain how you would perform a calibration and zeroing check, and describe the appearance and causes of an under-damped trace.",
+    "model_answer": "Explains that the fluid-filled catheter and tubing transmit the pressure wave to a diaphragm within the transducer, which converts mechanical displacement into an electrical signal via a strain gauge or piezoelectric element; describes zeroing the transducer to atmospheric pressure at the level of the phlebostatic axis, roughly the mid-axillary line at the fourth intercostal space, with the three-way tap open to air; describes the square wave (fast-flush) test to assess the dynamic response of the system; identifies an under-damped trace as showing exaggerated systolic overshoot with a narrow spiked waveform and artefactually high systolic and low diastolic readings; lists causes of under-damping such as long or narrow non-compliant tubing, air bubbles, or excessive tubing length; identifies an over-damped trace as a slurred, rounded waveform with a falsely low systolic reading, caused by air bubbles, clot, kinking, or a compliant giving set; states that the mean arterial pressure remains the most reliable value regardless of damping",
+    "image_type": "exhibit",
+    "image_params": {
+      "title": "Arterial Line Monitor Display",
+      "sections": [
+        {
+          "heading": "Waveform Panel",
+          "text": "Arterial pressure trace, sweep speed 25 mm/s, with a narrow spiked systolic peak and an exaggerated dicrotic notch overshoot"
+        },
+        {
+          "heading": "Digital Readout",
+          "text": "168/42 mmHg, mean arterial pressure 84 mmHg"
+        },
+        {
+          "heading": "Set-Up",
+          "text": "20G radial arterial catheter, 1.5 metre non-compliant pressure tubing, pressurised 0.9% saline flush bag at 300 mmHg"
+        }
+      ]
+    },
+    "image": "osce_images/osce_33.png"
+  },
+  {
+    "id": 34,
+    "category": "measuring equipment",
+    "title": "Measuring Core Temperature",
+    "candidate_instructions": "You are shown three temperature probes: a nasopharyngeal thermistor, a tympanic infrared probe, and an oesophageal probe. Describe how each measures temperature, state which sites are considered true measures of core temperature, and outline the risks of perioperative hypothermia.",
+    "model_answer": "Explains that a thermistor probe uses a semiconductor whose electrical resistance changes predictably with temperature; explains that a tympanic infrared probe detects infrared radiation emitted by the tympanic membrane, which lies close to the hypothalamic blood supply; identifies nasopharyngeal, oesophageal (distal third), tympanic membrane, and pulmonary artery blood as accepted core temperature sites, whereas axillary and skin surface sites are peripheral estimates only; states National Institute for Health and Care Excellence guidance recommends measuring temperature before induction and at least every thirty minutes intraoperatively; lists consequences of inadvertent perioperative hypothermia including coagulopathy, increased surgical site infection, impaired drug metabolism, shivering with increased oxygen consumption, and delayed recovery; names forced-air warming and fluid warmers as standard preventive measures; states a target intraoperative temperature above 36 degrees Celsius"
+  },
+  {
+    "id": 35,
+    "category": "measuring equipment",
+    "title": "Gas Analysis and Calibration",
+    "candidate_instructions": "You are shown a multi-gas analyser trace from the anaesthetic machine sampling line, displaying inspired and expired oxygen, carbon dioxide, and volatile agent concentrations. Explain the principle of infrared gas analysis, why oxygen cannot be measured this way, and how the analyser is calibrated.",
+    "model_answer": "Explains that infrared absorption spectroscopy is used for carbon dioxide, nitrous oxide, and volatile agents because these polyatomic molecules absorb infrared light at specific characteristic wavelengths; states that oxygen is a diatomic molecule with no dipole moment and does not absorb infrared light, so it requires a separate technology such as a paramagnetic or fuel cell analyser; explains the paramagnetic principle relies on oxygen's unpaired electrons making it attracted into a magnetic field, altering pressure or flow in a differential chamber; describes calibration against a known reference gas or room air (20.9% oxygen) prior to use, with an automatic zero and span check; distinguishes side-stream sampling, which withdraws gas via a narrow sampling line to a remote analyser with a short time delay, from main-stream sampling, which places the sensor directly in the breathing circuit; notes side-stream systems can be affected by water vapour and occlusion of the sampling line",
+    "image_type": "chart",
+    "image_params": {
+      "title": "Multi-Gas Analyser Trace, Volatile Agent",
+      "x_label": "Time (s)",
+      "y_label": "Concentration (%)",
+      "series": [
+        {
+          "label": "Sevoflurane",
+          "x": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "y": [
+            0.5,
+            0.6,
+            2.1,
+            2.3,
+            0.5,
+            0.6,
+            2.1
+          ],
+          "color": "#1B3A6B"
+        },
+        {
+          "label": "Carbon dioxide",
+          "x": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "y": [
+            0,
+            0.3,
+            5.2,
+            5.4,
+            0,
+            0.3,
+            5.2
+          ],
+          "color": "#B23A48"
+        }
+      ]
+    },
+    "image": "osce_images/osce_35.png"
+  },
+  {
+    "id": 36,
+    "category": "anaesthetic hazards",
+    "title": "Operating Theatre Fire",
+    "candidate_instructions": "During a procedure under sedation with supplemental oxygen and diathermy in use near the surgical field, smoke is seen rising from the drapes. You are the anaesthetist present. Describe your immediate actions.",
+    "model_answer": "States that the fire triangle in theatre comprises an oxidiser (oxygen or nitrous oxide), an ignition source (diathermy, laser, or fibre-optic light source), and fuel (drapes, alcohol-based skin preparation, or tracheal tube); immediately stops the flow of supplemental oxygen and any nitrous oxide to remove the oxidiser; asks the surgeon to stop using diathermy or any ignition source and to remove burning material from the patient if safe to do so; states that small fires should be smothered or extinguished with saline or a carbon dioxide extinguisher, never water on an electrical source; calls for help and activates the fire alarm if the fire is not immediately controlled; evacuates the patient from theatre if fire cannot be controlled, following the local fire evacuation policy; assesses the patient afterwards for airway burns or inhalational injury; mentions the Association of Anaesthetists guidance recommending allowing alcohol-based skin preparation to dry fully, for at least three minutes, before draping",
+    "image_type": null
+  },
+  {
+    "id": 37,
+    "category": "anaesthetic hazards",
+    "title": "Oxygen Pipeline Failure",
+    "candidate_instructions": "During a routine general anaesthetic, the oxygen supply failure alarm sounds and the pipeline pressure gauge on the anaesthetic machine reads zero. Describe your immediate management.",
+    "model_answer": "States that a pipeline failure activates a low-pressure alarm and, on most modern machines, automatically cuts off nitrous oxide delivery via a fail-safe device; immediately disconnects the pipeline supply and opens the back-up oxygen cylinder mounted on the machine; switches to manual ventilation with a self-inflating bag and room air or cylinder oxygen if the machine cannot be relied upon; ensures adequate anaesthesia is maintained, converting to total intravenous anaesthesia if volatile delivery is compromised; calls for immediate help from theatre staff, estate services, and a senior anaesthetist; considers waking the patient and abandoning the procedure if the supply cannot be restored and the patient is stable enough; reports the incident formally afterwards and checks whether other theatres on the same pipeline circuit are affected, since a hospital-wide failure needs a wider major incident response",
+    "image_type": null
+  },
+  {
+    "id": 38,
+    "category": "anaesthetic hazards",
+    "title": "Suspected Malignant Hyperthermia",
+    "candidate_instructions": "Thirty minutes into a volatile-based general anaesthetic, the patient develops unexplained tachycardia, rising end-tidal carbon dioxide despite increased minute ventilation, and masseter muscle rigidity. Outline your diagnosis and immediate management.",
+    "model_answer": "Recognises this presentation as suspicious for malignant hyperthermia, a hypermetabolic crisis triggered by volatile anaesthetic agents or suxamethonium in genetically susceptible individuals; calls for immediate help and the malignant hyperthermia emergency box; stops all triggering volatile agents immediately and switches to total intravenous anaesthesia; hyperventilates with 100% oxygen at high fresh gas flow and changes the breathing circuit and soda lime if readily available, without delaying other treatment for this; gives intravenous dantrolene at 2.5 mg per kilogram, repeated as needed, as the specific antidote by inhibiting calcium release from the sarcoplasmic reticulum; actively cools the patient and treats hyperkalaemia, acidosis, and arrhythmias as they arise; monitors core temperature, arterial blood gases, creatine kinase, and urine output for myoglobinuria, and arranges intensive care admission; states the Association of Anaesthetists provides a UK malignant hyperthermia hotline and management algorithm, and refers the family for genetic testing via the Leeds malignant hyperthermia investigation unit",
+    "image_type": null
+  },
+  {
+    "id": 39,
+    "category": "anaesthetic hazards",
+    "title": "Accidental Awareness Under General Anaesthesia",
+    "candidate_instructions": "A patient reports hearing conversation and feeling pain during a caesarean section performed under general anaesthesia. Discuss the risk factors for accidental awareness, methods of prevention, and your approach to managing the patient's disclosure afterwards.",
+    "model_answer": "States that accidental awareness with explicit recall occurs in approximately 1 in 19,000 general anaesthetics overall, but is more common in obstetric anaesthesia, cardiac surgery, and rapid sequence induction, per the NAP5 report; lists risk factors including neuromuscular blockade masking movement, total intravenous anaesthesia without depth monitoring, difficult intubation delaying maintenance agent delivery, and reduced anaesthetic doses in haemodynamically unstable or obstetric patients; describes preventive measures including checking equipment and drug delivery before induction, using processed electroencephalogram depth-of-anaesthesia monitoring in high-risk cases, and ensuring adequate anaesthetic depth before administering a neuromuscular blocking drug; states that any disclosure of awareness must be taken seriously and not dismissed; describes a structured approach of listening without judgement, apologising for the experience, explaining what may have happened, arranging psychological support and follow-up, and completing a formal incident report with input from a senior colleague; mentions that cases should be reported to NAP5 or the equivalent national reporting system and discussed at departmental morbidity and mortality review",
+    "image_type": null
+  },
+  {
+    "id": 40,
+    "category": "anaesthetic hazards",
+    "title": "Anaphylaxis Under Anaesthesia",
+    "candidate_instructions": "Shortly after induction of anaesthesia and administration of a neuromuscular blocking drug, the patient develops severe hypotension, tachycardia, bronchospasm, and a widespread erythematous rash. Describe your immediate management and subsequent investigation.",
+    "model_answer": "Recognises this as anaphylaxis and immediately stops administration of the likely triggering agent, most commonly a neuromuscular blocking drug, antibiotic, or chlorhexidine; calls for help and gives intramuscular adrenaline 500 micrograms, repeated every five minutes as needed, or titrated intravenous adrenaline in a monitored setting; lies the patient flat with legs elevated, gives high-flow oxygen, and secures the airway if compromised; gives a rapid intravenous fluid bolus for hypotension; considers second-line treatments including intravenous chlorphenamine, hydrocortisone, and bronchodilators for persistent bronchospasm; takes serial mast cell tryptase samples at the time of the reaction, one to two hours later, and at twenty-four hours to confirm the diagnosis; refers the patient to a specialist allergy or immunology clinic for skin prick testing to identify the causative agent, per Association of Anaesthetists guidance, and documents the suspected trigger clearly in the anaesthetic record and alerts the patient with a written explanation and medical alert advice",
+    "image_type": null
+  },
+  {
+    "id": 41,
+    "category": "resuscitation",
+    "title": "Adult Advanced Life Support: Shockable Rhythm",
+    "candidate_instructions": "A patient collapses in the anaesthetic room and is found to be unresponsive and not breathing normally. The monitor shows the rhythm displayed. Talk through your management according to the Resuscitation Council UK adult advanced life support algorithm.",
+    "model_answer": "Confirms cardiac arrest by checking responsiveness, opening the airway, and looking for normal breathing for no more than ten seconds; calls for help and starts chest compressions immediately at a rate of 100 to 120 per minute with a depth of 5 to 6 centimetres, minimising interruptions; attaches the defibrillator and correctly identifies the rhythm shown as shockable (ventricular fibrillation or pulseless ventricular tachycardia); delivers a single shock as soon as possible and immediately resumes chest compressions for two minutes without checking the rhythm or pulse; secures the airway and gives high-flow oxygen, obtains intravenous or intraosseous access; gives adrenaline 1 mg intravenously after the third shock and every subsequent alternate cycle, and amiodarone 300 mg intravenously after the third shock; considers and treats reversible causes using the four Hs and four Ts (hypoxia, hypovolaemia, hypo/hyperkalaemia and other metabolic disturbances, hypothermia, tension pneumothorax, tamponade, toxins, thrombosis)",
+    "image_type": "ecg",
+    "image_params": {
+      "rhythm": "ventricular_tachycardia",
+      "caption": "Cardiac monitor at the time of collapse"
+    },
+    "image": "osce_images/osce_41.png"
+  },
+  {
+    "id": 42,
+    "category": "resuscitation",
+    "title": "Adult Advanced Life Support: Non-Shockable Rhythm",
+    "candidate_instructions": "A patient on the ward is found unresponsive and not breathing normally. The cardiac monitor shows organised electrical activity with no palpable pulse. Describe your management according to the non-shockable arm of the adult advanced life support algorithm.",
+    "model_answer": "Confirms cardiac arrest and immediately starts good-quality chest compressions and calls for the resuscitation team and defibrillator; correctly identifies pulseless electrical activity as a non-shockable rhythm, alongside asystole; continues cardiopulmonary resuscitation in cycles of two minutes without pausing to shock; secures the airway, ventilates with high-flow oxygen, and gains intravenous or intraosseous access as soon as possible without interrupting compressions; gives adrenaline 1 mg intravenously as soon as access is obtained, and repeats every 3 to 5 minutes (every alternate cycle); systematically searches for and treats reversible causes using the four Hs and four Ts, since pulseless electrical activity often has an identifiable and treatable cause; reassesses the rhythm every two minutes and switches management if a shockable rhythm develops; considers stopping resuscitation after discussion with the team if there is no reversible cause found and prolonged resuscitation has been unsuccessful",
+    "image_type": null
+  },
+  {
+    "id": 43,
+    "category": "resuscitation",
+    "title": "Paediatric Advanced Life Support",
+    "candidate_instructions": "A 3-year-old child collapses on the ward and is unresponsive with no signs of life. Describe the paediatric basic and advanced life support sequence, including drug doses.",
+    "model_answer": "Opens the airway and checks for breathing and signs of life for no more than ten seconds; gives five initial rescue breaths before starting chest compressions, reflecting the primarily respiratory cause of most paediatric arrests; performs chest compressions at a ratio of 15 compressions to 2 breaths for healthcare providers, at a rate of 100 to 120 per minute, depressing one third of the chest depth; calls for the paediatric resuscitation team and attaches a defibrillator or monitor as soon as possible; identifies the rhythm and, if shockable, delivers a shock at 4 J per kilogram; gives adrenaline 10 micrograms per kilogram (0.1 mL/kg of 1 in 10,000) intravenously or intraosseously as soon as access is obtained, repeated every 3 to 5 minutes; gives amiodarone 5 mg per kilogram after the third shock for a refractory shockable rhythm; searches for and treats reversible causes using the four Hs and four Ts, with particular attention to hypoxia and hypovolaemia as common paediatric causes; states that intraosseous access should be obtained early if intravenous access is not rapidly achievable",
+    "image_type": null
+  },
+  {
+    "id": 44,
+    "category": "resuscitation",
+    "title": "Choking: Foreign Body Airway Obstruction",
+    "candidate_instructions": "A patient in the recovery area suddenly develops severe coughing, is unable to speak, and is clutching their throat. Describe your assessment and management according to the adult foreign body airway obstruction algorithm.",
+    "model_answer": "Asks the patient 'are you choking' and assesses severity by looking for effective versus ineffective cough; for mild obstruction with an effective cough, encourages continued coughing and monitors closely without further intervention; for severe obstruction with an ineffective cough and either conscious or becoming unresponsive, delivers up to five back blows between the shoulder blades with the heel of the hand; if unsuccessful, delivers up to five abdominal thrusts (or chest thrusts in a pregnant or very obese patient), standing behind the patient with a fist above the umbilicus; alternates cycles of five back blows and five abdominal thrusts, reassessing the airway between attempts, and calls for help and prepares to call the resuscitation team; if the patient becomes unresponsive, lowers them to the ground, calls for the resuscitation team, and starts cardiopulmonary resuscitation, checking the mouth for a visible foreign body before each set of rescue breaths; after successful relief of obstruction, arranges medical review for possible internal injury from abdominal thrusts and to exclude a residual partial obstruction",
+    "image_type": null
+  },
+  {
+    "id": 45,
+    "category": "resuscitation",
+    "title": "Peri-Arrest Bradyarrhythmia",
+    "candidate_instructions": "A postoperative patient becomes acutely unwell with a heart rate of 38 beats per minute and a systolic blood pressure of 78 mmHg. The rhythm strip shown is obtained. Describe your assessment and management according to the Resuscitation Council UK peri-arrest bradycardia algorithm.",
+    "model_answer": "Assesses for adverse features of shock, syncope, myocardial ischaemia, or heart failure using an ABCDE approach; correctly identifies the rhythm shown as second-degree atrioventricular block; gives high-flow oxygen if hypoxaemic, secures intravenous access, and obtains a 12-lead electrocardiogram; if adverse features are present, gives intravenous atropine 500 micrograms, repeated up to a maximum of 3 mg; if there is an inadequate response to atropine, considers second-line measures including transcutaneous pacing, isoprenaline, or adrenaline infusion, and calls for expert help from cardiology; recognises risk factors for asystole such as recent asystole, Mobitz type II second-degree block, complete heart block with broad QRS, or ventricular pauses greater than three seconds, which warrant transvenous pacing even if the patient is currently stable; treats reversible causes such as beta-blocker or digoxin toxicity, electrolyte disturbance, or myocardial infarction; continues close monitoring in a critical care area while awaiting definitive pacing if required",
+    "image_type": "ecg",
+    "image_params": {
+      "rhythm": "heart_block_2nd",
+      "caption": "12-lead rhythm strip, postoperative ward review"
+    },
+    "image": "osce_images/osce_45.png"
+  },
+  {
+    "id": 46,
+    "category": "image interpretation",
+    "title": "ECG interpretation: bradycardia",
+    "candidate_instructions": "You are the anaesthetist covering the recovery ward. A nurse hands you the attached ECG rhythm strip taken from a 74 year old man who underwent a total hip replacement under spinal anaesthesia 40 minutes ago and now feels light headed. Interpret the rhythm strip and describe your immediate management.",
+    "model_answer": "Systematically describes rate, rhythm, and P wave to QRS relationship rather than jumping straight to a diagnosis; correctly identifies sinus bradycardia with a rate below 50 beats per minute; asks about associated symptoms and haemodynamic status (blood pressure, conscious level, chest pain) before treating the number alone; identifies likely causes in this context including high spinal block, vagal stimulation, opioid effect, and pre-existing beta blockade; states that a symptomatic or haemodynamically unstable bradycardia warrants atropine 500 micrograms intravenously, repeated as needed; mentions glycopyrronium as an alternative and escalation to isoprenaline, adrenaline, or transcutaneous pacing if refractory; recognises the need to review the block height and exclude a total spinal as a cause; calls for senior anaesthetic help early if not improving with initial treatment.",
+    "image_type": "ecg",
+    "image_params": {
+      "rhythm": "bradycardia",
+      "caption": "Rhythm strip, recovery ward, 74 year old man 40 minutes post spinal anaesthesia"
+    },
+    "image": "osce_images/osce_46.png"
+  },
+  {
+    "id": 47,
+    "category": "image interpretation",
+    "title": "Capnography trace interpretation",
+    "candidate_instructions": "You are asked to review the capnography trace displayed on the monitor for a patient who has just been intubated for an elective laparotomy. Interpret the trace shown and explain what it tells you about the patient's airway and ventilation.",
+    "model_answer": "Confirms a normal square wave capnography trace with a clear alveolar plateau, the gold standard evidence of correct tracheal tube placement; describes the four phases of the trace (inspiratory baseline, expiratory upstroke, alveolar plateau, inspiratory downstroke); states the end tidal carbon dioxide value and comments on whether it lies within the normal range of 4.5 to 6.0 kPa; recognises that a normal trace does not exclude endobronchial intubation and states that tube position must still be confirmed by auscultation and chest movement; mentions that a sloping or absent plateau would suggest bronchospasm, a leak, or oesophageal intubation respectively; links a sudden fall in end tidal carbon dioxide to possible circuit disconnection, air embolism, or cardiac arrest; states appropriate action would be to auscultate the chest, check bilateral air entry, and confirm secure tube position before continuing.",
+    "image_type": "chart",
+    "image_params": {
+      "title": "Capnography waveform, first breath post intubation",
+      "x_label": "Time (seconds)",
+      "y_label": "End tidal CO2 (kPa)",
+      "series": [
+        {
+          "label": "CO2 trace",
+          "x": [
+            0,
+            0.5,
+            1,
+            1.5,
+            2,
+            2.5,
+            3,
+            3.5,
+            4
+          ],
+          "y": [
+            0,
+            0.2,
+            4.8,
+            5.0,
+            5.1,
+            5.2,
+            5.2,
+            0.3,
+            0
+          ],
+          "color": "#1B3A6B"
+        }
+      ]
+    },
+    "image": "osce_images/osce_47.png"
+  },
+  {
+    "id": 48,
+    "category": "image interpretation",
+    "title": "Arterial blood gas interpretation",
+    "candidate_instructions": "The attached arterial blood gas result is from a 68 year old woman three hours after an emergency laparotomy for a perforated viscus. She is tachypnoeic on the ward. Interpret the blood gas and outline your assessment and initial management.",
+    "model_answer": "Uses a structured approach starting with oxygenation, then pH, then the respiratory and metabolic components in turn; identifies a metabolic acidosis with partial respiratory compensation (low pH, low bicarbonate, low pCO2, elevated lactate); calculates or estimates the anion gap where values allow and recognises this as a high anion gap metabolic acidosis; links the picture to likely sepsis or ongoing intra-abdominal pathology, hypovolaemia, or bowel ischaemia given the surgical history; comments on the elevated lactate as a marker of tissue hypoperfusion; states initial management including high flow oxygen, intravenous fluid resuscitation, urgent senior surgical and anaesthetic review, and blood cultures with early antibiotics if sepsis is suspected; recognises this patient may need escalation to a higher level of care such as HDU or ICU; avoids fixating on the pCO2 alone and interprets it in the context of expected compensation.",
+    "image_type": "lab_table",
+    "image_params": {
+      "title": "Arterial blood gas, 68 year old woman, 3 hours post laparotomy",
+      "sections": [
+        {
+          "heading": "Acid-base",
+          "text": "pH 7.24, pCO2 3.6 kPa, pO2 11.8 kPa on 4L/min oxygen"
+        },
+        {
+          "heading": "Metabolic",
+          "text": "Bicarbonate 14 mmol/L, Base excess -11 mmol/L, Lactate 5.8 mmol/L"
+        },
+        {
+          "heading": "Electrolytes",
+          "text": "Sodium 138 mmol/L, Potassium 5.1 mmol/L, Chloride 104 mmol/L"
+        }
+      ]
+    },
+    "image": "osce_images/osce_48.png"
+  },
+  {
+    "id": 49,
+    "category": "image interpretation",
+    "title": "ECG interpretation: complete heart block",
+    "candidate_instructions": "A 79 year old man is awaiting a hemiarthroplasty for a fractured neck of femur. His preoperative ECG is attached. Interpret the ECG and discuss whether you would proceed with anaesthesia.",
+    "model_answer": "Describes the ECG systematically covering rate, rhythm, and the relationship between P waves and QRS complexes; correctly identifies complete (third degree) atrioventricular block with atrial and ventricular activity dissociated from one another; recognises this as a new and clinically significant finding rather than an incidental one; states that complete heart block found preoperatively warrants urgent cardiology review before proceeding with elective or semi-elective surgery; discusses the specific risk in this scenario of asystole under anaesthesia due to loss of the ventricular escape rhythm; explains that a hip fracture is time-critical but not immediately life-threatening, so a short delay for temporary pacing is usually justified and safer than proceeding unpaced; mentions that if surgery cannot wait, isoprenaline infusion or transcutaneous pacing pads should be available intraoperatively as a bridge; communicates the decision-making process clearly, balancing surgical urgency against cardiac risk.",
+    "image_type": "ecg",
+    "image_params": {
+      "rhythm": "heart_block_3rd",
+      "caption": "Preoperative ECG, 79 year old man, fractured neck of femur"
+    },
+    "image": "osce_images/osce_49.png"
+  },
+  {
+    "id": 50,
+    "category": "image interpretation",
+    "title": "Blood gas interpretation: hyperkalaemia",
+    "candidate_instructions": "The attached venous blood gas is from a 55 year old man with chronic kidney disease who is due to have an arteriovenous fistula formed under regional anaesthesia this afternoon. Interpret the result and state whether you would proceed.",
+    "model_answer": "Identifies severe hyperkalaemia as the dominant abnormality and states this value directly; recognises the risk of life-threatening arrhythmia including ventricular fibrillation and cardiac arrest if untreated; correctly notes that elective or semi-elective surgery should be postponed until the potassium is corrected and rechecked; outlines an appropriate treatment sequence including calcium gluconate for cardiac membrane stabilisation, insulin and dextrose to shift potassium intracellularly, salbutamol nebulisers as an adjunct, and consideration of urgent dialysis if the patient is already on a renal programme; requests a repeat 12 lead ECG looking for tented T waves, widened QRS, or loss of P waves; states that this patient's own ECG changes, if present, would make the case for urgent treatment even stronger; communicates clearly that patient safety takes priority over the surgical list and involves the renal team and surgeons in the decision to delay.",
+    "image_type": "lab_table",
+    "image_params": {
+      "title": "Venous blood gas, 55 year old man, chronic kidney disease",
+      "sections": [
+        {
+          "heading": "Acid-base",
+          "text": "pH 7.31, pCO2 5.0 kPa"
+        },
+        {
+          "heading": "Electrolytes",
+          "text": "Sodium 137 mmol/L, Potassium 7.2 mmol/L, Bicarbonate 18 mmol/L"
+        },
+        {
+          "heading": "Other",
+          "text": "Glucose 6.1 mmol/L, Lactate 1.4 mmol/L, Haemoglobin 98 g/L"
+        }
+      ]
+    },
+    "image": "osce_images/osce_50.png"
+  },
+  {
+    "id": 51,
+    "category": "technical skills",
+    "title": "Rapid sequence induction on a manikin",
+    "candidate_instructions": "You are asked to demonstrate a rapid sequence induction on the airway manikin for a patient presenting with a bowel obstruction requiring emergency laparotomy. Talk through and perform each step as you would in clinical practice.",
+    "model_answer": "Confirms full monitoring is attached and a working intravenous cannula is in place before starting; checks and prepares suction, working laryngoscope, correctly sized tracheal tube with cuff checked, and a bougie or alternative airway device immediately available; pre-oxygenates for an adequate period aiming for an end tidal oxygen concentration of at least 90 percent, or three to five minutes of tidal breathing; positions the patient appropriately, typically in a ramped or sniffing position; states the induction agent and dose, followed promptly by a rapid-onset neuromuscular blocking agent such as suxamethonium or high dose rocuronium; describes cricoid pressure application by an assistant from loss of consciousness, applied with an appropriate and controlled force, and states clearly when it should be released or adjusted if intubation is difficult; confirms tube placement with capnography and bilateral chest auscultation before releasing cricoid pressure; verbalises a clear failed intubation plan before starting.",
+    "image_type": null
+  },
+  {
+    "id": 52,
+    "category": "technical skills",
+    "title": "Insertion of a supraglottic airway device",
+    "candidate_instructions": "Demonstrate insertion of a second generation supraglottic airway device on the manikin for a fit and well adult undergoing a short elective procedure, and explain your technique as you proceed.",
+    "model_answer": "Checks the device for cuff integrity and lubricates the posterior surface before insertion; ensures an adequate depth of anaesthesia has been achieved before attempting insertion to avoid laryngospasm or coughing; positions the patient's head and neck appropriately, typically with slight neck flexion and head extension; inserts the device along the hard palate using a midline technique, advancing until resistance is felt; inflates the cuff to the recommended pressure without over-inflation and observes for a rise in the black line to a normal position; confirms correct placement using capnography, chest movement, and auscultation, and checks for an audible leak at an appropriate airway pressure; states the maximum acceptable leak pressure and what to do if a significant leak is present; mentions insertion of a gastric drainage tube through the drain port where the device allows it, and secures the device appropriately.",
+    "image_type": null
+  },
+  {
+    "id": 53,
+    "category": "technical skills",
+    "title": "Ultrasound-guided internal jugular central venous cannulation",
+    "candidate_instructions": "Using the ultrasound machine and manikin provided, demonstrate your technique for ultrasound-guided cannulation of the right internal jugular vein and describe the steps you would take to confirm safe placement.",
+    "model_answer": "Confirms patient identity, indication, and consent, and positions the patient head down with the head turned slightly to the left; performs a preliminary ultrasound scan to identify the internal jugular vein and carotid artery, distinguishing them by compressibility and shape; uses full aseptic technique including sterile gown, gloves, drape, and skin preparation; uses an in-plane or out-of-plane ultrasound technique to visualise the needle tip throughout advancement, aspirating freely flowing venous blood before proceeding; uses the Seldinger technique, confirming free passage of the guidewire without resistance and visualising the wire in the vein on ultrasound before dilating; secures the catheter and confirms position by aspirating blood from all lumens and, where available, transducing venous waveform or requesting a chest x-ray to exclude pneumothorax and confirm tip position; discusses recognised complications including arterial puncture, pneumothorax, and arrhythmia during guidewire advancement.",
+    "image_type": null
+  },
+  {
+    "id": 54,
+    "category": "technical skills",
+    "title": "Spinal anaesthesia technique",
+    "candidate_instructions": "Demonstrate your technique for performing a spinal anaesthetic on the manikin for a patient undergoing an elective knee replacement, describing landmarks and each step as you go.",
+    "model_answer": "Confirms patient identity, procedure, and consent, and checks for contraindications such as coagulopathy or local infection beforehand; positions the patient sitting or in the lateral position with the back flexed to open the intervertebral spaces; identifies the correct level using the intercristal (Tuffier's) line, typically corresponding to the L3 to L4 interspace, and avoids going above L2 to reduce the risk of spinal cord injury; uses full aseptic technique with sterile gloves, skin preparation, and a fenestrated drape; infiltrates local anaesthetic to the skin and subcutaneous tissue before spinal needle insertion; advances the spinal needle in the midline, feeling for the characteristic loss of resistance or a give as the dura is punctured, and confirms free flow of clear cerebrospinal fluid; injects the calculated dose of local anaesthetic, with or without an opioid additive, at a controlled rate; positions the patient appropriately afterwards and monitors for the onset and height of the block along with blood pressure for hypotension.",
+    "image_type": null
+  },
+  {
+    "id": 55,
+    "category": "technical skills",
+    "title": "Awake fibreoptic intubation technique",
+    "candidate_instructions": "You are managing a patient with a known difficult airway who requires awake fibreoptic intubation for an elective procedure. Describe and demonstrate the key steps of your technique using the equipment and manikin provided.",
+    "model_answer": "Explains the procedure to the patient in advance and confirms informed consent and cooperation, since patient cooperation is essential to success; prepares the airway with topical local anaesthetic and, where appropriate, judicious sedation that preserves spontaneous ventilation and airway reflexes; ensures full monitoring, supplemental oxygen, and an assistant present, with full general anaesthesia equipment and a difficult airway trolley immediately available; checks the fibreoptic scope, light source, and tracheal tube loaded onto the scope beforehand; advances the scope in the midline, identifying the epiglottis and vocal cords as landmarks, and passes it through the cords into the trachea, confirming tracheal rings and carina; railroads the tracheal tube over the scope into the trachea, withdrawing the scope to confirm the tube position visually and with capnography; only proceeds to induce general anaesthesia once tube position in the trachea is definitively confirmed; states that a clear plan for failure, including waking the patient if unsuccessful, should be agreed in advance.",
+    "image_type": null
+  },
+  {
+    "id": 56,
+    "category": "physical examination",
+    "title": "Cardiovascular examination for preoperative assessment",
+    "candidate_instructions": "This patient is listed for an elective total knee replacement and has a history of exertional chest tightness. Perform a focused cardiovascular examination and present your findings with your assessment of fitness for anaesthesia.",
+    "model_answer": "Introduces self, confirms patient identity, gains consent, and positions the patient at 45 degrees for the examination; inspects for signs of dyspnoea, cyanosis, scars, and pacemaker or defibrillator boxes before touching the patient; assesses the radial pulse for rate, rhythm, and character, and checks for radio-radial delay; measures or comments on blood pressure and checks jugular venous pressure with the patient positioned correctly; palpates the apex beat for position and character, and feels for heaves or thrills; auscultates all four valve areas methodically, correlating any murmur with the carotid pulse and describing timing, character, and radiation; auscultates the lung bases for evidence of pulmonary oedema and checks for peripheral or sacral oedema; synthesises findings into a clear summary and states appropriate further investigations, such as an echocardiogram, before proceeding to anaesthesia if a significant new murmur or reduced exercise tolerance is found.",
+    "image_type": null
+  },
+  {
+    "id": 57,
+    "category": "physical examination",
+    "title": "Airway assessment",
+    "candidate_instructions": "You are seeing this patient in the preoperative assessment clinic before elective surgery under general anaesthesia. Perform a focused airway examination and present your findings and any anticipated difficulty.",
+    "model_answer": "Introduces self, confirms identity, and explains the purpose of the airway assessment to the patient before starting; takes a focused history of previous anaesthetics, known difficult intubation, snoring or sleep apnoea, and relevant conditions such as rheumatoid arthritis or acromegaly; assesses mouth opening, inter-incisor distance, and Mallampati classification with the patient seated and tongue protruded; assesses thyromental distance and neck extension and flexion, looking for evidence of a short or fixed neck; examines dentition for loose teeth, crowns, or a prominent overbite, and notes any facial hair or abnormal facial anatomy that might affect mask ventilation; checks for jaw protrusion (upper lip bite test) as a marker of mandibular mobility; synthesises findings into an overall impression of predicted ease or difficulty of intubation and mask ventilation using a recognised scoring approach; states a sensible airway management plan based on the findings, including when to seek senior input or plan an awake technique.",
+    "image_type": null
+  },
+  {
+    "id": 58,
+    "category": "physical examination",
+    "title": "Respiratory examination in a patient with COPD",
+    "candidate_instructions": "This patient has chronic obstructive pulmonary disease and is due for an elective hernia repair. Perform a focused respiratory examination and present your findings along with an assessment of anaesthetic risk.",
+    "model_answer": "Introduces self, confirms identity and consent, and exposes the chest adequately while maintaining dignity; inspects for use of accessory muscles, pursed lip breathing, chest wall shape (barrel chest), respiratory rate, and any inhalers or oxygen at the bedside; palpates chest expansion for symmetry and reduction, and checks tracheal position; percusses systematically comparing both sides for hyperresonance or dullness; auscultates all lung zones, describing breath sounds accurately, such as reduced air entry, wheeze, or crackles, and comments on vocal resonance where relevant; checks for peripheral signs including cyanosis, nicotine staining, flapping tremor (asterixis), and peripheral oedema suggesting cor pulmonale; correlates findings with exercise tolerance and recent exacerbation history to estimate perioperative respiratory risk; suggests appropriate optimisation such as inhaler technique review, physiotherapy input, or postponement if there has been a recent exacerbation.",
+    "image_type": null
+  },
+  {
+    "id": 59,
+    "category": "physical examination",
+    "title": "Examination of the lower limb before a peripheral nerve block",
+    "candidate_instructions": "This patient is due to undergo an ankle fracture fixation and a popliteal sciatic nerve block is planned as part of the anaesthetic. Perform a focused neurovascular examination of the affected limb before the block and present your findings.",
+    "model_answer": "Introduces self, confirms the correct side with the patient and the consent form, and explains the purpose of the pre-block examination; inspects the limb for swelling, deformity, skin integrity, and any pre-existing dressing or plaster; palpates and documents the presence and quality of the dorsalis pedis and posterior tibial pulses, comparing with the other side; assesses and clearly documents baseline sensation in the distribution of the relevant nerves, including the sciatic, saphenous, and superficial peroneal territories, before performing the block; assesses and documents baseline motor function, including ankle dorsiflexion, plantarflexion, and toe movement; explicitly states the importance of documenting any pre-existing neurological deficit before the block to avoid later diagnostic confusion should a deficit be found postoperatively; checks capillary refill time and skin temperature as markers of perfusion; communicates findings clearly to the patient and surgical team before proceeding.",
+    "image_type": null
+  },
+  {
+    "id": 60,
+    "category": "image interpretation",
+    "title": "ECG interpretation: atrial fibrillation",
+    "candidate_instructions": "A 71 year old woman on the surgical ward has become acutely breathless two days after an elective bowel resection. The attached ECG was recorded at the time. Interpret the ECG and outline your immediate assessment and management.",
+    "model_answer": "Describes the rhythm systematically noting an irregularly irregular rhythm with absence of clear P waves and identifies this as atrial fibrillation; comments on the ventricular rate and whether this represents a fast ventricular response; assesses the patient for adverse features such as hypotension, chest pain, heart failure, or reduced conscious level to determine if this is haemodynamically unstable; states that unstable atrial fibrillation with adverse features requires urgent synchronised DC cardioversion following resuscitation council algorithms; for a stable patient, discusses rate control options such as beta blockade or digoxin, and the need to identify and treat underlying causes including postoperative sepsis, electrolyte disturbance, hypovolaemia, or pulmonary embolism; requests relevant investigations including electrolytes, magnesium, full blood count, and chest imaging given the recent surgery; considers anticoagulation implications in the postoperative context, balancing thromboembolic and bleeding risk; escalates to senior medical or critical care review given the acute new onset in a postoperative patient.",
+    "image_type": "ecg",
+    "image_params": {
+      "rhythm": "atrial_fibrillation",
+      "caption": "ECG, 71 year old woman, day 2 post bowel resection, acute breathlessness"
+    },
+    "image": "osce_images/osce_60.png"
+  }
+]
